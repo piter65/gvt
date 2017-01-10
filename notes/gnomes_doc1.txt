@@ -1,0 +1,62 @@
+Gnomes Versus Troll
+
+
+concept doc #Zer0!
+
+Overall:   Intent is to a create a game similar to Plants .vs Zombies
+
+
+
+
+Code Stuff:
+ We're gonna use Unity, in full 3-d mode.  Display will likely be at 3/4, use little or no perspective.  We'll experiiment.
+ 
+
+
+Initial Prototype.
+
+ Let's make a simple grid, similar to PVZ
+   5 rows,
+   9 columns.  (let's keep these #'s flexible.  I'd like to consider super wide levels, that involve interesting camera angles.
+   
+   
+ A "TRAY" of defensive objects.   For now, a shooter (think crossbow), and a spawner (think mushroom spawning puffball?)
+  Player selects object to place, and places object.
+  
+ BADGUYS (trolls) will initially be walkers.  For now, randomly launched every X seconds on Row Y.
+ 
+ Shooter will launch missile.
+ 
+    So for now, 3-4 types of objects.   Long term we'll probably have more like 8ish.
+	   Defensive objects (stuck in place)
+	   Attackers (trolls)
+	   Missiles - flying objects that collide with bad guys
+	   And.... 
+	     puffballs= the equivalent of sunshine in PVZ
+=========
+coding thoughts:
+
+Every object should exist in 3space, with x,y,z coords, velocitys, and acceleration.
+      We might not use the vertical coordinate for a bit, but it would be good to have.
+	      (we eventually might do cool blimps or balloons)
+		  
+We should probably just use range checks for collision detection.  
+
+We should PROBABLY avoid the Unity physics, but this can be discussed.  There may be cool things we can do,
+ (such as hilly terrain).
+
+Iniitally, let's build simple, clean, and small, but avoid "hard coding".
+		  
+=========
+Graphics  - I need ideas from Brent on how to import graphics into Unity.  In the past, I used the sprites stuff - which might be ok.
+ (And of course we imported full 3-d models into Spill)
+
+=========
+Audio - Peter's got an extensive library of usable sound effects, public  domain music, and skills to create more.
+
+=========
+
+What can we do better ?
+
+		  
+ 
