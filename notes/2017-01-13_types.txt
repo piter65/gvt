@@ -1,0 +1,92 @@
+Peter's Thoughts:
+
+
+Types of gnomes/ gnome defenses:
+
+#1. Crossbow Gnome - Most basic
+
+#2. Catapult Gnome - Targets areas 4 blocks away or more.  Does bigger (double) damage.
+
+#3. Pit Digger - Digs a pit, covers it with wood.  Kills one troll.
+
+#4. AA Crossbow - Launches crossbow bolt higher in air.
+
+#5. Oil Tower Gnome.  (Ok, this might be bad idea)-  Looks like seige tower, gnome can drop oil on trolls below.
+ Very short distance defence.
+ 
+#6. Ball and Chain Mace thrower.  
+
+#7. Wood Sprocket thrower.  (similar to boomerang in PVZ2)
+
+#8. Flame Thrower.   (3 tile damage zone?)
+
+#9. Wicker/ Mesh Blocker.  (Equivalent to Potato blocker in PVZ)
+
+#10. Water Pit?  Specifically for Fire Trolls?    (Water bucket Catapult?)
+
+#11. Trebuchet - Just does lots of damage.  Maybe in 3 lanes?
+
+
+-----------------
+Ideas for Trolls.
+ note: The main purpose of unique new trolls is to require unique new counter measures or strategies.
+  (sounds obvious, but every cool troll should have a countermeasure.  
+  In would be really cool if it would take two gnome structures for a countermeasure....   )
+  
+#1. Basic Troll.
+#2. Two Headed Troll  - (twice the HP) - maybe 10% bigger.
+#3.  Three Headed Troll (3x/4x HP??) - maybe 20% bigger.
+ 
+#4. Toad Troll  - Does Pogo Stick type thing
+#5. Shield Troll -  Resistant to crossbow.
+#6. Duck and Run Troll -  Puts up shield, then runs to next square.
+#7. Baloon Troll ?   (AIR TROLL?)
+#8. Fire Troll
+
+
+All for now.....
+
+
+
+
+
+
+
+Brent's Thoughts:
+
+- Trolls have a mutation/malformaty theme going on:
+	- Multiple heads
+	- Hunchbacks
+	- Frog Hybrids
+	- etc.
+- Gnomes have an industry and ingenuity theeme going on.
+	- They need to gather resources:
+		- (Demolition) Chop/break down trees/rocks to clear room and obstructions.
+		- (Earth) Dig a mine for iron and stone which can be hurled at trolls and used to build and ugrade things.
+		- (Water) Dig a water well for water attacks.
+		- (Fire) Dig an oil well for fire and oil slick attacks.
+		- (Air) Build weather towers to harvest storm clouds for lightning and wind attacks.
+		- etc.
+	- They have enigeers that specialize in certain forms of construction/destruction:
+		- Miner
+			- Can dig mines at full speed.
+			- Can repair mines at full speed.
+			- Can break rocks at full speed.
+			- (Can drill wells at half speed?)
+		- Well Driller
+			- Can drill wells at full speed.
+			- Can repair/clean wells at full speed.
+		- Carpenter
+			- Can build windmills at full speed.
+			- Can build fortifications at full speed.
+			- Can chop down trees at full speed.
+			- Can repair all constructions at full speed.
+		- Meteorologist
+			- Can build weather towers at full speed
+			- Can repair weather towers at full speed
+			- (Can command weather tower for building up super weapon attack?)
+	- Gnome soldiers can harness resources to fuel their attacks:
+		- Catapults and trebuchets can use stones for ammo.
+		- Fire fighters can use water for ammo.
+		- Flame throwers can use oil for ammo.
+		- Tesla coils can use lightning/storm in a bottle for ammo.
