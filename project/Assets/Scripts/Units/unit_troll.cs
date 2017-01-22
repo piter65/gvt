@@ -21,6 +21,8 @@ public class unit_troll : unit
 		base.Start();
 
 		_animator = GetComponent<Animator>();
+
+		_animator.SetInteger("health", health);
 	}
 	
 	protected override void Update()
@@ -104,7 +106,6 @@ public class unit_troll : unit
 	{
 		base.RecieveDamage(damage);
 
-		if (dead)
-			_animator.SetTrigger("die");
+		_animator.SetInteger("health", health);
 	}
 }

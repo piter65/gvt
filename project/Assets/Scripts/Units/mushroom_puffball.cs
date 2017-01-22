@@ -5,21 +5,18 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class mushroom_puffball : unit_mushroom
+public class mushroom_puffball : unit_gnome
 {
 	public Transform prefab_puffball;
 	public Transform puffball_spawn;
 	public float release_delay = 5.0f;
 	public float time_since_release = 0.0f;
 
-	private Animator _animator;
 	private bool _releasing = false;
 
 	protected override void Start()
 	{
 		base.Start();
-
-		_animator = GetComponent<Animator>();
 	}
 	
 	protected override void Update()
@@ -51,13 +48,5 @@ public class mushroom_puffball : unit_mushroom
 	public void anim_event_release_end()
 	{
 		_releasing = false;
-	}
-
-	public override void RecieveDamage(int damage)
-	{
-		base.RecieveDamage(damage);
-
-		if (dead)
-			_animator.SetTrigger("die");
 	}
 }

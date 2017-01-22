@@ -8,11 +8,6 @@ public class unit_gnome : unit
 {
 	public bool attacking = false;
 
-	public Transform bolt_slot;
-	public projectile prefab_bolt;
-
-	private projectile _bolt;
-
 	protected Animator _animator;
 
 	protected override void Start()
@@ -21,21 +16,12 @@ public class unit_gnome : unit
 
 		_animator = GetComponent<Animator>();
 
-		LoadBolt();
-	}
-
-	protected override void Update()
-	{
-		base.Update();
-
-		if (active)
-		{
-
-		}
+		_animator.SetInteger("health", health);
 	}
 
 	protected override void OnDrawGizmos()
 	{
+		// Draw line to current cell
 		if (cell != null)
 		{
 			Gizmos.color = Color.blue;
@@ -46,6 +32,7 @@ public class unit_gnome : unit
 			);
 		}
 
+		// Draw a line to current target
 		if (target != null)
 		{
 			Gizmos.color = Color.yellow;
@@ -57,40 +44,9 @@ public class unit_gnome : unit
 		}
 	}
 
-	private void LoadBolt()
-	{
-		_bolt = Instantiate(prefab_bolt);
-		_bolt.transform.SetParent(bolt_slot);
-		_bolt.transform.localPosition = Vector3.zero;
-		_bolt.transform.localRotation = Quaternion.identity;
-	}
-
-	public virtual void anim_event_attack_start()
-	{
-		
-	}
-
-	public virtual void anim_event_attack_release()
-	{
-		_bolt.transform.SetParent(null);
-		_bolt.active = true;
-	}
-
-	public virtual void anim_event_attack_reload()
-	{
-		LoadBolt();
-	}
-
-	public virtual void anim_event_attack_end()
-	{
-		attacking = false;
-	}
-
 	public virtual void Attack()
 	{
 		attacking = true;
-
-		_animator.SetTrigger("attack");
 	}
 
 	public virtual bool TargetValid()
@@ -107,7 +63,6 @@ public class unit_gnome : unit
 	{
 		base.RecieveDamage(damage);
 
-		if (dead)
-			_animator.SetTrigger("die");
+		_animator.SetInteger("health", health);
 	}
 }

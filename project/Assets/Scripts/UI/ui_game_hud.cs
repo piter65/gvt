@@ -8,7 +8,6 @@ using UnityEngine.SceneManagement;
 public class ui_game_hud : MonoBehaviour
 {
 	public Text txt_spores;
-	public ToggleGroup grp_mushrooms;
 	public ToggleGroup grp_gnomes;
 	public ToggleGroup grp_trolls;
 
@@ -36,12 +35,6 @@ public class ui_game_hud : MonoBehaviour
 
 	private void EmptyToggleGroups()
 	{
-		for (int index_tog = grp_mushrooms.transform.childCount - 1; index_tog > -1; --index_tog)
-		{
-			Toggle tog = grp_mushrooms.transform.GetChild(index_tog).GetComponent<Toggle>();
-			grp_mushrooms.UnregisterToggle(tog);
-			Destroy(tog.gameObject);
-		}
 		for (int index_tog = grp_gnomes.transform.childCount - 1; index_tog > -1; --index_tog)
 		{
 			Toggle tog = grp_gnomes.transform.GetChild(index_tog).GetComponent<Toggle>();
@@ -58,18 +51,6 @@ public class ui_game_hud : MonoBehaviour
 
 	private void FillToggleGroups()
 	{
-		for (int index_unit = 0; index_unit < GLOBAL.manager_player.lst_prefab_mushrooms.Count; ++index_unit)
-		{
-			unit prefab_unit = GLOBAL.manager_player.lst_prefab_mushrooms[index_unit];
-
-			tog_unit_select tog_unit_select = Instantiate(prefab_tog_unit_select);
-			tog_unit_select.SetPrefabUnit(prefab_unit);
-			tog_unit_select.transform.SetParent(grp_mushrooms.transform);
-
-			Toggle tog = tog_unit_select.GetComponent<Toggle>();
-			grp_mushrooms.RegisterToggle(tog);
-			tog.onValueChanged.AddListener(tog_mushroom_changed);
-		}
 		for (int index_unit = 0; index_unit < GLOBAL.manager_player.lst_prefab_gnomes.Count; ++index_unit)
 		{
 			unit prefab_unit = GLOBAL.manager_player.lst_prefab_gnomes[index_unit];
@@ -98,29 +79,8 @@ public class ui_game_hud : MonoBehaviour
 
 	public void DeselectAll()
 	{
-		grp_mushrooms.SetAllTogglesOff();
 		grp_gnomes.SetAllTogglesOff();
 		grp_trolls.SetAllTogglesOff();
-	}
-
-	public void tog_mushroom_changed(bool value)
-	{
-		unit prefab_unit = null;
-
-		Toggle tog_active = grp_mushrooms.ActiveToggles().FirstOrDefault();
-
-		if (tog_active != null)
-		{
-			prefab_unit = tog_active.GetComponent<tog_unit_select>().prefab_unit;
-		}
-		
-		GLOBAL.manager_player.SelectPrefabUnit(prefab_unit);
-
-		// Debug.Log(string.Format
-		// (
-		// 	"tog_mushroom_changed() - prefab_unit: {0}", 
-		// 	prefab_unit == null ? "[none]" : prefab_unit.name
-		// ));
 	}
 
 	public void tog_gnome_changed(bool value)

@@ -48,9 +48,6 @@ public class ai_gnome_ranged : ai
 			cell = cell.Right;
 		}
 
-		if (_gnome.target != null)
-			Debug.Log("Gnome found target");
-
 		// Attack the target if it's a valid target
 		if (_gnome.TargetValid())
 		{

@@ -67,7 +67,9 @@ public class unit : MonoBehaviour
 	public virtual void RecieveDamage(int damage)
 	{
 		health -= damage;
-		if (health <= 0)
+		health = Mathf.Max(health, 0);
+		
+		if (health == 0)
 		{
 			dead = true;
 		}

@@ -11,7 +11,6 @@ public class manager_player : MonoBehaviour
 
 	public Transform grp_units;
 
-	public List<unit_mushroom> lst_prefab_mushrooms = new List<unit_mushroom>();
 	public List<unit_gnome> lst_prefab_gnomes = new List<unit_gnome>();
 	public List<unit_troll> lst_prefab_trolls = new List<unit_troll>();
 

@@ -8,8 +8,7 @@ using UnityEngine.SceneManagement;
 public class game_cell : MonoBehaviour
 {
 	public int cell_index = -1;
-	public unit_mushroom unit_mushroom = null;
-	public unit unit_gnome = null;
+	public List<unit_gnome> lst_unit_gnomes = new List<unit_gnome>();
 	public List<unit_troll> lst_unit_trolls = new List<unit_troll>();
 
 	public game_cell Left
@@ -42,14 +41,10 @@ public class game_cell : MonoBehaviour
 	public void AddUnit(unit new_unit)
 	{
 		new_unit.cell = this;
-
-		if (new_unit is unit_mushroom)
+		
+		if (new_unit is unit_gnome)
 		{
-			unit_mushroom = new_unit as unit_mushroom;
-		}
-		else if (new_unit is unit_gnome)
-		{
-			unit_gnome = new_unit as unit_gnome;
+			lst_unit_gnomes.Add(new_unit as unit_gnome);
 		}
 		else if (new_unit is unit_troll)
 		{
@@ -62,13 +57,9 @@ public class game_cell : MonoBehaviour
 		if (old_unit.cell == this)
 			old_unit.cell = null;
 
-		if (unit_mushroom == old_unit)
+		if (lst_unit_gnomes.Contains(old_unit as unit_gnome))
 		{
-			unit_mushroom = null;
-		}
-		if (unit_gnome == old_unit)
-		{
-			unit_gnome = null;
+			lst_unit_gnomes.Remove(old_unit as unit_gnome);
 		}
 		else if (lst_unit_trolls.Contains(old_unit as unit_troll))
 		{

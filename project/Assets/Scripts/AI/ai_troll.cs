@@ -38,14 +38,9 @@ public class ai_troll : ai
 		{
 			// Debug.Log("Scan cell - pos: " + cell.transform.position);
 
-			if (cell.unit_gnome != null)
+			if (cell.lst_unit_gnomes.Count > 0)
 			{
-				_troll.target = cell.unit_gnome;
-				break;
-			}
-			else if (cell.unit_mushroom != null)
-			{
-				_troll.target = cell.unit_mushroom;
+				_troll.target = cell.lst_unit_gnomes[0];
 				break;
 			}
 
@@ -56,8 +51,6 @@ public class ai_troll : ai
 		// Attack the target if it's a valid target
 		if (_troll.TargetValid())
 		{
-			// Debug.Log("Valid target found!");
-
 			_troll.Attack();
 		}
 	}

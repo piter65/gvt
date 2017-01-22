@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AF7F22C7-9009-918A-17DC-3854848D9A7F}</ProjectGuid>
+    <ProjectGuid>{7CA597AC-799E-2D81-E8A0-0EA9A568434E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,10 +64,10 @@
      <Compile Include="Assets\Scripts\UI\ui_game_hud.cs" />
      <Compile Include="Assets\Scripts\Units\gnome_crossbowman.cs" />
      <Compile Include="Assets\Scripts\Units\mushroom_puffball.cs" />
+     <Compile Include="Assets\Scripts\Units\structure_water_well.cs" />
      <Compile Include="Assets\Scripts\Units\troll_prototype.cs" />
      <Compile Include="Assets\Scripts\Units\unit.cs" />
      <Compile Include="Assets\Scripts\Units\unit_gnome.cs" />
-     <Compile Include="Assets\Scripts\Units\unit_mushroom.cs" />
      <Compile Include="Assets\Scripts\Units\unit_troll.cs" />
      <Compile Include="Assets\Scripts\Utils\AudioVolume.cs" />
      <Compile Include="Assets\Scripts\game_cell.cs" />
