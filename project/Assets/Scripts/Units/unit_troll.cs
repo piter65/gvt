@@ -10,6 +10,7 @@ public class unit_troll : unit
 	public float idle_delay = 0.5f;
 	public bool attacking = false;
 	public float attack_reach = 1.0f;
+	public float attack_speed = 1.0f;
 
 	public float target_distance;
 
@@ -23,6 +24,8 @@ public class unit_troll : unit
 		_animator = GetComponent<Animator>();
 
 		_animator.SetInteger("health", health);
+
+		_animator.speed = 1.0f;
 	}
 	
 	protected override void Update()
@@ -55,7 +58,7 @@ public class unit_troll : unit
 
 	public virtual void anim_event_attack_start()
 	{
-		
+		_animator.speed = attack_speed;
 	}
 
 	public virtual void anim_event_attack_live()
@@ -76,6 +79,7 @@ public class unit_troll : unit
 	public virtual void anim_event_attack_end()
 	{
 		attacking = false;
+		_animator.speed = 1.0f;
 	}
 
 	public virtual void Attack()

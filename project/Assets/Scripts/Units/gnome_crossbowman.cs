@@ -10,6 +10,7 @@ public class gnome_crossbowman : unit_gnome
 
 	public Transform bolt_slot;
 	public projectile prefab_bolt;
+	public float attack_speed = 1.0f;
 
 	private projectile _bolt;
 
@@ -18,6 +19,8 @@ public class gnome_crossbowman : unit_gnome
 		base.Start();
 
 		LoadBolt();
+
+		_animator.speed = 1.0f;
 	}
 
 	private void LoadBolt()
@@ -30,7 +33,7 @@ public class gnome_crossbowman : unit_gnome
 
 	public virtual void anim_event_attack_start()
 	{
-		
+		_animator.speed = attack_speed;
 	}
 
 	public virtual void anim_event_attack_release()
@@ -47,6 +50,8 @@ public class gnome_crossbowman : unit_gnome
 	public virtual void anim_event_attack_end()
 	{
 		attacking = false;
+
+		_animator.speed = 1.0f;
 	}
 
 	public override void Attack()
