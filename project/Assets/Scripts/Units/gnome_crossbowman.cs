@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class gnome_crossbowman : unit_gnome
 {
+	public AudioClip audio_reload;
 
 	public Transform bolt_slot;
 	public projectile prefab_bolt;
@@ -25,10 +26,13 @@ public class gnome_crossbowman : unit_gnome
 
 	private void LoadBolt()
 	{
-		_bolt = Instantiate(prefab_bolt);
-		_bolt.transform.SetParent(bolt_slot);
-		_bolt.transform.localPosition = Vector3.zero;
-		_bolt.transform.localRotation = Quaternion.identity;
+		if (bolt_slot != null)
+		{
+			_bolt = Instantiate(prefab_bolt);
+			_bolt.transform.SetParent(bolt_slot);
+			_bolt.transform.localPosition = Vector3.zero;
+			_bolt.transform.localRotation = Quaternion.identity;
+		}
 	}
 
 	public virtual void anim_event_attack_start()
@@ -38,13 +42,19 @@ public class gnome_crossbowman : unit_gnome
 
 	public virtual void anim_event_attack_release()
 	{
-		_bolt.transform.SetParent(null);
-		_bolt.active = true;
+		if (_bolt != null)
+		{
+			_bolt.transform.SetParent(null);
+			_bolt.active = true;
+		}
 	}
 
 	public virtual void anim_event_attack_reload()
 	{
 		LoadBolt();
+
+		_audio_source.clip = audio_reload;
+		_audio_source.Play();
 	}
 
 	public virtual void anim_event_attack_end()

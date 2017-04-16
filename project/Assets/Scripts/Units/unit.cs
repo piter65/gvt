@@ -12,16 +12,23 @@ public class unit : MonoBehaviour
 	public int max_health = 1;
 	public int damage = 1;
 	public int cost = 25;
-	public int deadtime = 0;		// peter was here.   Was gonna try to add timeout....
 	public int thickskin = 0;		// some trolls have thick skin...
+	public float death_timeout = 2.0f;
 
 	public bool active = false;
 	public bool dead = false;
 	public game_cell cell;
 	public unit target = null;
 
+	public AudioClip audio_death;
+
+	protected float _dead_time = 0.0f;
+	protected AudioSource _audio_source;
+
 	protected virtual void Start()
 	{
+		_audio_source = GetComponent<AudioSource>();
+
 		health = max_health;
 	}
 	
@@ -37,19 +44,18 @@ public class unit : MonoBehaviour
 			{
 				active = false;
 
-// Brent - why this no workie?
-
+				// Notify the cell that unit no longer occupies it.
 				if (cell != null)
 					cell.RemoveUnit(this);
 			}
 		}
 
-		if (dead) // Peter was here....
+		if (dead)
 		{
-//		Debug.Log("DEAD!  time"+deadtime);
+			_dead_time += Time.deltaTime;
 
-				if (++deadtime > 120)
-					Destroy(this.gameObject);		// peter got this from a forum....
+			if (_dead_time > death_timeout)
+				Destroy(this.gameObject);
 		}
 
 
@@ -78,11 +84,10 @@ public class unit : MonoBehaviour
 		}
 	}
 
-// Brent - not a biggie- but do want a float here?
 	public virtual void RecieveDamage(int damage)
 	{
 		int nowdamage;
-		nowdamage = damage-thickskin;		/// peter was here....
+		nowdamage = damage - thickskin;		/// peter was here....
 		if (nowdamage<1) nowdamage=1;		// always some damage..
 
 
@@ -91,14 +96,11 @@ public class unit : MonoBehaviour
 		
 		if (health <= 0)   // peter changed from ==   - Just me being paranoid....
 		{
-
 			if (dead != true)
-				{
-					// Brent-  play death scream here....
-
-
-				}
-
+			{
+				_audio_source.clip = audio_death;
+				_audio_source.Play();
+			}
 
 			dead = true;
 		}
