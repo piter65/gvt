@@ -13,6 +13,7 @@ public class unit : MonoBehaviour
 	public int damage = 1;
 	public int cost = 25;
 	public int deadtime = 0;		// peter was here.   Was gonna try to add timeout....
+	public int thickskin = 0;		// some trolls have thick skin...
 
 	public bool active = false;
 	public bool dead = false;
@@ -77,9 +78,15 @@ public class unit : MonoBehaviour
 		}
 	}
 
+// Brent - not a biggie- but do want a float here?
 	public virtual void RecieveDamage(int damage)
 	{
-		health -= damage;
+		int nowdamage;
+		nowdamage = damage-thickskin;		/// peter was here....
+		if (nowdamage<1) nowdamage=1;		// always some damage..
+
+
+		health -= nowdamage;
 		health = Mathf.Max(health, 0);
 		
 		if (health <= 0)   // peter changed from ==   - Just me being paranoid....
