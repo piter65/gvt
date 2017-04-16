@@ -12,6 +12,7 @@ public class unit : MonoBehaviour
 	public int max_health = 1;
 	public int damage = 1;
 	public int cost = 25;
+	public int deadtime = 0;		// peter was here.   Was gonna try to add timeout....
 
 	public bool active = false;
 	public bool dead = false;
@@ -35,10 +36,22 @@ public class unit : MonoBehaviour
 			{
 				active = false;
 
+// Brent - why this no workie?
+
 				if (cell != null)
 					cell.RemoveUnit(this);
 			}
 		}
+
+		if (dead) // Peter was here....
+		{
+//		Debug.Log("DEAD!  time"+deadtime);
+
+				if (++deadtime > 120)
+					Destroy(this.gameObject);		// peter got this from a forum....
+		}
+
+
 	}
 
 	protected virtual void OnDrawGizmos()
@@ -69,8 +82,17 @@ public class unit : MonoBehaviour
 		health -= damage;
 		health = Mathf.Max(health, 0);
 		
-		if (health == 0)
+		if (health <= 0)   // peter changed from ==   - Just me being paranoid....
 		{
+
+			if (dead != true)
+				{
+					// Brent-  play death scream here....
+
+
+				}
+
+
 			dead = true;
 		}
 
