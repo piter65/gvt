@@ -32,6 +32,8 @@ public class gnome_crossbowman : unit_gnome
 			_bolt.transform.SetParent(bolt_slot);
 			_bolt.transform.localPosition = Vector3.zero;
 			_bolt.transform.localRotation = Quaternion.identity;
+			_bolt.damage = damage;
+			_bolt.element = element;
 		}
 	}
 

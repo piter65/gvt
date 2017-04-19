@@ -59,9 +59,9 @@ public class unit_gnome : unit
 		return false;
 	}
 
-	public override void RecieveDamage(int damage)
+	public override void RecieveDamage(int damage, element elem)
 	{
-		base.RecieveDamage(damage);
+		base.RecieveDamage(damage, elem);
 
 		_animator.SetInteger("health", health);
 	}

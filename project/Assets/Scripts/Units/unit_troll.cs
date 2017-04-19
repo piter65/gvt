@@ -72,7 +72,7 @@ public class unit_troll : unit
 		{
 			Debug.Log("Damaging target");
 
-			target.RecieveDamage(damage);
+			target.RecieveDamage(damage, element);
 		}
 	}
 
@@ -106,9 +106,9 @@ public class unit_troll : unit
 		return false;
 	}
 
-	public override void RecieveDamage(int damage)
+	public override void RecieveDamage(int damage, element elem)
 	{
-		base.RecieveDamage(damage);
+		base.RecieveDamage(damage, elem);
 
 		_animator.SetInteger("health", health);
 	}

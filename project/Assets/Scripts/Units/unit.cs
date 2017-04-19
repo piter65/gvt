@@ -5,15 +5,31 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+public enum element
+{
+	normal,
+	wood,
+	water,
+	metal
+};
+
 public class unit : MonoBehaviour
 {
 	public string select_name = "[Unamed]";
 	public int health = 1;
 	public int max_health = 1;
 	public int damage = 1;
+	public element element;
 	public int cost = 25;
 	public int thickskin = 0;		// some trolls have thick skin...
 	public float death_timeout = 2.0f;
+
+	[Range(0.0f, 5.0f)]
+	public float vuln_wood = 1.0f;
+	[Range(0.0f, 5.0f)]
+	public float vuln_water = 1.0f;
+	[Range(0.0f, 5.0f)]
+	public float vuln_metal = 1.0f;
 
 	public bool active = false;
 	public bool dead = false;
@@ -84,14 +100,23 @@ public class unit : MonoBehaviour
 		}
 	}
 
-	public virtual void RecieveDamage(int damage)
+	public virtual void RecieveDamage(int damage, element elem)
 	{
-		int nowdamage;
-		nowdamage = damage - thickskin;		/// peter was here....
-		if (nowdamage<1) nowdamage=1;		// always some damage..
+		// Modify damage if the attack has an element.
+		if (elem == element.wood)
+			damage = (int)Mathf.Floor(damage * vuln_wood);
+		else if (elem == element.water)
+			damage = (int)Mathf.Floor(damage * vuln_water);
+		else if (elem == element.metal)
+			damage = (int)Mathf.Floor(damage * vuln_metal);
 
+		// Reduce damage by thickskin.
+		damage -= thickskin;
 
-		health -= nowdamage;
+		// Min damage is 1.
+		damage = Mathf.Max(damage, 1);
+
+		health -= damage;
 		health = Mathf.Max(health, 0);
 		
 		if (health <= 0)   // peter changed from ==   - Just me being paranoid....
@@ -114,4 +139,4 @@ public class unit : MonoBehaviour
 			dead
 		));
 	}
-}
+};

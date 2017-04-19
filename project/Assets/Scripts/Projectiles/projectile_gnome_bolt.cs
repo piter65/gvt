@@ -4,10 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class pojectile_gnome_bolt : projectile
+public class projectile_gnome_bolt : projectile
 {
-	public int damage = 3;
-
 	protected override void Start()
 	{
 		base.Start();
@@ -40,7 +38,7 @@ public class pojectile_gnome_bolt : projectile
 				if (closest_troll != null)
 				{
 					// Damage the closest troll.
-					closest_troll.RecieveDamage(damage);
+					closest_troll.RecieveDamage(damage, element);
 
 					// Destroy the projectile after dealing damage.
 					Destroy(gameObject);
