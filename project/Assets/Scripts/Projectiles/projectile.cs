@@ -10,6 +10,8 @@ public class projectile : MonoBehaviour
 	public float speed = 5.0f;
 	public int damage = 3;
 	public element element;
+	public Vector3 pos_source = Vector3.zero;
+	public unit target = null;
 
 	protected virtual void Start()
 	{

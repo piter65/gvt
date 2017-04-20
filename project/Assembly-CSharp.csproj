@@ -60,8 +60,10 @@
      <Compile Include="Assets\Scripts\GLOBAL.cs" />
      <Compile Include="Assets\Scripts\Projectiles\projectile.cs" />
      <Compile Include="Assets\Scripts\Projectiles\projectile_gnome_bolt.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\projectile_gnome_boulder.cs" />
      <Compile Include="Assets\Scripts\UI\Widgets\tog_unit_select.cs" />
      <Compile Include="Assets\Scripts\UI\ui_game_hud.cs" />
+     <Compile Include="Assets\Scripts\Units\gnome_catapult.cs" />
      <Compile Include="Assets\Scripts\Units\gnome_crossbowman.cs" />
      <Compile Include="Assets\Scripts\Units\mushroom_puffball.cs" />
      <Compile Include="Assets\Scripts\Units\structure_water_well.cs" />
