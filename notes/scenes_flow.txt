@@ -1,0 +1,30 @@
+Scenes/States I can think of for GVT
+
+
+#1.  Splash.   
+   Will be nice graphic, copyright notice, loading, maybe credits.
+   
+   Hold for 5 seconds in normal mode, 1 second in developer mode.
+   
+#2.  Level Select.  
+    For now, as simple as level 1-1, 1-2, 1-3,  or 2-1, 2-2, 2-3.
+	    We may do something more creative down the road.
+		
+	Leave all open in developer mode, we'll work on some progression system for normal mode.
+	
+#3. Level Intro
+    (No idea what we do here - PVZ has Crazy Dave give player hints.)
+
+#4. Level Weapon Select.   
+     (We may skip this for now, maybe forever)
+	 
+#5.  Game Play.  
+     (We need to work on a system)
+	     Player system almost working.  Collect dust.  Deploy gnomes.
+		 Troll Systems needs some work.   
+				We need system to launch trolls based on type, time, and location.
+				(this needs to be mostly scripted) - we should discuss.
+				
+#6.  Game over.  Win or Lose.
+
+#7.  Back to #2 -- Level Select.   (I think)
