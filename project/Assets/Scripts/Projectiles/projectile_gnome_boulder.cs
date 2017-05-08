@@ -65,6 +65,9 @@ public class projectile_gnome_boulder : projectile
 						// Damage the closest troll.
 						closest_troll.RecieveDamage(damage, element);
 
+						// Flux the troll.
+						closest_troll.Flux(impact_flux_speed, impact_flux_duration);
+
 						// Destroy the projectile after dealing damage.
 						Destroy(gameObject);
 						return;
