@@ -46,6 +46,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\JSON\JSONObject.cs" />
+     <Compile Include="Assets\JSON\JSONTemplates.cs" />
+     <Compile Include="Assets\JSON\VectorTemplates.cs" />
      <Compile Include="Assets\PrimitivePlus\Scripts\PrimitivePlusConstants.cs" />
      <Compile Include="Assets\PrimitivePlus\Scripts\PrimitivePlusMaterial.cs" />
      <Compile Include="Assets\PrimitivePlus\Scripts\PrimitivePlusMeshes.cs" />
@@ -75,6 +78,7 @@
      <Compile Include="Assets\Scripts\game_cell.cs" />
      <Compile Include="Assets\Scripts\game_field.cs" />
      <Compile Include="Assets\Scripts\manager_player.cs" />
+     <None Include="Assets\JSON\readme.txt" />
      <None Include="Assets\PrimitivePlus\Documentation\ReadMe.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

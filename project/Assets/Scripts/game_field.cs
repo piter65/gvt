@@ -15,8 +15,12 @@ public class game_field : MonoBehaviour
 
 	public game_cell[] _arr_field_cells;
 
+	private int _full_width;
+
 	void Start()
 	{
+		_full_width = width + 1;
+
 		GLOBAL.game_field = this;
 
 		for (int index_cell = transform.childCount - 1; index_cell > -1; --index_cell)
@@ -24,11 +28,11 @@ public class game_field : MonoBehaviour
 			Destroy(transform.GetChild(index_cell).gameObject);
 		}
 
-		cell_count = width * height;
+		cell_count = _full_width * height;
 
 		_arr_field_cells = new game_cell[cell_count];
 
-		for (int index_width = 0; index_width < width; ++index_width)
+		for (int index_width = 0; index_width < _full_width; ++index_width)
 		{
 			for (int index_height = 0; index_height < height; ++index_height)
 			{
@@ -56,21 +60,29 @@ public class game_field : MonoBehaviour
 		
 	}
 
-	public game_cell GetCellAtPosition(Vector3 pos)
+	public game_cell GetCellAtPosition(Vector3 pos, bool error = false)
 	{
-		int x = (int)Mathf.Round(pos.x);
-		int z = (int)Mathf.Round(pos.z);
+		int col = (int)Mathf.Round(pos.x);
+		int row = (int)Mathf.Round(pos.z);
 
-		if (   x >= 0
-			&& x < width
-			&& z >= 0
-			&& z < height)
+		return GetCellAtPosition(col, row);
+	}
+
+	public game_cell GetCellAtPosition(int col, int row, bool error = false)
+	{
+		if (   col >= 0
+			&& col < _full_width
+			&& row >= 0
+			&& row < height)
 		{
-			int index_cell = x * height + z;
+			int index_cell = col * height + row;
 			return _arr_field_cells[index_cell];
 		}
 		else
 		{
+			if (error)
+				Debug.LogError(string.Format("No cell found at: [{0}, {1}]", col, row));
+
 			return null;
 		}
 	}

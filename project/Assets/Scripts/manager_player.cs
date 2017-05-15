@@ -4,8 +4,17 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+public struct Spawning
+{
+	public float time;
+	public int row;
+	public unit_troll prefab_unit;
+};
+
 public class manager_player : MonoBehaviour
 {
+	public static string path_level = "levels/level_01_01";
+
 	public LayerMask layer_collectibles;
 	public LayerMask layer_cells;
 
@@ -18,6 +27,9 @@ public class manager_player : MonoBehaviour
 
 	public unit selected_prefab_unit = null;
 
+	private List<Spawning> _lst_spawnings = new List<Spawning>();
+	private float _game_time = 0.0f;
+
 
 	void Start()
 	{
@@ -25,6 +37,8 @@ public class manager_player : MonoBehaviour
 
 		if (GLOBAL.game_hud == null)
 			SceneManager.LoadSceneAsync("ui_game_hud", LoadSceneMode.Additive);
+
+		LoadLevel();
 	}
 
 	void OnDestroy()
@@ -117,6 +131,38 @@ public class manager_player : MonoBehaviour
 				}
 			}
 		}
+
+		// ================
+		// Handle spawning.
+		// ================
+
+		_game_time += Time.deltaTime;
+
+		// Loop until there are no more units to spawn at the current time.
+		while (   _lst_spawnings.Count > 0
+			   && _lst_spawnings[0].time <= _game_time)
+		{
+			Spawning spawning = _lst_spawnings[0];
+
+			Vector3 pos = new Vector3
+			(
+				GLOBAL.game_field.width,
+				0,
+				spawning.row
+			);
+
+			game_cell cell = GLOBAL.game_field.GetCellAtPosition(pos, true);
+			// Debug.Log(string.Format("cell: [{0}]", cell));
+
+			unit new_unit = Instantiate(spawning.prefab_unit);
+			new_unit.transform.SetParent(grp_units);
+			new_unit.transform.position = pos;
+			// Debug.Log(string.Format("new_unit: [{0}]", new_unit));
+			cell.AddUnit(new_unit);
+			new_unit.active = true;
+
+			_lst_spawnings.RemoveAt(0);
+		}
 	}
 
 	public void SelectPrefabUnit(unit prefab_unit)
@@ -147,4 +193,68 @@ public class manager_player : MonoBehaviour
 			));
 		}
 	}
-}
+
+	private void LoadLevel()
+	{
+		Debug.Log(string.Format("Loading: '{0}'...", path_level));
+
+		TextAsset txt = Resources.Load<TextAsset>(path_level);
+
+		string json_text = txt.text;
+
+		Debug.Log(json_text);
+
+		JSONObject json_obj = new JSONObject(json_text);
+
+		if (json_obj["spawnings"] != null)
+		{
+			List<JSONObject> lst_json_obj_spawnings = json_obj["spawnings"].list;
+
+			for (int index_json = 0; index_json < lst_json_obj_spawnings.Count; ++index_json)
+			{
+				JSONObject json_obj_spawn = lst_json_obj_spawnings[index_json];
+
+				Debug.Log(string.Format("spawn[{0}].time: {1}", index_json, json_obj_spawn["time"].f));
+				Debug.Log(string.Format("spawn[{0}].row: {1}", index_json, json_obj_spawn["row"].i));
+				Debug.Log(string.Format("spawn[{0}].unit: {1}", index_json, json_obj_spawn["unit"].str));
+
+				Spawning spawning = new Spawning();
+
+				spawning.time = json_obj_spawn["time"].f;
+				spawning.row = (int)json_obj_spawn["row"].i;
+				spawning.prefab_unit = StringToPrefabUnit(json_obj_spawn["unit"].str);
+
+				// Figure out what index to insert the spawning at so that spawn times are in order.
+				int index_spawning = 0;
+				while 
+				(
+					   index_spawning < _lst_spawnings.Count 
+					&& _lst_spawnings[index_spawning].time < spawning.time
+				)
+				{
+					++index_spawning;
+				}
+
+				_lst_spawnings.Insert(index_spawning, spawning);
+			}
+		}
+
+		Debug.Log(string.Format("Load Finished."));
+	}
+
+	private unit_troll StringToPrefabUnit(string name)
+	{
+		for (int index_troll = 0; index_troll < lst_prefab_trolls.Count; ++index_troll)
+		{
+			unit_troll prefab_unit = lst_prefab_trolls[index_troll];
+			if (prefab_unit.name.Equals(name))
+			{
+				return prefab_unit;
+			}
+		}
+
+		Debug.LogError(string.Format("Prefab unit with name '{0}' does not exist.", name));
+
+		return null;
+	}
+};

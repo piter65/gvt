@@ -46,8 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\JSON\Editor\JSONChecker.cs" />
      <Compile Include="Assets\PrimitivePlus\Editor\PrimitivePlusMaterialEditor.cs" />
      <Compile Include="Assets\PrimitivePlus\Editor\PrimitivePlusMenuItems.cs" />
+     <None Include="Assets\JSON\readme.txt" />
      <None Include="Assets\PrimitivePlus\Documentation\ReadMe.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
