@@ -135,12 +135,20 @@ public class game_field : MonoBehaviour
 			}
 			else
 			{
-				Debug.Log(string.Format
-				(
-					"Unit '{0}' out of bounds! - pos: {1}",
-					unit.name,
-					unit.transform.position.ToString()
-				));
+				if (   unit is unit_troll
+					&& unit.transform.position.x < 0.0f)
+				{
+					GLOBAL.manager_player.GameOverFailure();
+				}
+				else
+				{
+					Debug.LogError(string.Format
+					(
+						"Unit '{0}' out of bounds! - pos: {1}",
+						unit.name,
+						unit.transform.position.ToString()
+					));
+				}
 			}
 		}
 		else if (!unit.cell.GetComponent<Collider>().bounds.Contains(unit.transform.position))
@@ -155,12 +163,20 @@ public class game_field : MonoBehaviour
 			}
 			else
 			{
-				Debug.Log(string.Format
-				(
-					"Unit '{0}' out of bounds! - pos: {1}",
-					unit.name,
-					unit.transform.position.ToString()
-				));
+				if (   unit is unit_troll
+					&& unit.transform.position.x < 0.0f)
+				{
+					GLOBAL.manager_player.GameOverFailure();
+				}
+				else
+				{
+					Debug.LogError(string.Format
+					(
+						"Unit '{0}' out of bounds! - pos: {1}",
+						unit.name,
+						unit.transform.position.ToString()
+					));
+				}
 			}
 		}
 		else

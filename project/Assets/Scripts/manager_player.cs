@@ -27,8 +27,12 @@ public class manager_player : MonoBehaviour
 
 	public unit selected_prefab_unit = null;
 
+	public List<unit_troll> lst_living_trolls = new List<unit_troll>();
+
 	private List<Spawning> _lst_spawnings = new List<Spawning>();
 	private float _game_time = 0.0f;
+
+	private bool _game_over = false;
 
 
 	void Start()
@@ -160,8 +164,27 @@ public class manager_player : MonoBehaviour
 			// Debug.Log(string.Format("new_unit: [{0}]", new_unit));
 			cell.AddUnit(new_unit);
 			new_unit.active = true;
+			new_unit.RegisterUnit();
 
 			_lst_spawnings.RemoveAt(0);
+		}
+
+		// If all trolls are dead and no more are coming, player wins.
+		if (   _lst_spawnings.Count == 0
+			&& lst_living_trolls.Count == 0
+			&& !_game_over)
+		{
+			_game_over = true;
+			ui_level_over.Load(true);
+		}
+	}
+
+	public void GameOverFailure()
+	{
+		if (!_game_over)
+		{
+			_game_over = true;
+			ui_level_over.Load(false);
 		}
 	}
 

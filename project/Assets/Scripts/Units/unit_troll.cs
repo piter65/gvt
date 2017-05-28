@@ -21,6 +21,16 @@ public class unit_troll : unit
 	protected float _flux_time = 0.0f;
 	protected float _flux_duration = 0.0f;
 
+	public override void RegisterUnit()
+	{
+		GLOBAL.manager_player.lst_living_trolls.Add(this);
+	}
+
+	protected override void UnregisterUnit()
+	{
+		GLOBAL.manager_player.lst_living_trolls.Remove(this);
+	}
+
 	protected override void Start()
 	{
 		base.Start();

@@ -41,6 +41,16 @@ public class unit : MonoBehaviour
 	protected float _dead_time = 0.0f;
 	protected AudioSource _audio_source;
 
+	public virtual void RegisterUnit()
+	{
+		// Do nothing by default...
+	}
+
+	protected virtual void UnregisterUnit()
+	{
+		// Do nothing by default...
+	}
+
 	protected virtual void Start()
 	{
 		_audio_source = GetComponent<AudioSource>();
@@ -63,6 +73,8 @@ public class unit : MonoBehaviour
 				// Notify the cell that unit no longer occupies it.
 				if (cell != null)
 					cell.RemoveUnit(this);
+
+				UnregisterUnit();
 			}
 		}
 

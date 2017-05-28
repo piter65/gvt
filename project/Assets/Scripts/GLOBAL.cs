@@ -60,4 +60,9 @@ public static class GLOBAL
 		foreach (AudioVolume audio in _lstAudio)
 			audio.UpdateVolume();
 	}
+
+	public static void ExitLevel()
+	{
+		SceneManager.LoadScene("game", LoadSceneMode.Single);
+	}
 }
