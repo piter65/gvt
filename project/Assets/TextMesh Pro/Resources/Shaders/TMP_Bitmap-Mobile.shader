@@ -49,6 +49,10 @@ SubShader {
 		#pragma fragment frag
 		#pragma fragmentoption ARB_precision_hint_fastest
 
+		#pragma multi_compile __ UNITY_UI_CLIP_RECT
+		#pragma multi_compile __ UNITY_UI_ALPHACLIP
+
+
 		#include "UnityCG.cginc"
 
 		struct appdata_t {
@@ -84,7 +88,7 @@ SubShader {
 
 			vert.xy += (vert.w * 0.5) / _ScreenParams.xy;
 
-			o.vertex = UnityPixelSnap(mul(UNITY_MATRIX_MVP, vert));
+			o.vertex = UnityPixelSnap(UnityObjectToClipPos(vert));
 			o.color = v.color;
 			o.color *= _Color;
 			o.color.rgb *= _DiffusePower;
@@ -105,9 +109,15 @@ SubShader {
 			fixed4 c = fixed4(i.color.rgb, i.color.a * tex2D(_MainTex, i.texcoord0).a);
 
 			// Alternative implementation to UnityGet2DClipping with support for softness.
-			half2 m = saturate((_ClipRect.zw - _ClipRect.xy - abs(i.mask.xy)) * i.mask.zw);
-			c *= m.x * m.y;
-
+			#if UNITY_UI_CLIP_RECT
+				half2 m = saturate((_ClipRect.zw - _ClipRect.xy - abs(i.mask.xy)) * i.mask.zw);
+				c *= m.x * m.y;
+			#endif
+			
+			#if UNITY_UI_ALPHACLIP
+				clip(c.a - 0.001);
+			#endif
+			
 			return c;
 		}
 		ENDCG
