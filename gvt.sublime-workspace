@@ -1,0 +1,4066 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vert",
+				"vertex"
+			],
+			[
+				"norm",
+				"normalize"
+			],
+			[
+				"shf",
+				"shift_light"
+			],
+			[
+				"shif",
+				"shift_light"
+			],
+			[
+				"diff",
+				"diffuseColor"
+			],
+			[
+				"G",
+				"GLOBAL"
+			],
+			[
+				"index",
+				"index_screen_mode"
+			],
+			[
+				"shift",
+				"shifter_screen_mode"
+			],
+			[
+				"_cur",
+				"_current_screen_mode"
+			],
+			[
+				"_",
+				"_animator"
+			],
+			[
+				"inde",
+				"index_page"
+			],
+			[
+				"index_",
+				"index_res"
+			],
+			[
+				"ind",
+				"index_page"
+			],
+			[
+				"res",
+				"resolutions"
+			],
+			[
+				"_act",
+				"_index_active"
+			],
+			[
+				"lst_",
+				"lst_pages_temp"
+			],
+			[
+				"Re",
+				"RectTransform"
+			],
+			[
+				"gr",
+				"group_pages"
+			],
+			[
+				"Upd",
+				"UpdateToggleImage"
+			],
+			[
+				"icon",
+				"icon_toggle_on"
+			],
+			[
+				"al",
+				"alpha_dim"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"Gen",
+				"GeneratePips"
+			],
+			[
+				"pref",
+				"prefab_pip"
+			],
+			[
+				"tog",
+				"toggle_group"
+			],
+			[
+				"Upda",
+				"UpdateState"
+			],
+			[
+				"_ima",
+				"_image_icon"
+			],
+			[
+				"_im",
+				"_image_icon"
+			],
+			[
+				"col",
+				"color_active"
+			],
+			[
+				"_m",
+				"_image_back"
+			],
+			[
+				"Ge",
+				"GetComponent"
+			],
+			[
+				"_he",
+				"_height_active"
+			],
+			[
+				"_a",
+				"_animate_click"
+			],
+			[
+				"_po",
+				"_pointer_over"
+			],
+			[
+				"is_",
+				"is_damaged"
+			],
+			[
+				"Set",
+				"SetTrigger"
+			],
+			[
+				"atk",
+				"attack_active"
+			],
+			[
+				"lst",
+				"lst_terrain"
+			],
+			[
+				"lst_tr",
+				"lst_terrain"
+			],
+			[
+				"he",
+				"highest_interp"
+			],
+			[
+				"ang",
+				"angle_max"
+			],
+			[
+				"int",
+				"interp"
+			],
+			[
+				"hi",
+				"highest_interp"
+			],
+			[
+				"angl",
+				"angle_min"
+			],
+			[
+				"min",
+				"angle_min"
+			],
+			[
+				"cam",
+				"camera_view"
+			],
+			[
+				"cell",
+				"cell_down"
+			],
+			[
+				"_lst",
+				"_lst_rays_clear"
+			],
+			[
+				"_lst_rays_",
+				"_lst_rays_obstructed"
+			],
+			[
+				"gam",
+				"gameObject"
+			],
+			[
+				"float",
+				"float_height"
+			],
+			[
+				"_lst_",
+				"_lst_nodes_closed"
+			],
+			[
+				"_l",
+				"_lst_nodes_open"
+			],
+			[
+				"_no",
+				"_node_last_processed"
+			],
+			[
+				"idn",
+				"index_node"
+			],
+			[
+				"g",
+				"generating"
+			],
+			[
+				"_ls",
+				"_lst_cell_destinations"
+			],
+			[
+				"Pr",
+				"ProcessCheapestNode"
+			],
+			[
+				"D",
+				"DetermineTriggerDir"
+			],
+			[
+				"str",
+				"str_dir"
+			],
+			[
+				"move_",
+				"cell_move_target"
+			],
+			[
+				"node_",
+				"node_path"
+			],
+			[
+				"node",
+				"node_current"
+			],
+			[
+				"Ca",
+				"CalculatePath"
+			],
+			[
+				"no",
+				"node_list"
+			],
+			[
+				"CellPa",
+				"CellPathNode"
+			],
+			[
+				"_lst_nodes_",
+				"_lst_nodes_open"
+			],
+			[
+				"dis",
+				"dist_y"
+			],
+			[
+				"CellP",
+				"CellPathNode"
+			],
+			[
+				"s",
+				"sq_dist_closest"
+			],
+			[
+				"Cell",
+				"CellPathNode"
+			],
+			[
+				"C",
+				"CellPathNode"
+			],
+			[
+				"Cel",
+				"CellPathNode"
+			],
+			[
+				"_b",
+				"_base_scale"
+			],
+			[
+				"_d",
+				"_dir"
+			],
+			[
+				"cell_",
+				"cell_min"
+			],
+			[
+				"cell_m",
+				"cell_max"
+			],
+			[
+				"height_",
+				"height_all"
+			],
+			[
+				"At",
+				"AttackType"
+			],
+			[
+				"a",
+				"attacks"
+			],
+			[
+				"l",
+				"launch_delay"
+			],
+			[
+				"tar",
+				"cell_move_target"
+			],
+			[
+				"of",
+				"offset"
+			],
+			[
+				"enti",
+				"entity_sub"
+			],
+			[
+				"re",
+				"reachable_height"
+			],
+			[
+				"GetCell",
+				"GetCellAtPosition"
+			],
+			[
+				"Rem",
+				"RemoveEntity"
+			],
+			[
+				"dar",
+				"dark_tide"
+			],
+			[
+				"dark",
+				"dark_motes_scale"
+			],
+			[
+				"par",
+				"particles_dark_dust_motes"
+			],
+			[
+				"_T",
+				"_TideMaxX"
+			],
+			[
+				"Tide",
+				"_TideMinX"
+			],
+			[
+				"_ad",
+				"_adv_interp"
+			],
+			[
+				"ro",
+				"row_last"
+			],
+			[
+				"row",
+				"row_connect"
+			],
+			[
+				"co",
+				"column"
+			],
+			[
+				"ent",
+				"entity"
+			],
+			[
+				"entity",
+				"entity_above"
+			],
+			[
+				"lst_tre",
+				"lst_treasures"
+			],
+			[
+				"_in",
+				"_intro_finished"
+			],
+			[
+				"an",
+				"announcer_finished"
+			],
+			[
+				"Loa",
+				"Loading"
+			],
+			[
+				"attack_",
+				"attack_launching"
+			],
+			[
+				"Po",
+				"ProjectileCourse"
+			],
+			[
+				"fa",
+				"_fake_out_count"
+			],
+			[
+				"tel",
+				"telegraph_duration"
+			],
+			[
+				"course_",
+				"course_defended"
+			],
+			[
+				"only",
+				"only_attack_exposed"
+			],
+			[
+				"bloc",
+				"block_animation_padding"
+			],
+			[
+				"is",
+				"is_stable"
+			],
+			[
+				"_tim",
+				"_time_telegraph_duration"
+			],
+			[
+				"b",
+				"blocks_per_cooldown"
+			],
+			[
+				"onl",
+				"only_block_incoming"
+			],
+			[
+				"_t",
+				"_time_telegraph_duration"
+			],
+			[
+				"_time",
+				"_time_cooldown_block"
+			],
+			[
+				"Proj",
+				"ProjectileCourse"
+			],
+			[
+				"cour",
+				"course"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"not",
+				"notches_z"
+			],
+			[
+				"v",
+				"velocity_z"
+			],
+			[
+				"_pr",
+				"_prev_mouse_y"
+			],
+			[
+				"im",
+				"impact_duration"
+			],
+			[
+				"Ti",
+				"Time"
+			],
+			[
+				"impa",
+				"impact_interp"
+			],
+			[
+				"ty",
+				"type_new"
+			],
+			[
+				"PO",
+				"ProjectileCourse"
+			],
+			[
+				"hit",
+				"hit_duration_max"
+			],
+			[
+				"inte",
+				"intensity"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Brent/Google Drive/[share] gamedev/Dark Wind/Design - Dark Wind.txt",
+			"settings":
+			{
+				"buffer_size": 10824,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "Design - Dark Wind"
+			}
+		},
+		{
+			"file": "/C/Users/Brent/Google Drive/[share] gamedev/Dark Wind/player_animation_times.txt",
+			"settings":
+			{
+				"buffer_size": 2262,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "- idle             - 60 frames"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/TODO.txt",
+			"settings":
+			{
+				"buffer_size": 1991,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Brent/Downloads/builtin_shaders-2018.1.2f1/DefaultResourcesExtra/Sprites-Default.shader",
+			"settings":
+			{
+				"buffer_size": 1332,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 222 files for \"Map\" (whole word)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\CGIncludes\\GLSLSupport.glslinc:\n    4  #define GLSL_SUPPORT_INCLUDED\n    5  \n    6: // Automatically included in raw GLSL (GLSLPROGRAM) shader snippets, to map from some of the legacy OpenGL\n    7  // variable names to uniform names used by Unity.\n    8  \n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\CGIncludes\\UnityCG.cginc:\n   45  \n   46  #if defined(SHADER_API_D3D11) || defined(SHADER_API_PSSL) || defined(SHADER_API_METAL) || defined(SHADER_API_GLCORE) || defined(SHADER_API_GLES3) || defined(SHADER_API_VULKAN) || defined(SHADER_API_SWITCH) // D3D11, D3D12, XB1, PS4, iOS, macOS, tvOS, glcore, gles3, webgl2.0, Switch\n   47: // Real-support for depth-format cube shadow map.\n   48  #define SHADOWS_CUBE_IN_DEPTH_TEX\n   49  #endif\n   ..\n  894  \n  895  {\n  896:     // For point lights that support depth cube map, the bias is applied in the fragment shader sampling the shadow map.\n  897:     // This is because the legacy behaviour for point light shadow map cannot be implemented by offseting the vertex position\n  898:     // in the vertex shader generating the shadow map.\n  899  #if !(defined(SHADOWS_CUBE) && defined(SHADOWS_CUBE_IN_DEPTH_TEX))\n  900      #if defined(UNITY_REVERSED_Z)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\CGIncludes\\UnityShadowLibrary.cginc:\n  122          dominantAxis = max(0.00001, dominantAxis - _LightProjectionParams.z); // shadow bias from point light is apllied here.\n  123          dominantAxis *= _LightProjectionParams.w; // bias\n  124:         float mydist = -_LightProjectionParams.x + _LightProjectionParams.y/dominantAxis; // project to shadow map clip space [0; 1]\n  125  \n  126          #if defined(UNITY_REVERSED_Z)\n  ...\n  363      biasUVZ.xy *= biasMultiply / ((dx.x * dy.y) - (dx.y * dy.x));\n  364  \n  365:     // Static depth biasing to make up for incorrect fractional sampling on the shadow map grid.\n  366      const float UNITY_RECEIVER_PLANE_MIN_FRACTIONAL_ERROR = 0.01f;\n  367      float fractionalSamplingError = dot(_ShadowMapTexture_TexelSize.xy, abs(biasUVZ.xy));\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\CGIncludes\\UnityStandardParticleShadow.cginc:\n   95  \n   96  // We have to do these dances of outputting SV_POSITION separately from the vertex shader,\n   97: // and inputting VPOS in the pixel shader, since they both map to \"POSITION\" semantic on\n   98  // some platforms, and then things don't go well.\n   99  \n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\CGIncludes\\UnityStandardShadow.cginc:\n  120  \n  121  // We have to do these dances of outputting SV_POSITION separately from the vertex shader,\n  122: // and inputting VPOS in the pixel shader, since they both map to \"POSITION\" semantic on\n  123  // some platforms, and then things don't go well.\n  124  \n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Internal-ScreenSpaceShadows.shader:\n  230  fixed4 frag_hard (v2f i) : SV_Target\n  231  {\n  232:     UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(i); // required for sampling the correct slice of the shadow map render texture array\n  233      float4 wpos;\n  234      float3 vpos;\n  ...\n  258  fixed4 frag_pcfSoft(v2f i) : SV_Target\n  259  {\n  260:     UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(i); // required for sampling the correct slice of the shadow map render texture array\n  261      float4 wpos;\n  262      float3 vpos;\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Nature\\SpeedTree.shader:\n    9          _MainTex (\"Base (RGB) Trans (A)\", 2D) = \"white\" {}\n   10          _DetailTex (\"Detail\", 2D) = \"black\" {}\n   11:         _BumpMap (\"Normal Map\", 2D) = \"bump\" {}\n   12          _Cutoff (\"Alpha Cutoff\", Range(0,1)) = 0.333\n   13          [MaterialEnum(Off,0,Front,1,Back,2)] _Cull (\"Cull\", Int) = 2\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Particle Standard Surface.shader:\n   15  \n   16          _BumpScale(\"Scale\", Float) = 1.0\n   17:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   18  \n   19          _EmissionColor(\"Color\", Color) = (0,0,0)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Particle Standard Unlit.shader:\n   11  \n   12          _BumpScale(\"Scale\", Float) = 1.0\n   13:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   14  \n   15          _EmissionColor(\"Color\", Color) = (0,0,0)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Reflect-BumpNolight.shader:\n   70  fixed4 frag (v2f i) : SV_Target\n   71  {\n   72:     // Sample and expand the normal map texture\n   73      fixed3 normal = UnpackNormal(tex2D(_BumpMap, i.uv2));\n   74  \n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Standard.shader:\n   21  \n   22          _BumpScale(\"Scale\", Float) = 1.0\n   23:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   24  \n   25          _Parallax (\"Height Scale\", Range (0.005, 0.08)) = 0.02\n   26:         _ParallaxMap (\"Height Map\", 2D) = \"black\" {}\n   27  \n   28          _OcclusionStrength(\"Strength\", Range(0.0, 1.0)) = 1.0\n   ..\n   36          _DetailAlbedoMap(\"Detail Albedo x2\", 2D) = \"grey\" {}\n   37          _DetailNormalMapScale(\"Scale\", Float) = 1.0\n   38:         _DetailNormalMap(\"Normal Map\", 2D) = \"bump\" {}\n   39  \n   40          [Enum(UV0,0,UV1,1)] _UVSec (\"UV Set for secondary textures\", Float) = 0\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\StandardRoughness.shader:\n   11  \n   12          _Glossiness(\"Roughness\", Range(0.0, 1.0)) = 0.5\n   13:         _SpecGlossMap(\"Roughness Map\", 2D) = \"white\" {}\n   14  \n   15          _Metallic(\"Metallic\", Range(0.0, 1.0)) = 0.0\n   ..\n   20  \n   21          _BumpScale(\"Scale\", Float) = 1.0\n   22:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   23  \n   24          _Parallax (\"Height Scale\", Range (0.005, 0.08)) = 0.02\n   25:         _ParallaxMap (\"Height Map\", 2D) = \"black\" {}\n   26  \n   27          _OcclusionStrength(\"Strength\", Range(0.0, 1.0)) = 1.0\n   ..\n   35          _DetailAlbedoMap(\"Detail Albedo x2\", 2D) = \"grey\" {}\n   36          _DetailNormalMapScale(\"Scale\", Float) = 1.0\n   37:         _DetailNormalMap(\"Normal Map\", 2D) = \"bump\" {}\n   38  \n   39          [Enum(UV0,0,UV1,1)] _UVSec (\"UV Set for secondary textures\", Float) = 0\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\StandardSpecular.shader:\n   20  \n   21          _BumpScale(\"Scale\", Float) = 1.0\n   22:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   23  \n   24          _Parallax (\"Height Scale\", Range (0.005, 0.08)) = 0.02\n   25:         _ParallaxMap (\"Height Map\", 2D) = \"black\" {}\n   26  \n   27          _OcclusionStrength(\"Strength\", Range(0.0, 1.0)) = 1.0\n   ..\n   35          _DetailAlbedoMap(\"Detail Albedo x2\", 2D) = \"grey\" {}\n   36          _DetailNormalMapScale(\"Scale\", Float) = 1.0\n   37:         _DetailNormalMap(\"Normal Map\", 2D) = \"bump\" {}\n   38  \n   39          [Enum(UV0,0,UV1,1)] _UVSec (\"UV Set for secondary textures\", Float) = 0\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\TerrainShaders\\Splats\\FirstPass.shader:\n   12          [HideInInspector] _Normal1 (\"Normal 1 (G)\", 2D) = \"bump\" {}\n   13          [HideInInspector] _Normal0 (\"Normal 0 (R)\", 2D) = \"bump\" {}\n   14:         // used in fallback on old cards & base map\n   15          [HideInInspector] _MainTex (\"BaseMap (RGB)\", 2D) = \"white\" {}\n   16          [HideInInspector] _Color (\"Main Color\", Color) = (1,1,1,1)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\TerrainShaders\\Splats\\Specular-FirstPass.shader:\n   16          [HideInInspector] _Normal1 (\"Normal 1 (G)\", 2D) = \"bump\" {}\n   17          [HideInInspector] _Normal0 (\"Normal 0 (R)\", 2D) = \"bump\" {}\n   18:         // used in fallback on old cards & base map\n   19          [HideInInspector] _MainTex (\"BaseMap (RGB)\", 2D) = \"white\" {}\n   20          [HideInInspector] _Color (\"Main Color\", Color) = (1,1,1,1)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\TerrainShaders\\Splats\\Standard-FirstPass.shader:\n   22          [HideInInspector] _Smoothness3 (\"Smoothness 3\", Range(0.0, 1.0)) = 1.0\n   23  \n   24:         // used in fallback on old cards & base map\n   25          [HideInInspector] _MainTex (\"BaseMap (RGB)\", 2D) = \"white\" {}\n   26          [HideInInspector] _Color (\"Main Color\", Color) = (1,1,1,1)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\UI\\UI-Lit-Bumped.shader:\n    8          _Specular (\"Specular Color\", Color) = (0,0,0,0)\n    9          _MainTex (\"Diffuse (RGB), Alpha (A)\", 2D) = \"white\" {}\n   10:         [NoScaleOffset] _MainBump (\"Diffuse Bump Map\", 2D) = \"bump\" {}\n   11          _Shininess (\"Shininess\", Range(0.01, 1.0)) = 0.2\n   12  \n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\UI\\UI-Lit-Detail.shader:\n    8          _Specular (\"Specular Color\", Color) = (0,0,0,0)\n    9          _MainTex (\"Diffuse (RGB), Alpha (A)\", 2D) = \"white\" {}\n   10:         _MainBump (\"Diffuse Bump Map\", 2D) = \"bump\" {}\n   11          _DetailTex (\"Detail (RGB)\", 2D) = \"white\" {}\n   12:         _DetailBump (\"Detail Bump Map\", 2D) = \"bump\" {}\n   13          _Strength (\"Detail Strength\", Range(0.0, 1.0)) = 0.2\n   14          _Shininess (\"Shininess\", Range(0.01, 1.0)) = 0.2\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\UI\\UI-Lit-Refraction.shader:\n    8          _Specular (\"Specular Color\", Color) = (0,0,0,0)\n    9          _MainTex (\"Diffuse (RGB), Alpha (A)\", 2D) = \"white\" {}\n   10:         _MainBump (\"Diffuse Bump Map\", 2D) = \"bump\" {}\n   11          _Mask (\"Mask (Specularity, Shininess, Refraction)\", 2D) = \"black\" {}\n   12          _Shininess (\"Shininess\", Range(0.01, 1.0)) = 0.2\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\UI\\UI-Lit-RefractionDetail.shader:\n    8          _Specular (\"Specular Color\", Color) = (0,0,0,0)\n    9          _MainTex (\"Diffuse (RGB), Alpha (A)\", 2D) = \"white\" {}\n   10:         _MainBump (\"Diffuse Bump Map\", 2D) = \"bump\" {}\n   11          _Mask (\"Mask (Specularity, Shininess, Refraction)\", 2D) = \"white\" {}\n   12          _DetailTex (\"Detail (RGB)\", 2D) = \"white\" {}\n   13:         _DetailBump (\"Detail Bump Map\", 2D) = \"bump\" {}\n   14          _DetailMask (\"Detail Mask (Spec, Shin, Ref)\", 2D) = \"white\" {}\n   15          _Shininess (\"Shininess\", Range(0.01, 1.0)) = 0.2\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\Editor\\StandardParticlesShaderGUI.cs:\n   44              public static GUIContent smoothnessText = EditorGUIUtility.TrTextContent(\"Smoothness\", \"Smoothness value.\");\n   45              public static GUIContent smoothnessScaleText = EditorGUIUtility.TrTextContent(\"Smoothness\", \"Smoothness scale factor.\");\n   46:             public static GUIContent normalMapText = EditorGUIUtility.TrTextContent(\"Normal Map\", \"Normal Map.\");\n   47              public static GUIContent emissionText = EditorGUIUtility.TrTextContent(\"Color\", \"Emission (RGB).\");\n   48  \n   ..\n   58              public static GUIContent twoSidedEnabled = EditorGUIUtility.TrTextContent(\"Two Sided\", \"Render both front and back faces of the particle geometry.\");\n   59  \n   60:             public static GUIContent distortionEnabled = EditorGUIUtility.TrTextContent(\"Enable Distortion\", \"Use a grab pass and normal map to simulate refraction.\");\n   61              public static GUIContent distortionStrengthText = EditorGUIUtility.TrTextContent(\"Strength\", \"Distortion Strength.\");\n   62              public static GUIContent distortionBlendText = EditorGUIUtility.TrTextContent(\"Blend\", \"Weighting between albedo and grab pass.\");\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\Editor\\StandardRoughnessShaderGUI.cs:\n   26              public static GUIContent highlightsText = EditorGUIUtility.TrTextContent(\"Specular Highlights\", \"Specular Highlights\");\n   27              public static GUIContent reflectionsText = EditorGUIUtility.TrTextContent(\"Reflections\", \"Glossy Reflections\");\n   28:             public static GUIContent normalMapText = EditorGUIUtility.TrTextContent(\"Normal Map\", \"Normal Map\");\n   29:             public static GUIContent heightMapText = EditorGUIUtility.TrTextContent(\"Height Map\", \"Height Map (G)\");\n   30              public static GUIContent occlusionText = EditorGUIUtility.TrTextContent(\"Occlusion\", \"Occlusion (G)\");\n   31              public static GUIContent emissionText = EditorGUIUtility.TrTextContent(\"Color\", \"Emission (RGB)\");\n   32              public static GUIContent detailMaskText = EditorGUIUtility.TrTextContent(\"Detail Mask\", \"Mask for Secondary Maps (A)\");\n   33              public static GUIContent detailAlbedoText = EditorGUIUtility.TrTextContent(\"Detail Albedo x2\", \"Albedo (RGB) multiplied by 2\");\n   34:             public static GUIContent detailNormalMapText = EditorGUIUtility.TrTextContent(\"Normal Map\", \"Normal Map\");\n   35  \n   36              public static string primaryMapsText = \"Main Maps\";\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\Editor\\StandardShaderGUI.cs:\n   42              public static GUIContent highlightsText = EditorGUIUtility.TrTextContent(\"Specular Highlights\", \"Specular Highlights\");\n   43              public static GUIContent reflectionsText = EditorGUIUtility.TrTextContent(\"Reflections\", \"Glossy Reflections\");\n   44:             public static GUIContent normalMapText = EditorGUIUtility.TrTextContent(\"Normal Map\", \"Normal Map\");\n   45:             public static GUIContent heightMapText = EditorGUIUtility.TrTextContent(\"Height Map\", \"Height Map (G)\");\n   46              public static GUIContent occlusionText = EditorGUIUtility.TrTextContent(\"Occlusion\", \"Occlusion (G)\");\n   47              public static GUIContent emissionText = EditorGUIUtility.TrTextContent(\"Color\", \"Emission (RGB)\");\n   48              public static GUIContent detailMaskText = EditorGUIUtility.TrTextContent(\"Detail Mask\", \"Mask for Secondary Maps (A)\");\n   49              public static GUIContent detailAlbedoText = EditorGUIUtility.TrTextContent(\"Detail Albedo x2\", \"Albedo (RGB) multiplied by 2\");\n   50:             public static GUIContent detailNormalMapText = EditorGUIUtility.TrTextContent(\"Normal Map\", \"Normal Map\");\n   51  \n   52              public static string primaryMapsText = \"Main Maps\";\n\n50 matches across 23 files\n\n\nSearching 222 files for \"Normal Map\" (whole word)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Nature\\SpeedTree.shader:\n    9          _MainTex (\"Base (RGB) Trans (A)\", 2D) = \"white\" {}\n   10          _DetailTex (\"Detail\", 2D) = \"black\" {}\n   11:         _BumpMap (\"Normal Map\", 2D) = \"bump\" {}\n   12          _Cutoff (\"Alpha Cutoff\", Range(0,1)) = 0.333\n   13          [MaterialEnum(Off,0,Front,1,Back,2)] _Cull (\"Cull\", Int) = 2\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Particle Standard Surface.shader:\n   15  \n   16          _BumpScale(\"Scale\", Float) = 1.0\n   17:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   18  \n   19          _EmissionColor(\"Color\", Color) = (0,0,0)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Particle Standard Unlit.shader:\n   11  \n   12          _BumpScale(\"Scale\", Float) = 1.0\n   13:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   14  \n   15          _EmissionColor(\"Color\", Color) = (0,0,0)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Reflect-BumpNolight.shader:\n   70  fixed4 frag (v2f i) : SV_Target\n   71  {\n   72:     // Sample and expand the normal map texture\n   73      fixed3 normal = UnpackNormal(tex2D(_BumpMap, i.uv2));\n   74  \n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Standard.shader:\n   21  \n   22          _BumpScale(\"Scale\", Float) = 1.0\n   23:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   24  \n   25          _Parallax (\"Height Scale\", Range (0.005, 0.08)) = 0.02\n   ..\n   36          _DetailAlbedoMap(\"Detail Albedo x2\", 2D) = \"grey\" {}\n   37          _DetailNormalMapScale(\"Scale\", Float) = 1.0\n   38:         _DetailNormalMap(\"Normal Map\", 2D) = \"bump\" {}\n   39  \n   40          [Enum(UV0,0,UV1,1)] _UVSec (\"UV Set for secondary textures\", Float) = 0\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\StandardRoughness.shader:\n   20  \n   21          _BumpScale(\"Scale\", Float) = 1.0\n   22:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   23  \n   24          _Parallax (\"Height Scale\", Range (0.005, 0.08)) = 0.02\n   ..\n   35          _DetailAlbedoMap(\"Detail Albedo x2\", 2D) = \"grey\" {}\n   36          _DetailNormalMapScale(\"Scale\", Float) = 1.0\n   37:         _DetailNormalMap(\"Normal Map\", 2D) = \"bump\" {}\n   38  \n   39          [Enum(UV0,0,UV1,1)] _UVSec (\"UV Set for secondary textures\", Float) = 0\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\StandardSpecular.shader:\n   20  \n   21          _BumpScale(\"Scale\", Float) = 1.0\n   22:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   23  \n   24          _Parallax (\"Height Scale\", Range (0.005, 0.08)) = 0.02\n   ..\n   35          _DetailAlbedoMap(\"Detail Albedo x2\", 2D) = \"grey\" {}\n   36          _DetailNormalMapScale(\"Scale\", Float) = 1.0\n   37:         _DetailNormalMap(\"Normal Map\", 2D) = \"bump\" {}\n   38  \n   39          [Enum(UV0,0,UV1,1)] _UVSec (\"UV Set for secondary textures\", Float) = 0\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\Editor\\StandardParticlesShaderGUI.cs:\n   44              public static GUIContent smoothnessText = EditorGUIUtility.TrTextContent(\"Smoothness\", \"Smoothness value.\");\n   45              public static GUIContent smoothnessScaleText = EditorGUIUtility.TrTextContent(\"Smoothness\", \"Smoothness scale factor.\");\n   46:             public static GUIContent normalMapText = EditorGUIUtility.TrTextContent(\"Normal Map\", \"Normal Map.\");\n   47              public static GUIContent emissionText = EditorGUIUtility.TrTextContent(\"Color\", \"Emission (RGB).\");\n   48  \n   ..\n   58              public static GUIContent twoSidedEnabled = EditorGUIUtility.TrTextContent(\"Two Sided\", \"Render both front and back faces of the particle geometry.\");\n   59  \n   60:             public static GUIContent distortionEnabled = EditorGUIUtility.TrTextContent(\"Enable Distortion\", \"Use a grab pass and normal map to simulate refraction.\");\n   61              public static GUIContent distortionStrengthText = EditorGUIUtility.TrTextContent(\"Strength\", \"Distortion Strength.\");\n   62              public static GUIContent distortionBlendText = EditorGUIUtility.TrTextContent(\"Blend\", \"Weighting between albedo and grab pass.\");\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\Editor\\StandardRoughnessShaderGUI.cs:\n   26              public static GUIContent highlightsText = EditorGUIUtility.TrTextContent(\"Specular Highlights\", \"Specular Highlights\");\n   27              public static GUIContent reflectionsText = EditorGUIUtility.TrTextContent(\"Reflections\", \"Glossy Reflections\");\n   28:             public static GUIContent normalMapText = EditorGUIUtility.TrTextContent(\"Normal Map\", \"Normal Map\");\n   29              public static GUIContent heightMapText = EditorGUIUtility.TrTextContent(\"Height Map\", \"Height Map (G)\");\n   30              public static GUIContent occlusionText = EditorGUIUtility.TrTextContent(\"Occlusion\", \"Occlusion (G)\");\n   ..\n   32              public static GUIContent detailMaskText = EditorGUIUtility.TrTextContent(\"Detail Mask\", \"Mask for Secondary Maps (A)\");\n   33              public static GUIContent detailAlbedoText = EditorGUIUtility.TrTextContent(\"Detail Albedo x2\", \"Albedo (RGB) multiplied by 2\");\n   34:             public static GUIContent detailNormalMapText = EditorGUIUtility.TrTextContent(\"Normal Map\", \"Normal Map\");\n   35  \n   36              public static string primaryMapsText = \"Main Maps\";\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\Editor\\StandardShaderGUI.cs:\n   42              public static GUIContent highlightsText = EditorGUIUtility.TrTextContent(\"Specular Highlights\", \"Specular Highlights\");\n   43              public static GUIContent reflectionsText = EditorGUIUtility.TrTextContent(\"Reflections\", \"Glossy Reflections\");\n   44:             public static GUIContent normalMapText = EditorGUIUtility.TrTextContent(\"Normal Map\", \"Normal Map\");\n   45              public static GUIContent heightMapText = EditorGUIUtility.TrTextContent(\"Height Map\", \"Height Map (G)\");\n   46              public static GUIContent occlusionText = EditorGUIUtility.TrTextContent(\"Occlusion\", \"Occlusion (G)\");\n   ..\n   48              public static GUIContent detailMaskText = EditorGUIUtility.TrTextContent(\"Detail Mask\", \"Mask for Secondary Maps (A)\");\n   49              public static GUIContent detailAlbedoText = EditorGUIUtility.TrTextContent(\"Detail Albedo x2\", \"Albedo (RGB) multiplied by 2\");\n   50:             public static GUIContent detailNormalMapText = EditorGUIUtility.TrTextContent(\"Normal Map\", \"Normal Map\");\n   51  \n   52              public static string primaryMapsText = \"Main Maps\";\n\n21 matches across 10 files\n\n\nSearching 222 files for \"BumpMap\" (whole word)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\Editor\\StandardParticlesShaderGUI.cs:\n  103          MaterialProperty smoothness = null;\n  104          MaterialProperty bumpScale = null;\n  105:         MaterialProperty bumpMap = null;\n  106          MaterialProperty emissionEnabled = null;\n  107          MaterialProperty emissionColorForRendering = null;\n  ...\n  136              smoothness = FindProperty(\"_Glossiness\", props, false);\n  137              bumpScale = FindProperty(\"_BumpScale\", props);\n  138:             bumpMap = FindProperty(\"_BumpMap\", props);\n  139              emissionEnabled = FindProperty(\"_EmissionEnabled\", props);\n  140              emissionColorForRendering = FindProperty(\"_EmissionColor\", props);\n  ...\n  468              if (useLighting || useDistortion)\n  469              {\n  470:                 m_MaterialEditor.TexturePropertySingleLine(Styles.normalMapText, bumpMap, bumpMap.textureValue != null ? bumpScale : null);\n  471              }\n  472          }\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\Editor\\StandardRoughnessShaderGUI.cs:\n   53          MaterialProperty reflections = null;\n   54          MaterialProperty bumpScale = null;\n   55:         MaterialProperty bumpMap = null;\n   56          MaterialProperty occlusionStrength = null;\n   57          MaterialProperty occlusionMap = null;\n   ..\n   83              reflections = FindProperty(\"_GlossyReflections\", props, false);\n   84              bumpScale = FindProperty(\"_BumpScale\", props);\n   85:             bumpMap = FindProperty(\"_BumpMap\", props);\n   86              heigtMapScale = FindProperty(\"_Parallax\", props);\n   87              heightMap = FindProperty(\"_ParallaxMap\", props);\n   ..\n  130                  m_MaterialEditor.TexturePropertySingleLine(Styles.metallicMapText, metallicMap, metallicMap.textureValue != null ? null : metallic);\n  131                  m_MaterialEditor.TexturePropertySingleLine(Styles.roughnessText, roughnessMap, roughnessMap.textureValue != null ? null : roughness);\n  132:                 m_MaterialEditor.TexturePropertySingleLine(Styles.normalMapText, bumpMap, bumpMap.textureValue != null ? bumpScale : null);\n  133                  m_MaterialEditor.TexturePropertySingleLine(Styles.heightMapText, heightMap, heightMap.textureValue != null ? heigtMapScale : null);\n  134                  m_MaterialEditor.TexturePropertySingleLine(Styles.occlusionText, occlusionMap, occlusionMap.textureValue != null ? occlusionStrength : null);\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\Editor\\StandardShaderGUI.cs:\n   72          MaterialProperty reflections = null;\n   73          MaterialProperty bumpScale = null;\n   74:         MaterialProperty bumpMap = null;\n   75          MaterialProperty occlusionStrength = null;\n   76          MaterialProperty occlusionMap = null;\n   ..\n  112              reflections = FindProperty(\"_GlossyReflections\", props, false);\n  113              bumpScale = FindProperty(\"_BumpScale\", props);\n  114:             bumpMap = FindProperty(\"_BumpMap\", props);\n  115              heigtMapScale = FindProperty(\"_Parallax\", props);\n  116              heightMap = FindProperty(\"_ParallaxMap\", props);\n  ...\n  260          void DoNormalArea()\n  261          {\n  262:             m_MaterialEditor.TexturePropertySingleLine(Styles.normalMapText, bumpMap, bumpMap.textureValue != null ? bumpScale : null);\n  263              if (bumpScale.floatValue != 1 && UnityEditorInternal.InternalEditorUtility.IsMobilePlatform(EditorUserBuildSettings.activeBuildTarget))\n  264                  if (m_MaterialEditor.HelpBoxWithButton(\n\n12 matches across 3 files\n\n\nSearching 222 files for \"BumpMap\"\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\CGIncludes\\SpeedTreeCommon.cginc:\n   46  \n   47  #if defined(EFFECT_BUMP) && !defined(LIGHTMAP_ON)\n   48:     sampler2D _BumpMap;\n   49  #endif\n   50  \n   ..\n  132              OUT.Normal = fixed3(0,0,1);\n  133          #else\n  134:             OUT.Normal = UnpackNormal(tex2D(_BumpMap, IN.mainTexUV));\n  135              #ifdef GEOM_TYPE_BRANCH_DETAIL\n  136:                 half3 detailNormal = UnpackNormal(tex2D(_BumpMap, IN.Detail.xy));\n  137                  OUT.Normal = lerp(OUT.Normal, detailNormal, IN.Detail.z < 2.0f ? saturate(IN.Detail.z) : detailColor.a);\n  138              #endif\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\CGIncludes\\UnityStandardInput.cginc:\n   29  float4      _DetailAlbedoMap_ST;\n   30  \n   31: sampler2D   _BumpMap;\n   32  half        _BumpScale;\n   33  \n   ..\n  203  half3 NormalInTangentSpace(float4 texcoords)\n  204  {\n  205:     half3 normalTangent = UnpackScaleNormal(tex2D (_BumpMap, texcoords.xy), _BumpScale);\n  206  \n  207  #if _DETAIL && defined(UNITY_ENABLE_DETAIL_NORMALMAP)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\CGIncludes\\UnityStandardParticles.cginc:\n  116  float4 _MainTex_ST;\n  117  half4 _Color;\n  118: sampler2D _BumpMap;\n  119  half _BumpScale;\n  120  sampler2D _EmissionMap;\n  ...\n  297  \n  298      #if defined(_NORMALMAP)\n  299:     float3 normal = normalize (UnpackScaleNormal (readTexture (_BumpMap, IN), _BumpScale));\n  300      #else\n  301      float3 normal = float3(0,0,1);\n  ...\n  361  \n  362      #if defined(_NORMALMAP)\n  363:     float3 normal = normalize (UnpackScaleNormal (readTexture (_BumpMap, IN), _BumpScale));\n  364      #else\n  365      float3 normal = float3(0,0,1);\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Alpha-Bumped.shader:\n    5      _Color (\"Main Color\", Color) = (1,1,1,1)\n    6      _MainTex (\"Base (RGB) Trans (A)\", 2D) = \"white\" {}\n    7:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n    8  }\n    9  \n   ..\n   16  \n   17  sampler2D _MainTex;\n   18: sampler2D _BumpMap;\n   19  fixed4 _Color;\n   20  \n   21  struct Input {\n   22      float2 uv_MainTex;\n   23:     float2 uv_BumpMap;\n   24  };\n   25  \n   ..\n   28      o.Albedo = c.rgb;\n   29      o.Alpha = c.a;\n   30:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   31  }\n   32  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Alpha-BumpSpec.shader:\n    7      _Shininess (\"Shininess\", Range (0.01, 1)) = 0.078125\n    8      _MainTex (\"Base (RGB) TransGloss (A)\", 2D) = \"white\" {}\n    9:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   10  }\n   11  \n   ..\n   19  \n   20  sampler2D _MainTex;\n   21: sampler2D _BumpMap;\n   22  fixed4 _Color;\n   23  half _Shininess;\n   ..\n   25  struct Input {\n   26      float2 uv_MainTex;\n   27:     float2 uv_BumpMap;\n   28  };\n   29  \n   ..\n   34      o.Alpha = tex.a * _Color.a;\n   35      o.Specular = _Shininess;\n   36:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   37  }\n   38  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Alpha-Parallax.shader:\n    6      _Parallax (\"Height\", Range (0.005, 0.08)) = 0.02\n    7      _MainTex (\"Base (RGB) Trans (A)\", 2D) = \"white\" {}\n    8:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n    9      _ParallaxMap (\"Heightmap (A)\", 2D) = \"black\" {}\n   10  }\n   ..\n   18  \n   19  sampler2D _MainTex;\n   20: sampler2D _BumpMap;\n   21  sampler2D _ParallaxMap;\n   22  fixed4 _Color;\n   ..\n   25  struct Input {\n   26      float2 uv_MainTex;\n   27:     float2 uv_BumpMap;\n   28      float3 viewDir;\n   29  };\n   30  \n   31  void surf (Input IN, inout SurfaceOutput o) {\n   32:     half h = tex2D (_ParallaxMap, IN.uv_BumpMap).w;\n   33      float2 offset = ParallaxOffset (h, _Parallax, IN.viewDir);\n   34      IN.uv_MainTex += offset;\n   35:     IN.uv_BumpMap += offset;\n   36  \n   37      fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * _Color;\n   38      o.Albedo = c.rgb;\n   39      o.Alpha = c.a;\n   40:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   41  }\n   42  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Alpha-ParallaxSpec.shader:\n    8      _Parallax (\"Height\", Range (0.005, 0.08)) = 0.02\n    9      _MainTex (\"Base (RGB) TransGloss (A)\", 2D) = \"white\" {}\n   10:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   11      _ParallaxMap (\"Heightmap (A)\", 2D) = \"black\" {}\n   12  }\n   ..\n   21  \n   22  sampler2D _MainTex;\n   23: sampler2D _BumpMap;\n   24  sampler2D _ParallaxMap;\n   25  fixed4 _Color;\n   ..\n   29  struct Input {\n   30      float2 uv_MainTex;\n   31:     float2 uv_BumpMap;\n   32      float3 viewDir;\n   33  };\n   34  \n   35  void surf (Input IN, inout SurfaceOutput o) {\n   36:     half h = tex2D (_ParallaxMap, IN.uv_BumpMap).w;\n   37      float2 offset = ParallaxOffset (h, _Parallax, IN.viewDir);\n   38      IN.uv_MainTex += offset;\n   39:     IN.uv_BumpMap += offset;\n   40  \n   41      fixed4 tex = tex2D(_MainTex, IN.uv_MainTex);\n   ..\n   44      o.Alpha = tex.a * _Color.a;\n   45      o.Specular = _Shininess;\n   46:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   47  }\n   48  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\AlphaTest-Bumped.shader:\n    5      _Color (\"Main Color\", Color) = (1,1,1,1)\n    6      _MainTex (\"Base (RGB) Trans (A)\", 2D) = \"white\" {}\n    7:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n    8      _Cutoff (\"Alpha cutoff\", Range(0,1)) = 0.5\n    9  }\n   ..\n   17  \n   18  sampler2D _MainTex;\n   19: sampler2D _BumpMap;\n   20  fixed4 _Color;\n   21  \n   22  struct Input {\n   23      float2 uv_MainTex;\n   24:     float2 uv_BumpMap;\n   25  };\n   26  \n   ..\n   29      o.Albedo = c.rgb;\n   30      o.Alpha = c.a;\n   31:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   32  }\n   33  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\AlphaTest-BumpSpec.shader:\n    7      _Shininess (\"Shininess\", Range (0.01, 1)) = 0.078125\n    8      _MainTex (\"Base (RGB) TransGloss (A)\", 2D) = \"white\" {}\n    9:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   10      _Cutoff (\"Alpha cutoff\", Range(0,1)) = 0.5\n   11  }\n   ..\n   20  \n   21  sampler2D _MainTex;\n   22: sampler2D _BumpMap;\n   23  fixed4 _Color;\n   24  half _Shininess;\n   ..\n   26  struct Input {\n   27      float2 uv_MainTex;\n   28:     float2 uv_BumpMap;\n   29  };\n   30  \n   ..\n   35      o.Alpha = tex.a * _Color.a;\n   36      o.Specular = _Shininess;\n   37:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   38  }\n   39  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Illumin-Bumped.shader:\n    6      _MainTex (\"Base (RGB)\", 2D) = \"white\" {}\n    7      _Illum (\"Illumin (A)\", 2D) = \"white\" {}\n    8:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n    9      _Emission (\"Emission (Lightmapper)\", Float) = 1.0\n   10  }\n   ..\n   12  CGINCLUDE\n   13  sampler2D _MainTex;\n   14: sampler2D _BumpMap;\n   15  sampler2D _Illum;\n   16  fixed4 _Color;\n   ..\n   20      float2 uv_MainTex;\n   21      float2 uv_Illum;\n   22:     float2 uv_BumpMap;\n   23  };\n   24  \n   ..\n   32  #endif\n   33      o.Alpha = c.a;\n   34:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   35  }\n   36  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Illumin-BumpSpec.shader:\n    8      _MainTex (\"Base (RGB) Gloss (A)\", 2D) = \"white\" {}\n    9      _Illum (\"Illumin (A)\", 2D) = \"white\" {}\n   10:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   11      _Emission (\"Emission (Lightmapper)\", Float) = 1.0\n   12  }\n   ..\n   19  \n   20  sampler2D _MainTex;\n   21: sampler2D _BumpMap;\n   22  sampler2D _Illum;\n   23  fixed4 _Color;\n   ..\n   28      float2 uv_MainTex;\n   29      float2 uv_Illum;\n   30:     float2 uv_BumpMap;\n   31  };\n   32  \n   ..\n   42      o.Alpha = c.a;\n   43      o.Specular = _Shininess;\n   44:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   45  }\n   46  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Illumin-Parallax.shader:\n    7      _MainTex (\"Base (RGB)\", 2D) = \"white\" {}\n    8      _Illum (\"Illumin (A)\", 2D) = \"white\" {}\n    9:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   10      _ParallaxMap (\"Heightmap (A)\", 2D) = \"black\" {}\n   11      _Emission (\"Emission (Lightmapper)\", Float) = 1.0\n   ..\n   20  \n   21  sampler2D _MainTex;\n   22: sampler2D _BumpMap;\n   23  sampler2D _ParallaxMap;\n   24  sampler2D _Illum;\n   ..\n   29  struct Input {\n   30      float2 uv_MainTex;\n   31:     float2 uv_BumpMap;\n   32      float2 uv_Illum;\n   33      float3 viewDir;\n   ..\n   35  \n   36  void surf (Input IN, inout SurfaceOutput o) {\n   37:     half h = tex2D (_ParallaxMap, IN.uv_BumpMap).w;\n   38      float2 offset = ParallaxOffset (h, _Parallax, IN.viewDir);\n   39      IN.uv_MainTex += offset;\n   40:     IN.uv_BumpMap += offset;\n   41      IN.uv_Illum += offset;\n   42  \n   ..\n   48  #endif\n   49      o.Alpha = c.a;\n   50:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   51  }\n   52  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Illumin-ParallaxSpec.shader:\n    9      _MainTex (\"Base (RGB) Gloss (A)\", 2D) = \"white\" {}\n   10      _Illum (\"Illumin (A)\", 2D) = \"white\" {}\n   11:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   12      _ParallaxMap (\"Heightmap (A)\", 2D) = \"black\" {}\n   13      _Emission (\"Emission (Lightmapper)\", Float) = 1.0\n   ..\n   22  \n   23  sampler2D _MainTex;\n   24: sampler2D _BumpMap;\n   25  sampler2D _ParallaxMap;\n   26  sampler2D _Illum;\n   ..\n   32  struct Input {\n   33      float2 uv_MainTex;\n   34:     float2 uv_BumpMap;\n   35      float2 uv_Illum;\n   36      float3 viewDir;\n   ..\n   38  \n   39  void surf (Input IN, inout SurfaceOutput o) {\n   40:     half h = tex2D (_ParallaxMap, IN.uv_BumpMap).w;\n   41      float2 offset = ParallaxOffset (h, _Parallax, IN.viewDir);\n   42      IN.uv_MainTex += offset;\n   43:     IN.uv_BumpMap += offset;\n   44      IN.uv_Illum += offset;\n   45  \n   ..\n   54      o.Specular = _Shininess;\n   55      o.Alpha = c.a;\n   56:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   57  }\n   58  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Lightmap-Bumped.shader:\n    5      _Color (\"Main Color\", Color) = (1,1,1,1)\n    6      _MainTex (\"Base (RGB)\", 2D) = \"white\" {}\n    7:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n    8      _LightMap (\"Lightmap (RGB)\", 2D) = \"black\" {}\n    9  }\n   ..\n   16  struct Input {\n   17    float2 uv_MainTex;\n   18:   float2 uv_BumpMap;\n   19    float2 uv2_LightMap;\n   20  };\n   21  sampler2D _MainTex;\n   22: sampler2D _BumpMap;\n   23  sampler2D _LightMap;\n   24  fixed4 _Color;\n   ..\n   29    o.Emission = lm.rgb*o.Albedo.rgb;\n   30    o.Alpha = lm.a * _Color.a;\n   31:   o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   32  }\n   33  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Lightmap-BumpSpec.shader:\n    7          _Shininess (\"Shininess\", Range (0.01, 1)) = 0.078125\n    8          _MainTex (\"Base (RGB) Gloss (A)\", 2D) = \"white\" {}\n    9:         _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   10          _LightMap (\"Lightmap (RGB)\", 2D) = \"lightmap\" { LightmapMode }\n   11      }\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Mobile\\Mobile-Bumped.shader:\n    9  Properties {\n   10      _MainTex (\"Base (RGB)\", 2D) = \"white\" {}\n   11:     [NoScaleOffset] _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   12  }\n   13  \n   ..\n   20  \n   21  sampler2D _MainTex;\n   22: sampler2D _BumpMap;\n   23  \n   24  struct Input {\n   ..\n   30      o.Albedo = c.rgb;\n   31      o.Alpha = c.a;\n   32:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_MainTex));\n   33  }\n   34  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Mobile\\Mobile-BumpSpec-1DirectionalLight.shader:\n   14      _Shininess (\"Shininess\", Range (0.03, 1)) = 0.078125\n   15      _MainTex (\"Base (RGB) Gloss (A)\", 2D) = \"white\" {}\n   16:     [NoScaleOffset] _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   17  }\n   18  SubShader {\n   ..\n   36  \n   37  sampler2D _MainTex;\n   38: sampler2D _BumpMap;\n   39  half _Shininess;\n   40  \n   ..\n   49      o.Alpha = tex.a;\n   50      o.Specular = _Shininess;\n   51:     o.Normal = UnpackNormal (tex2D(_BumpMap, IN.uv_MainTex));\n   52  }\n   53  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Mobile\\Mobile-BumpSpec.shader:\n   14      _Shininess (\"Shininess\", Range (0.03, 1)) = 0.078125\n   15      _MainTex (\"Base (RGB) Gloss (A)\", 2D) = \"white\" {}\n   16:     [NoScaleOffset] _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   17  }\n   18  SubShader {\n   ..\n   36  \n   37  sampler2D _MainTex;\n   38: sampler2D _BumpMap;\n   39  half _Shininess;\n   40  \n   ..\n   49      o.Alpha = tex.a;\n   50      o.Specular = _Shininess;\n   51:     o.Normal = UnpackNormal (tex2D(_BumpMap, IN.uv_MainTex));\n   52  }\n   53  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Nature\\SpeedTree.shader:\n    9          _MainTex (\"Base (RGB) Trans (A)\", 2D) = \"white\" {}\n   10          _DetailTex (\"Detail\", 2D) = \"black\" {}\n   11:         _BumpMap (\"Normal Map\", 2D) = \"bump\" {}\n   12          _Cutoff (\"Alpha Cutoff\", Range(0,1)) = 0.333\n   13          [MaterialEnum(Off,0,Front,1,Back,2)] _Cull (\"Cull\", Int) = 2\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Nature\\SpeedTreeBillboard.shader:\n    8          _HueVariation (\"Hue Variation\", Color) = (1.0,0.5,0.0,0.1)\n    9          _MainTex (\"Base (RGB)\", 2D) = \"white\" {}\n   10:         _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   11          _Cutoff (\"Alpha cutoff\", Range(0,1)) = 0.5\n   12          [MaterialEnum(None,0,Fastest,1)] _WindQuality (\"Wind Quality\", Range(0,1)) = 0\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Nature\\TreeCreator\\TreeCreatorBark.shader:\n    6      _Shininess (\"Shininess\", Range (0.01, 1)) = 0.078125\n    7      _MainTex (\"Base (RGB) Alpha (A)\", 2D) = \"white\" {}\n    8:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n    9      _GlossMap (\"Gloss (A)\", 2D) = \"black\" {}\n   10  \n   ..\n   25  \n   26  sampler2D _MainTex;\n   27: sampler2D _BumpMap;\n   28  sampler2D _GlossMap;\n   29  half _Shininess;\n   ..\n   40      o.Alpha = c.a;\n   41      o.Specular = _Shininess;\n   42:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_MainTex));\n   43  }\n   44  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Nature\\TreeCreator\\TreeCreatorLeaves.shader:\n    6      _Shininess (\"Shininess\", Range (0.01, 1)) = 0.078125\n    7      _MainTex (\"Base (RGB) Alpha (A)\", 2D) = \"white\" {}\n    8:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n    9      _GlossMap (\"Gloss (A)\", 2D) = \"black\" {}\n   10      _TranslucencyMap (\"Translucency (A)\", 2D) = \"white\" {}\n   ..\n   27  \n   28  sampler2D _MainTex;\n   29: sampler2D _BumpMap;\n   30  sampler2D _GlossMap;\n   31  sampler2D _TranslucencyMap;\n   ..\n   44      o.Alpha = c.a;\n   45      o.Specular = _Shininess;\n   46:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_MainTex));\n   47  }\n   48  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Normal-Bumped.shader:\n    5      _Color (\"Main Color\", Color) = (1,1,1,1)\n    6      _MainTex (\"Base (RGB)\", 2D) = \"white\" {}\n    7:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n    8  }\n    9  \n   ..\n   16  \n   17  sampler2D _MainTex;\n   18: sampler2D _BumpMap;\n   19  fixed4 _Color;\n   20  \n   21  struct Input {\n   22      float2 uv_MainTex;\n   23:     float2 uv_BumpMap;\n   24  };\n   25  \n   ..\n   28      o.Albedo = c.rgb;\n   29      o.Alpha = c.a;\n   30:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   31  }\n   32  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Normal-BumpSpec.shader:\n    7      _Shininess (\"Shininess\", Range (0.03, 1)) = 0.078125\n    8      _MainTex (\"Base (RGB) Gloss (A)\", 2D) = \"white\" {}\n    9:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   10  }\n   11  \n   12  CGINCLUDE\n   13  sampler2D _MainTex;\n   14: sampler2D _BumpMap;\n   15  fixed4 _Color;\n   16  half _Shininess;\n   ..\n   18  struct Input {\n   19      float2 uv_MainTex;\n   20:     float2 uv_BumpMap;\n   21  };\n   22  \n   ..\n   27      o.Alpha = tex.a * _Color.a;\n   28      o.Specular = _Shininess;\n   29:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   30  }\n   31  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Normal-Parallax.shader:\n    6      _Parallax (\"Height\", Range (0.005, 0.08)) = 0.02\n    7      _MainTex (\"Base (RGB)\", 2D) = \"white\" {}\n    8:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n    9      _ParallaxMap (\"Heightmap (A)\", 2D) = \"black\" {}\n   10  }\n   ..\n   12  CGINCLUDE\n   13  sampler2D _MainTex;\n   14: sampler2D _BumpMap;\n   15  sampler2D _ParallaxMap;\n   16  fixed4 _Color;\n   ..\n   19  struct Input {\n   20      float2 uv_MainTex;\n   21:     float2 uv_BumpMap;\n   22      float3 viewDir;\n   23  };\n   24  \n   25  void surf (Input IN, inout SurfaceOutput o) {\n   26:     half h = tex2D (_ParallaxMap, IN.uv_BumpMap).w;\n   27      float2 offset = ParallaxOffset (h, _Parallax, IN.viewDir);\n   28      IN.uv_MainTex += offset;\n   29:     IN.uv_BumpMap += offset;\n   30  \n   31      fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * _Color;\n   32      o.Albedo = c.rgb;\n   33      o.Alpha = c.a;\n   34:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   35  }\n   36  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Normal-ParallaxSpec.shader:\n    8      _Parallax (\"Height\", Range (0.005, 0.08)) = 0.02\n    9      _MainTex (\"Base (RGB) Gloss (A)\", 2D) = \"white\" {}\n   10:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   11      _ParallaxMap (\"Heightmap (A)\", 2D) = \"black\" {}\n   12  }\n   ..\n   20  \n   21  sampler2D _MainTex;\n   22: sampler2D _BumpMap;\n   23  sampler2D _ParallaxMap;\n   24  fixed4 _Color;\n   ..\n   28  struct Input {\n   29      float2 uv_MainTex;\n   30:     float2 uv_BumpMap;\n   31      float3 viewDir;\n   32  };\n   33  \n   34  void surf (Input IN, inout SurfaceOutput o) {\n   35:     half h = tex2D (_ParallaxMap, IN.uv_BumpMap).w;\n   36      float2 offset = ParallaxOffset (h, _Parallax, IN.viewDir);\n   37      IN.uv_MainTex += offset;\n   38:     IN.uv_BumpMap += offset;\n   39  \n   40      fixed4 tex = tex2D(_MainTex, IN.uv_MainTex);\n   ..\n   43      o.Alpha = tex.a * _Color.a;\n   44      o.Specular = _Shininess;\n   45:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   46  }\n   47  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Particle Standard Surface.shader:\n   15  \n   16          _BumpScale(\"Scale\", Float) = 1.0\n   17:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   18  \n   19          _EmissionColor(\"Color\", Color) = (0,0,0)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Particle Standard Unlit.shader:\n   11  \n   12          _BumpScale(\"Scale\", Float) = 1.0\n   13:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   14  \n   15          _EmissionColor(\"Color\", Color) = (0,0,0)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Reflect-Bumped.shader:\n    7      _MainTex (\"Base (RGB) RefStrength (A)\", 2D) = \"white\" {}\n    8      _Cube (\"Reflection Cubemap\", Cube) = \"_Skybox\" { }\n    9:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   10  }\n   11  \n   ..\n   19  \n   20  sampler2D _MainTex;\n   21: sampler2D _BumpMap;\n   22  samplerCUBE _Cube;\n   23  \n   ..\n   27  struct Input {\n   28      float2 uv_MainTex;\n   29:     float2 uv_BumpMap;\n   30      float3 worldRefl;\n   31      INTERNAL_DATA\n   ..\n   37      o.Albedo = c.rgb;\n   38  \n   39:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   40  \n   41      float3 worldRefl = WorldReflectionVector (IN, o.Normal);\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Reflect-BumpNolight.shader:\n    7      _MainTex (\"Base (RGB), RefStrength (A)\", 2D) = \"white\" {}\n    8      _Cube (\"Reflection Cubemap\", Cube) = \"\" {}\n    9:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   10  }\n   11  \n   ..\n   38  };\n   39  \n   40: uniform float4 _MainTex_ST, _BumpMap_ST;\n   41  \n   42  v2f vert(appdata_tan v)\n   ..\n   47      o.pos = UnityObjectToClipPos(v.vertex);\n   48      o.uv = TRANSFORM_TEX(v.texcoord,_MainTex);\n   49:     o.uv2 = TRANSFORM_TEX(v.texcoord,_BumpMap);\n   50  \n   51      o.I = -WorldSpaceViewDir( v.vertex );\n   ..\n   62  }\n   63  \n   64: uniform sampler2D _BumpMap;\n   65  uniform sampler2D _MainTex;\n   66  uniform samplerCUBE _Cube;\n   ..\n   71  {\n   72      // Sample and expand the normal map texture\n   73:     fixed3 normal = UnpackNormal(tex2D(_BumpMap, i.uv2));\n   74  \n   75      fixed4 texcol = tex2D(_MainTex,i.uv);\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Reflect-BumpSpec.shader:\n    9      _MainTex (\"Base (RGB) RefStrGloss (A)\", 2D) = \"white\" {}\n   10      _Cube (\"Reflection Cubemap\", Cube) = \"\" {}\n   11:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   12  }\n   13  \n   ..\n   20  \n   21  sampler2D _MainTex;\n   22: sampler2D _BumpMap;\n   23  samplerCUBE _Cube;\n   24  \n   ..\n   29  struct Input {\n   30      float2 uv_MainTex;\n   31:     float2 uv_BumpMap;\n   32      float3 worldRefl;\n   33      INTERNAL_DATA\n   ..\n   42      o.Specular = _Shininess;\n   43  \n   44:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   45  \n   46      float3 worldRefl = WorldReflectionVector (IN, o.Normal);\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Reflect-BumpVertexLit.shader:\n    9      _MainTex (\"Base (RGB) RefStrength (A)\", 2D) = \"white\" {}\n   10      _Cube (\"Reflection Cubemap\", Cube) = \"\" {}\n   11:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   12  }\n   13  \n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Reflect-Parallax.shader:\n    8      _MainTex (\"Base (RGB) RefStrength (A)\", 2D) = \"white\" {}\n    9      _Cube (\"Reflection Cubemap\", Cube) = \"_Skybox\" {}\n   10:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   11      _ParallaxMap (\"Heightmap (A)\", 2D) = \"black\" {}\n   12  }\n   ..\n   20  \n   21  sampler2D _MainTex;\n   22: sampler2D _BumpMap;\n   23  samplerCUBE _Cube;\n   24  sampler2D _ParallaxMap;\n   ..\n   30  struct Input {\n   31      float2 uv_MainTex;\n   32:     float2 uv_BumpMap;\n   33      float3 worldRefl;\n   34      float3 viewDir;\n   ..\n   37  \n   38  void surf (Input IN, inout SurfaceOutput o) {\n   39:     half h = tex2D (_ParallaxMap, IN.uv_BumpMap).w;\n   40      float2 offset = ParallaxOffset (h, _Parallax, IN.viewDir);\n   41      IN.uv_MainTex += offset;\n   42:     IN.uv_BumpMap += offset;\n   43  \n   44      fixed4 tex = tex2D(_MainTex, IN.uv_MainTex);\n   ..\n   46      o.Albedo = c.rgb;\n   47  \n   48:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   49  \n   50      float3 worldRefl = WorldReflectionVector (IN, o.Normal);\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Reflect-ParallaxSpec.shader:\n   10      _MainTex (\"Base (RGB) Gloss (A)\", 2D) = \"white\" { }\n   11      _Cube (\"Reflection Cubemap\", Cube) = \"_Skybox\" {}\n   12:     _BumpMap (\"Normalmap\", 2D) = \"bump\" { }\n   13      _ParallaxMap (\"Heightmap (A)\", 2D) = \"black\" {}\n   14  }\n   ..\n   22  \n   23  sampler2D _MainTex;\n   24: sampler2D _BumpMap;\n   25  samplerCUBE _Cube;\n   26  sampler2D _ParallaxMap;\n   ..\n   33  struct Input {\n   34      float2 uv_MainTex;\n   35:     float2 uv_BumpMap;\n   36      float3 worldRefl;\n   37      float3 viewDir;\n   ..\n   40  \n   41  void surf (Input IN, inout SurfaceOutput o) {\n   42:     half h = tex2D (_ParallaxMap, IN.uv_BumpMap).w;\n   43      float2 offset = ParallaxOffset (h, _Parallax, IN.viewDir);\n   44      IN.uv_MainTex += offset;\n   45:     IN.uv_BumpMap += offset;\n   46  \n   47      fixed4 tex = tex2D(_MainTex, IN.uv_MainTex);\n   ..\n   50      o.Specular = _Shininess;\n   51  \n   52:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   53  \n   54      float3 worldRefl = WorldReflectionVector (IN, o.Normal);\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Standard.shader:\n   21  \n   22          _BumpScale(\"Scale\", Float) = 1.0\n   23:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   24  \n   25          _Parallax (\"Height Scale\", Range (0.005, 0.08)) = 0.02\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\StandardRoughness.shader:\n   20  \n   21          _BumpScale(\"Scale\", Float) = 1.0\n   22:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   23  \n   24          _Parallax (\"Height Scale\", Range (0.005, 0.08)) = 0.02\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\StandardSpecular.shader:\n   20  \n   21          _BumpScale(\"Scale\", Float) = 1.0\n   22:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   23  \n   24          _Parallax (\"Height Scale\", Range (0.005, 0.08)) = 0.02\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\Editor\\StandardParticlesShaderGUI.cs:\n  103          MaterialProperty smoothness = null;\n  104          MaterialProperty bumpScale = null;\n  105:         MaterialProperty bumpMap = null;\n  106          MaterialProperty emissionEnabled = null;\n  107          MaterialProperty emissionColorForRendering = null;\n  ...\n  136              smoothness = FindProperty(\"_Glossiness\", props, false);\n  137              bumpScale = FindProperty(\"_BumpScale\", props);\n  138:             bumpMap = FindProperty(\"_BumpMap\", props);\n  139              emissionEnabled = FindProperty(\"_EmissionEnabled\", props);\n  140              emissionColorForRendering = FindProperty(\"_EmissionColor\", props);\n  ...\n  468              if (useLighting || useDistortion)\n  469              {\n  470:                 m_MaterialEditor.TexturePropertySingleLine(Styles.normalMapText, bumpMap, bumpMap.textureValue != null ? bumpScale : null);\n  471              }\n  472          }\n  ...\n  477              bool useLighting = (material.GetFloat(\"_LightingEnabled\") > 0.0f);\n  478              bool useFlipbookBlending = (material.GetFloat(\"_FlipbookMode\") > 0.0f);\n  479:             bool useTangents = material.GetTexture(\"_BumpMap\") && useLighting;\n  480              bool useGPUInstancing = ShaderUtil.HasProceduralInstancing(material.shader);\n  481  \n  ...\n  710              // (MaterialProperty value might come from renderer material property block)\n  711              bool useDistortion = (material.GetFloat(\"_DistortionEnabled\") > 0.0f) && !hasZWrite;\n  712:             SetKeyword(material, \"_NORMALMAP\", material.GetTexture(\"_BumpMap\") && (useLighting || useDistortion));\n  713              SetKeyword(material, \"_METALLICGLOSSMAP\", (material.GetTexture(\"_MetallicGlossMap\") != null) && useLighting);\n  714  \n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\Editor\\StandardRoughnessShaderGUI.cs:\n   53          MaterialProperty reflections = null;\n   54          MaterialProperty bumpScale = null;\n   55:         MaterialProperty bumpMap = null;\n   56          MaterialProperty occlusionStrength = null;\n   57          MaterialProperty occlusionMap = null;\n   ..\n   83              reflections = FindProperty(\"_GlossyReflections\", props, false);\n   84              bumpScale = FindProperty(\"_BumpScale\", props);\n   85:             bumpMap = FindProperty(\"_BumpMap\", props);\n   86              heigtMapScale = FindProperty(\"_Parallax\", props);\n   87              heightMap = FindProperty(\"_ParallaxMap\", props);\n   ..\n  130                  m_MaterialEditor.TexturePropertySingleLine(Styles.metallicMapText, metallicMap, metallicMap.textureValue != null ? null : metallic);\n  131                  m_MaterialEditor.TexturePropertySingleLine(Styles.roughnessText, roughnessMap, roughnessMap.textureValue != null ? null : roughness);\n  132:                 m_MaterialEditor.TexturePropertySingleLine(Styles.normalMapText, bumpMap, bumpMap.textureValue != null ? bumpScale : null);\n  133                  m_MaterialEditor.TexturePropertySingleLine(Styles.heightMapText, heightMap, heightMap.textureValue != null ? heigtMapScale : null);\n  134                  m_MaterialEditor.TexturePropertySingleLine(Styles.occlusionText, occlusionMap, occlusionMap.textureValue != null ? occlusionStrength : null);\n  ...\n  299              // Note: keywords must be based on Material value not on MaterialProperty due to multi-edit & material animation\n  300              // (MaterialProperty value might come from renderer material property block)\n  301:             SetKeyword(material, \"_NORMALMAP\", material.GetTexture(\"_BumpMap\") || material.GetTexture(\"_DetailNormalMap\"));\n  302              SetKeyword(material, \"_SPECGLOSSMAP\", material.GetTexture(\"_SpecGlossMap\"));\n  303              SetKeyword(material, \"_METALLICGLOSSMAP\", material.GetTexture(\"_MetallicGlossMap\"));\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\Editor\\StandardShaderGUI.cs:\n   72          MaterialProperty reflections = null;\n   73          MaterialProperty bumpScale = null;\n   74:         MaterialProperty bumpMap = null;\n   75          MaterialProperty occlusionStrength = null;\n   76          MaterialProperty occlusionMap = null;\n   ..\n  112              reflections = FindProperty(\"_GlossyReflections\", props, false);\n  113              bumpScale = FindProperty(\"_BumpScale\", props);\n  114:             bumpMap = FindProperty(\"_BumpMap\", props);\n  115              heigtMapScale = FindProperty(\"_Parallax\", props);\n  116              heightMap = FindProperty(\"_ParallaxMap\", props);\n  ...\n  260          void DoNormalArea()\n  261          {\n  262:             m_MaterialEditor.TexturePropertySingleLine(Styles.normalMapText, bumpMap, bumpMap.textureValue != null ? bumpScale : null);\n  263              if (bumpScale.floatValue != 1 && UnityEditorInternal.InternalEditorUtility.IsMobilePlatform(EditorUserBuildSettings.activeBuildTarget))\n  264                  if (m_MaterialEditor.HelpBoxWithButton(\n  ...\n  389              // Note: keywords must be based on Material value not on MaterialProperty due to multi-edit & material animation\n  390              // (MaterialProperty value might come from renderer material property block)\n  391:             SetKeyword(material, \"_NORMALMAP\", material.GetTexture(\"_BumpMap\") || material.GetTexture(\"_DetailNormalMap\"));\n  392              if (workflowMode == WorkflowMode.Specular)\n  393                  SetKeyword(material, \"_SPECGLOSSMAP\", material.GetTexture(\"_SpecGlossMap\"));\n\n167 matches across 40 files\n\n\nSearching 222 files for \"_BumpMap\" (whole word)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\CGIncludes\\SpeedTreeCommon.cginc:\n   46  \n   47  #if defined(EFFECT_BUMP) && !defined(LIGHTMAP_ON)\n   48:     sampler2D _BumpMap;\n   49  #endif\n   50  \n   ..\n  132              OUT.Normal = fixed3(0,0,1);\n  133          #else\n  134:             OUT.Normal = UnpackNormal(tex2D(_BumpMap, IN.mainTexUV));\n  135              #ifdef GEOM_TYPE_BRANCH_DETAIL\n  136:                 half3 detailNormal = UnpackNormal(tex2D(_BumpMap, IN.Detail.xy));\n  137                  OUT.Normal = lerp(OUT.Normal, detailNormal, IN.Detail.z < 2.0f ? saturate(IN.Detail.z) : detailColor.a);\n  138              #endif\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\CGIncludes\\UnityStandardInput.cginc:\n   29  float4      _DetailAlbedoMap_ST;\n   30  \n   31: sampler2D   _BumpMap;\n   32  half        _BumpScale;\n   33  \n   ..\n  203  half3 NormalInTangentSpace(float4 texcoords)\n  204  {\n  205:     half3 normalTangent = UnpackScaleNormal(tex2D (_BumpMap, texcoords.xy), _BumpScale);\n  206  \n  207  #if _DETAIL && defined(UNITY_ENABLE_DETAIL_NORMALMAP)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\CGIncludes\\UnityStandardParticles.cginc:\n  116  float4 _MainTex_ST;\n  117  half4 _Color;\n  118: sampler2D _BumpMap;\n  119  half _BumpScale;\n  120  sampler2D _EmissionMap;\n  ...\n  297  \n  298      #if defined(_NORMALMAP)\n  299:     float3 normal = normalize (UnpackScaleNormal (readTexture (_BumpMap, IN), _BumpScale));\n  300      #else\n  301      float3 normal = float3(0,0,1);\n  ...\n  361  \n  362      #if defined(_NORMALMAP)\n  363:     float3 normal = normalize (UnpackScaleNormal (readTexture (_BumpMap, IN), _BumpScale));\n  364      #else\n  365      float3 normal = float3(0,0,1);\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Alpha-Bumped.shader:\n    5      _Color (\"Main Color\", Color) = (1,1,1,1)\n    6      _MainTex (\"Base (RGB) Trans (A)\", 2D) = \"white\" {}\n    7:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n    8  }\n    9  \n   ..\n   16  \n   17  sampler2D _MainTex;\n   18: sampler2D _BumpMap;\n   19  fixed4 _Color;\n   20  \n   ..\n   28      o.Albedo = c.rgb;\n   29      o.Alpha = c.a;\n   30:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   31  }\n   32  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Alpha-BumpSpec.shader:\n    7      _Shininess (\"Shininess\", Range (0.01, 1)) = 0.078125\n    8      _MainTex (\"Base (RGB) TransGloss (A)\", 2D) = \"white\" {}\n    9:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   10  }\n   11  \n   ..\n   19  \n   20  sampler2D _MainTex;\n   21: sampler2D _BumpMap;\n   22  fixed4 _Color;\n   23  half _Shininess;\n   ..\n   34      o.Alpha = tex.a * _Color.a;\n   35      o.Specular = _Shininess;\n   36:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   37  }\n   38  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Alpha-Parallax.shader:\n    6      _Parallax (\"Height\", Range (0.005, 0.08)) = 0.02\n    7      _MainTex (\"Base (RGB) Trans (A)\", 2D) = \"white\" {}\n    8:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n    9      _ParallaxMap (\"Heightmap (A)\", 2D) = \"black\" {}\n   10  }\n   ..\n   18  \n   19  sampler2D _MainTex;\n   20: sampler2D _BumpMap;\n   21  sampler2D _ParallaxMap;\n   22  fixed4 _Color;\n   ..\n   38      o.Albedo = c.rgb;\n   39      o.Alpha = c.a;\n   40:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   41  }\n   42  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Alpha-ParallaxSpec.shader:\n    8      _Parallax (\"Height\", Range (0.005, 0.08)) = 0.02\n    9      _MainTex (\"Base (RGB) TransGloss (A)\", 2D) = \"white\" {}\n   10:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   11      _ParallaxMap (\"Heightmap (A)\", 2D) = \"black\" {}\n   12  }\n   ..\n   21  \n   22  sampler2D _MainTex;\n   23: sampler2D _BumpMap;\n   24  sampler2D _ParallaxMap;\n   25  fixed4 _Color;\n   ..\n   44      o.Alpha = tex.a * _Color.a;\n   45      o.Specular = _Shininess;\n   46:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   47  }\n   48  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\AlphaTest-Bumped.shader:\n    5      _Color (\"Main Color\", Color) = (1,1,1,1)\n    6      _MainTex (\"Base (RGB) Trans (A)\", 2D) = \"white\" {}\n    7:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n    8      _Cutoff (\"Alpha cutoff\", Range(0,1)) = 0.5\n    9  }\n   ..\n   17  \n   18  sampler2D _MainTex;\n   19: sampler2D _BumpMap;\n   20  fixed4 _Color;\n   21  \n   ..\n   29      o.Albedo = c.rgb;\n   30      o.Alpha = c.a;\n   31:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   32  }\n   33  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\AlphaTest-BumpSpec.shader:\n    7      _Shininess (\"Shininess\", Range (0.01, 1)) = 0.078125\n    8      _MainTex (\"Base (RGB) TransGloss (A)\", 2D) = \"white\" {}\n    9:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   10      _Cutoff (\"Alpha cutoff\", Range(0,1)) = 0.5\n   11  }\n   ..\n   20  \n   21  sampler2D _MainTex;\n   22: sampler2D _BumpMap;\n   23  fixed4 _Color;\n   24  half _Shininess;\n   ..\n   35      o.Alpha = tex.a * _Color.a;\n   36      o.Specular = _Shininess;\n   37:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   38  }\n   39  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Illumin-Bumped.shader:\n    6      _MainTex (\"Base (RGB)\", 2D) = \"white\" {}\n    7      _Illum (\"Illumin (A)\", 2D) = \"white\" {}\n    8:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n    9      _Emission (\"Emission (Lightmapper)\", Float) = 1.0\n   10  }\n   ..\n   12  CGINCLUDE\n   13  sampler2D _MainTex;\n   14: sampler2D _BumpMap;\n   15  sampler2D _Illum;\n   16  fixed4 _Color;\n   ..\n   32  #endif\n   33      o.Alpha = c.a;\n   34:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   35  }\n   36  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Illumin-BumpSpec.shader:\n    8      _MainTex (\"Base (RGB) Gloss (A)\", 2D) = \"white\" {}\n    9      _Illum (\"Illumin (A)\", 2D) = \"white\" {}\n   10:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   11      _Emission (\"Emission (Lightmapper)\", Float) = 1.0\n   12  }\n   ..\n   19  \n   20  sampler2D _MainTex;\n   21: sampler2D _BumpMap;\n   22  sampler2D _Illum;\n   23  fixed4 _Color;\n   ..\n   42      o.Alpha = c.a;\n   43      o.Specular = _Shininess;\n   44:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   45  }\n   46  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Illumin-Parallax.shader:\n    7      _MainTex (\"Base (RGB)\", 2D) = \"white\" {}\n    8      _Illum (\"Illumin (A)\", 2D) = \"white\" {}\n    9:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   10      _ParallaxMap (\"Heightmap (A)\", 2D) = \"black\" {}\n   11      _Emission (\"Emission (Lightmapper)\", Float) = 1.0\n   ..\n   20  \n   21  sampler2D _MainTex;\n   22: sampler2D _BumpMap;\n   23  sampler2D _ParallaxMap;\n   24  sampler2D _Illum;\n   ..\n   48  #endif\n   49      o.Alpha = c.a;\n   50:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   51  }\n   52  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Illumin-ParallaxSpec.shader:\n    9      _MainTex (\"Base (RGB) Gloss (A)\", 2D) = \"white\" {}\n   10      _Illum (\"Illumin (A)\", 2D) = \"white\" {}\n   11:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   12      _ParallaxMap (\"Heightmap (A)\", 2D) = \"black\" {}\n   13      _Emission (\"Emission (Lightmapper)\", Float) = 1.0\n   ..\n   22  \n   23  sampler2D _MainTex;\n   24: sampler2D _BumpMap;\n   25  sampler2D _ParallaxMap;\n   26  sampler2D _Illum;\n   ..\n   54      o.Specular = _Shininess;\n   55      o.Alpha = c.a;\n   56:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   57  }\n   58  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Lightmap-Bumped.shader:\n    5      _Color (\"Main Color\", Color) = (1,1,1,1)\n    6      _MainTex (\"Base (RGB)\", 2D) = \"white\" {}\n    7:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n    8      _LightMap (\"Lightmap (RGB)\", 2D) = \"black\" {}\n    9  }\n   ..\n   20  };\n   21  sampler2D _MainTex;\n   22: sampler2D _BumpMap;\n   23  sampler2D _LightMap;\n   24  fixed4 _Color;\n   ..\n   29    o.Emission = lm.rgb*o.Albedo.rgb;\n   30    o.Alpha = lm.a * _Color.a;\n   31:   o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   32  }\n   33  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Lightmap-BumpSpec.shader:\n    7          _Shininess (\"Shininess\", Range (0.01, 1)) = 0.078125\n    8          _MainTex (\"Base (RGB) Gloss (A)\", 2D) = \"white\" {}\n    9:         _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   10          _LightMap (\"Lightmap (RGB)\", 2D) = \"lightmap\" { LightmapMode }\n   11      }\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Mobile\\Mobile-Bumped.shader:\n    9  Properties {\n   10      _MainTex (\"Base (RGB)\", 2D) = \"white\" {}\n   11:     [NoScaleOffset] _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   12  }\n   13  \n   ..\n   20  \n   21  sampler2D _MainTex;\n   22: sampler2D _BumpMap;\n   23  \n   24  struct Input {\n   ..\n   30      o.Albedo = c.rgb;\n   31      o.Alpha = c.a;\n   32:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_MainTex));\n   33  }\n   34  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Mobile\\Mobile-BumpSpec-1DirectionalLight.shader:\n   14      _Shininess (\"Shininess\", Range (0.03, 1)) = 0.078125\n   15      _MainTex (\"Base (RGB) Gloss (A)\", 2D) = \"white\" {}\n   16:     [NoScaleOffset] _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   17  }\n   18  SubShader {\n   ..\n   36  \n   37  sampler2D _MainTex;\n   38: sampler2D _BumpMap;\n   39  half _Shininess;\n   40  \n   ..\n   49      o.Alpha = tex.a;\n   50      o.Specular = _Shininess;\n   51:     o.Normal = UnpackNormal (tex2D(_BumpMap, IN.uv_MainTex));\n   52  }\n   53  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Mobile\\Mobile-BumpSpec.shader:\n   14      _Shininess (\"Shininess\", Range (0.03, 1)) = 0.078125\n   15      _MainTex (\"Base (RGB) Gloss (A)\", 2D) = \"white\" {}\n   16:     [NoScaleOffset] _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   17  }\n   18  SubShader {\n   ..\n   36  \n   37  sampler2D _MainTex;\n   38: sampler2D _BumpMap;\n   39  half _Shininess;\n   40  \n   ..\n   49      o.Alpha = tex.a;\n   50      o.Specular = _Shininess;\n   51:     o.Normal = UnpackNormal (tex2D(_BumpMap, IN.uv_MainTex));\n   52  }\n   53  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Nature\\SpeedTree.shader:\n    9          _MainTex (\"Base (RGB) Trans (A)\", 2D) = \"white\" {}\n   10          _DetailTex (\"Detail\", 2D) = \"black\" {}\n   11:         _BumpMap (\"Normal Map\", 2D) = \"bump\" {}\n   12          _Cutoff (\"Alpha Cutoff\", Range(0,1)) = 0.333\n   13          [MaterialEnum(Off,0,Front,1,Back,2)] _Cull (\"Cull\", Int) = 2\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Nature\\SpeedTreeBillboard.shader:\n    8          _HueVariation (\"Hue Variation\", Color) = (1.0,0.5,0.0,0.1)\n    9          _MainTex (\"Base (RGB)\", 2D) = \"white\" {}\n   10:         _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   11          _Cutoff (\"Alpha cutoff\", Range(0,1)) = 0.5\n   12          [MaterialEnum(None,0,Fastest,1)] _WindQuality (\"Wind Quality\", Range(0,1)) = 0\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Nature\\TreeCreator\\TreeCreatorBark.shader:\n    6      _Shininess (\"Shininess\", Range (0.01, 1)) = 0.078125\n    7      _MainTex (\"Base (RGB) Alpha (A)\", 2D) = \"white\" {}\n    8:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n    9      _GlossMap (\"Gloss (A)\", 2D) = \"black\" {}\n   10  \n   ..\n   25  \n   26  sampler2D _MainTex;\n   27: sampler2D _BumpMap;\n   28  sampler2D _GlossMap;\n   29  half _Shininess;\n   ..\n   40      o.Alpha = c.a;\n   41      o.Specular = _Shininess;\n   42:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_MainTex));\n   43  }\n   44  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Nature\\TreeCreator\\TreeCreatorLeaves.shader:\n    6      _Shininess (\"Shininess\", Range (0.01, 1)) = 0.078125\n    7      _MainTex (\"Base (RGB) Alpha (A)\", 2D) = \"white\" {}\n    8:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n    9      _GlossMap (\"Gloss (A)\", 2D) = \"black\" {}\n   10      _TranslucencyMap (\"Translucency (A)\", 2D) = \"white\" {}\n   ..\n   27  \n   28  sampler2D _MainTex;\n   29: sampler2D _BumpMap;\n   30  sampler2D _GlossMap;\n   31  sampler2D _TranslucencyMap;\n   ..\n   44      o.Alpha = c.a;\n   45      o.Specular = _Shininess;\n   46:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_MainTex));\n   47  }\n   48  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Normal-Bumped.shader:\n    5      _Color (\"Main Color\", Color) = (1,1,1,1)\n    6      _MainTex (\"Base (RGB)\", 2D) = \"white\" {}\n    7:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n    8  }\n    9  \n   ..\n   16  \n   17  sampler2D _MainTex;\n   18: sampler2D _BumpMap;\n   19  fixed4 _Color;\n   20  \n   ..\n   28      o.Albedo = c.rgb;\n   29      o.Alpha = c.a;\n   30:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   31  }\n   32  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Normal-BumpSpec.shader:\n    7      _Shininess (\"Shininess\", Range (0.03, 1)) = 0.078125\n    8      _MainTex (\"Base (RGB) Gloss (A)\", 2D) = \"white\" {}\n    9:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   10  }\n   11  \n   12  CGINCLUDE\n   13  sampler2D _MainTex;\n   14: sampler2D _BumpMap;\n   15  fixed4 _Color;\n   16  half _Shininess;\n   ..\n   27      o.Alpha = tex.a * _Color.a;\n   28      o.Specular = _Shininess;\n   29:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   30  }\n   31  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Normal-Parallax.shader:\n    6      _Parallax (\"Height\", Range (0.005, 0.08)) = 0.02\n    7      _MainTex (\"Base (RGB)\", 2D) = \"white\" {}\n    8:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n    9      _ParallaxMap (\"Heightmap (A)\", 2D) = \"black\" {}\n   10  }\n   ..\n   12  CGINCLUDE\n   13  sampler2D _MainTex;\n   14: sampler2D _BumpMap;\n   15  sampler2D _ParallaxMap;\n   16  fixed4 _Color;\n   ..\n   32      o.Albedo = c.rgb;\n   33      o.Alpha = c.a;\n   34:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   35  }\n   36  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Normal-ParallaxSpec.shader:\n    8      _Parallax (\"Height\", Range (0.005, 0.08)) = 0.02\n    9      _MainTex (\"Base (RGB) Gloss (A)\", 2D) = \"white\" {}\n   10:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   11      _ParallaxMap (\"Heightmap (A)\", 2D) = \"black\" {}\n   12  }\n   ..\n   20  \n   21  sampler2D _MainTex;\n   22: sampler2D _BumpMap;\n   23  sampler2D _ParallaxMap;\n   24  fixed4 _Color;\n   ..\n   43      o.Alpha = tex.a * _Color.a;\n   44      o.Specular = _Shininess;\n   45:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   46  }\n   47  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Particle Standard Surface.shader:\n   15  \n   16          _BumpScale(\"Scale\", Float) = 1.0\n   17:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   18  \n   19          _EmissionColor(\"Color\", Color) = (0,0,0)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Particle Standard Unlit.shader:\n   11  \n   12          _BumpScale(\"Scale\", Float) = 1.0\n   13:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   14  \n   15          _EmissionColor(\"Color\", Color) = (0,0,0)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Reflect-Bumped.shader:\n    7      _MainTex (\"Base (RGB) RefStrength (A)\", 2D) = \"white\" {}\n    8      _Cube (\"Reflection Cubemap\", Cube) = \"_Skybox\" { }\n    9:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   10  }\n   11  \n   ..\n   19  \n   20  sampler2D _MainTex;\n   21: sampler2D _BumpMap;\n   22  samplerCUBE _Cube;\n   23  \n   ..\n   37      o.Albedo = c.rgb;\n   38  \n   39:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   40  \n   41      float3 worldRefl = WorldReflectionVector (IN, o.Normal);\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Reflect-BumpNolight.shader:\n    7      _MainTex (\"Base (RGB), RefStrength (A)\", 2D) = \"white\" {}\n    8      _Cube (\"Reflection Cubemap\", Cube) = \"\" {}\n    9:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   10  }\n   11  \n   ..\n   47      o.pos = UnityObjectToClipPos(v.vertex);\n   48      o.uv = TRANSFORM_TEX(v.texcoord,_MainTex);\n   49:     o.uv2 = TRANSFORM_TEX(v.texcoord,_BumpMap);\n   50  \n   51      o.I = -WorldSpaceViewDir( v.vertex );\n   ..\n   62  }\n   63  \n   64: uniform sampler2D _BumpMap;\n   65  uniform sampler2D _MainTex;\n   66  uniform samplerCUBE _Cube;\n   ..\n   71  {\n   72      // Sample and expand the normal map texture\n   73:     fixed3 normal = UnpackNormal(tex2D(_BumpMap, i.uv2));\n   74  \n   75      fixed4 texcol = tex2D(_MainTex,i.uv);\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Reflect-BumpSpec.shader:\n    9      _MainTex (\"Base (RGB) RefStrGloss (A)\", 2D) = \"white\" {}\n   10      _Cube (\"Reflection Cubemap\", Cube) = \"\" {}\n   11:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   12  }\n   13  \n   ..\n   20  \n   21  sampler2D _MainTex;\n   22: sampler2D _BumpMap;\n   23  samplerCUBE _Cube;\n   24  \n   ..\n   42      o.Specular = _Shininess;\n   43  \n   44:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   45  \n   46      float3 worldRefl = WorldReflectionVector (IN, o.Normal);\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Reflect-BumpVertexLit.shader:\n    9      _MainTex (\"Base (RGB) RefStrength (A)\", 2D) = \"white\" {}\n   10      _Cube (\"Reflection Cubemap\", Cube) = \"\" {}\n   11:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   12  }\n   13  \n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Reflect-Parallax.shader:\n    8      _MainTex (\"Base (RGB) RefStrength (A)\", 2D) = \"white\" {}\n    9      _Cube (\"Reflection Cubemap\", Cube) = \"_Skybox\" {}\n   10:     _BumpMap (\"Normalmap\", 2D) = \"bump\" {}\n   11      _ParallaxMap (\"Heightmap (A)\", 2D) = \"black\" {}\n   12  }\n   ..\n   20  \n   21  sampler2D _MainTex;\n   22: sampler2D _BumpMap;\n   23  samplerCUBE _Cube;\n   24  sampler2D _ParallaxMap;\n   ..\n   46      o.Albedo = c.rgb;\n   47  \n   48:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   49  \n   50      float3 worldRefl = WorldReflectionVector (IN, o.Normal);\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Reflect-ParallaxSpec.shader:\n   10      _MainTex (\"Base (RGB) Gloss (A)\", 2D) = \"white\" { }\n   11      _Cube (\"Reflection Cubemap\", Cube) = \"_Skybox\" {}\n   12:     _BumpMap (\"Normalmap\", 2D) = \"bump\" { }\n   13      _ParallaxMap (\"Heightmap (A)\", 2D) = \"black\" {}\n   14  }\n   ..\n   22  \n   23  sampler2D _MainTex;\n   24: sampler2D _BumpMap;\n   25  samplerCUBE _Cube;\n   26  sampler2D _ParallaxMap;\n   ..\n   50      o.Specular = _Shininess;\n   51  \n   52:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   53  \n   54      float3 worldRefl = WorldReflectionVector (IN, o.Normal);\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Standard.shader:\n   21  \n   22          _BumpScale(\"Scale\", Float) = 1.0\n   23:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   24  \n   25          _Parallax (\"Height Scale\", Range (0.005, 0.08)) = 0.02\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\StandardRoughness.shader:\n   20  \n   21          _BumpScale(\"Scale\", Float) = 1.0\n   22:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   23  \n   24          _Parallax (\"Height Scale\", Range (0.005, 0.08)) = 0.02\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\StandardSpecular.shader:\n   20  \n   21          _BumpScale(\"Scale\", Float) = 1.0\n   22:         _BumpMap(\"Normal Map\", 2D) = \"bump\" {}\n   23  \n   24          _Parallax (\"Height Scale\", Range (0.005, 0.08)) = 0.02\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\Editor\\StandardParticlesShaderGUI.cs:\n  136              smoothness = FindProperty(\"_Glossiness\", props, false);\n  137              bumpScale = FindProperty(\"_BumpScale\", props);\n  138:             bumpMap = FindProperty(\"_BumpMap\", props);\n  139              emissionEnabled = FindProperty(\"_EmissionEnabled\", props);\n  140              emissionColorForRendering = FindProperty(\"_EmissionColor\", props);\n  ...\n  477              bool useLighting = (material.GetFloat(\"_LightingEnabled\") > 0.0f);\n  478              bool useFlipbookBlending = (material.GetFloat(\"_FlipbookMode\") > 0.0f);\n  479:             bool useTangents = material.GetTexture(\"_BumpMap\") && useLighting;\n  480              bool useGPUInstancing = ShaderUtil.HasProceduralInstancing(material.shader);\n  481  \n  ...\n  710              // (MaterialProperty value might come from renderer material property block)\n  711              bool useDistortion = (material.GetFloat(\"_DistortionEnabled\") > 0.0f) && !hasZWrite;\n  712:             SetKeyword(material, \"_NORMALMAP\", material.GetTexture(\"_BumpMap\") && (useLighting || useDistortion));\n  713              SetKeyword(material, \"_METALLICGLOSSMAP\", (material.GetTexture(\"_MetallicGlossMap\") != null) && useLighting);\n  714  \n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\Editor\\StandardRoughnessShaderGUI.cs:\n   83              reflections = FindProperty(\"_GlossyReflections\", props, false);\n   84              bumpScale = FindProperty(\"_BumpScale\", props);\n   85:             bumpMap = FindProperty(\"_BumpMap\", props);\n   86              heigtMapScale = FindProperty(\"_Parallax\", props);\n   87              heightMap = FindProperty(\"_ParallaxMap\", props);\n   ..\n  299              // Note: keywords must be based on Material value not on MaterialProperty due to multi-edit & material animation\n  300              // (MaterialProperty value might come from renderer material property block)\n  301:             SetKeyword(material, \"_NORMALMAP\", material.GetTexture(\"_BumpMap\") || material.GetTexture(\"_DetailNormalMap\"));\n  302              SetKeyword(material, \"_SPECGLOSSMAP\", material.GetTexture(\"_SpecGlossMap\"));\n  303              SetKeyword(material, \"_METALLICGLOSSMAP\", material.GetTexture(\"_MetallicGlossMap\"));\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\Editor\\StandardShaderGUI.cs:\n  112              reflections = FindProperty(\"_GlossyReflections\", props, false);\n  113              bumpScale = FindProperty(\"_BumpScale\", props);\n  114:             bumpMap = FindProperty(\"_BumpMap\", props);\n  115              heigtMapScale = FindProperty(\"_Parallax\", props);\n  116              heightMap = FindProperty(\"_ParallaxMap\", props);\n  ...\n  389              // Note: keywords must be based on Material value not on MaterialProperty due to multi-edit & material animation\n  390              // (MaterialProperty value might come from renderer material property block)\n  391:             SetKeyword(material, \"_NORMALMAP\", material.GetTexture(\"_BumpMap\") || material.GetTexture(\"_DetailNormalMap\"));\n  392              if (workflowMode == WorkflowMode.Specular)\n  393                  SetKeyword(material, \"_SPECGLOSSMAP\", material.GetTexture(\"_SpecGlossMap\"));\n\n100 matches across 40 files\n\n\nSearching 222 files for \"function UnpackNormal\" (whole word)\n\n0 matches\n\nSearching 222 files for \"UnpackNormal\" (whole word)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\CGIncludes\\SpeedTreeCommon.cginc:\n  132              OUT.Normal = fixed3(0,0,1);\n  133          #else\n  134:             OUT.Normal = UnpackNormal(tex2D(_BumpMap, IN.mainTexUV));\n  135              #ifdef GEOM_TYPE_BRANCH_DETAIL\n  136:                 half3 detailNormal = UnpackNormal(tex2D(_BumpMap, IN.Detail.xy));\n  137                  OUT.Normal = lerp(OUT.Normal, detailNormal, IN.Detail.z < 2.0f ? saturate(IN.Detail.z) : detailColor.a);\n  138              #endif\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\CGIncludes\\TerrainSplatmapCommon.cginc:\n   71          nrm += splat_control.b * tex2D(_Normal2, IN.uv_Splat2);\n   72          nrm += splat_control.a * tex2D(_Normal3, IN.uv_Splat3);\n   73:         mixedNormal = UnpackNormal(nrm);\n   74      #endif\n   75  }\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\CGIncludes\\UnityCG.cginc:\n  680      return normal;\n  681  }\n  682: inline fixed3 UnpackNormal(fixed4 packednormal)\n  683  {\n  684  #if defined(UNITY_NO_DXT5nm)\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Alpha-Bumped.shader:\n   28      o.Albedo = c.rgb;\n   29      o.Alpha = c.a;\n   30:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   31  }\n   32  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Alpha-BumpSpec.shader:\n   34      o.Alpha = tex.a * _Color.a;\n   35      o.Specular = _Shininess;\n   36:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   37  }\n   38  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Alpha-Parallax.shader:\n   38      o.Albedo = c.rgb;\n   39      o.Alpha = c.a;\n   40:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   41  }\n   42  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Alpha-ParallaxSpec.shader:\n   44      o.Alpha = tex.a * _Color.a;\n   45      o.Specular = _Shininess;\n   46:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   47  }\n   48  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\AlphaTest-Bumped.shader:\n   29      o.Albedo = c.rgb;\n   30      o.Alpha = c.a;\n   31:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   32  }\n   33  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\AlphaTest-BumpSpec.shader:\n   35      o.Alpha = tex.a * _Color.a;\n   36      o.Specular = _Shininess;\n   37:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   38  }\n   39  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Illumin-Bumped.shader:\n   32  #endif\n   33      o.Alpha = c.a;\n   34:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   35  }\n   36  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Illumin-BumpSpec.shader:\n   42      o.Alpha = c.a;\n   43      o.Specular = _Shininess;\n   44:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   45  }\n   46  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Illumin-Parallax.shader:\n   48  #endif\n   49      o.Alpha = c.a;\n   50:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   51  }\n   52  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Illumin-ParallaxSpec.shader:\n   54      o.Specular = _Shininess;\n   55      o.Alpha = c.a;\n   56:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   57  }\n   58  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Lightmap-Bumped.shader:\n   29    o.Emission = lm.rgb*o.Albedo.rgb;\n   30    o.Alpha = lm.a * _Color.a;\n   31:   o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   32  }\n   33  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Mobile\\Mobile-Bumped.shader:\n   30      o.Albedo = c.rgb;\n   31      o.Alpha = c.a;\n   32:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_MainTex));\n   33  }\n   34  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Mobile\\Mobile-BumpSpec-1DirectionalLight.shader:\n   49      o.Alpha = tex.a;\n   50      o.Specular = _Shininess;\n   51:     o.Normal = UnpackNormal (tex2D(_BumpMap, IN.uv_MainTex));\n   52  }\n   53  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Mobile\\Mobile-BumpSpec.shader:\n   49      o.Alpha = tex.a;\n   50      o.Specular = _Shininess;\n   51:     o.Normal = UnpackNormal (tex2D(_BumpMap, IN.uv_MainTex));\n   52  }\n   53  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Nature\\TreeCreator\\TreeCreatorBark.shader:\n   40      o.Alpha = c.a;\n   41      o.Specular = _Shininess;\n   42:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_MainTex));\n   43  }\n   44  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Nature\\TreeCreator\\TreeCreatorLeaves.shader:\n   44      o.Alpha = c.a;\n   45      o.Specular = _Shininess;\n   46:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_MainTex));\n   47  }\n   48  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Normal-Bumped.shader:\n   28      o.Albedo = c.rgb;\n   29      o.Alpha = c.a;\n   30:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   31  }\n   32  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Normal-BumpSpec.shader:\n   27      o.Alpha = tex.a * _Color.a;\n   28      o.Specular = _Shininess;\n   29:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   30  }\n   31  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Normal-Parallax.shader:\n   32      o.Albedo = c.rgb;\n   33      o.Alpha = c.a;\n   34:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   35  }\n   36  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Normal-ParallaxSpec.shader:\n   43      o.Alpha = tex.a * _Color.a;\n   44      o.Specular = _Shininess;\n   45:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   46  }\n   47  ENDCG\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Reflect-Bumped.shader:\n   37      o.Albedo = c.rgb;\n   38  \n   39:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   40  \n   41      float3 worldRefl = WorldReflectionVector (IN, o.Normal);\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Reflect-BumpNolight.shader:\n   71  {\n   72      // Sample and expand the normal map texture\n   73:     fixed3 normal = UnpackNormal(tex2D(_BumpMap, i.uv2));\n   74  \n   75      fixed4 texcol = tex2D(_MainTex,i.uv);\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Reflect-BumpSpec.shader:\n   42      o.Specular = _Shininess;\n   43  \n   44:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   45  \n   46      float3 worldRefl = WorldReflectionVector (IN, o.Normal);\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Reflect-Parallax.shader:\n   46      o.Albedo = c.rgb;\n   47  \n   48:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   49  \n   50      float3 worldRefl = WorldReflectionVector (IN, o.Normal);\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\Reflect-ParallaxSpec.shader:\n   50      o.Specular = _Shininess;\n   51  \n   52:     o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));\n   53  \n   54      float3 worldRefl = WorldReflectionVector (IN, o.Normal);\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\UI\\UI-Lit-Bumped.shader:\n   98              {\n   99                  fixed4 col = (tex2D(_MainTex, IN.uv_MainTex) + _TextureSampleAdd) * IN.color;\n  100:                 half3 normal = UnpackNormal(tex2D(_MainBump, IN.uv_MainTex));\n  101  \n  102                  o.Albedo = col.rgb;\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\UI\\UI-Lit-Detail.shader:\n  115                  fixed4 nmMain = tex2D(_MainBump, IN.uv_MainTex);\n  116                  fixed4 nmDetail = tex2D(_DetailBump, IN.uv2_DetailTex);\n  117:                 fixed3 normal = UnpackNormal((nmMain + nmDetail) * 0.5);\n  118  \n  119                  col.rgb = lerp(col.rgb, col.rgb * detail.rgb, detail.a * _Strength);\n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\UI\\UI-Lit-Refraction.shader:\n  125              {\n  126                  fixed4 col = tex2D(_MainTex, IN.texcoord1.xy) + _TextureSampleAdd;\n  127:                 half3 normal = UnpackNormal(tex2D(_MainBump, IN.texcoord1.zw));\n  128                  half3 mask = tex2D(_Mask, IN.texcoord1.xy);\n  129  \n\nC:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1\\DefaultResourcesExtra\\UI\\UI-Lit-RefractionDetail.shader:\n  146                  fixed4 detail = tex2D(_DetailTex, IN.texcoord2.xy);\n  147  \n  148:                 half3 normal = UnpackNormal(tex2D(_MainBump, IN.texcoord1.zw)) +\n  149:                                UnpackNormal(tex2D(_DetailBump, IN.texcoord2.zw));\n  150  \n  151                  half3 mask = tex2D(_Mask, IN.texcoord1.xy) *\n\n34 matches across 32 files\n\n\nSearching 158 files for \"90\" (whole word)\n\nC:\\Work\\personal\\Dark Wind\\Assets\\[game]\\Scripts\\CellEntities\\Units\\CellUnit.cs:\n   75  \t{\n   76  \t\tif (type == EntityType.Friendly)\n   77: \t\t\ttransform.rotation = Quaternion.AngleAxis(90.0f, Vector3.up);\n   78  \t\telse\n   79: \t\t\ttransform.rotation = Quaternion.AngleAxis(-90.0f, Vector3.up);\n   80  \n   81  \t\t_animator = GetComponent<Animator>();\n\nC:\\Work\\personal\\Dark Wind\\Assets\\[game]\\Scripts\\CellEntities\\Units\\Player.cs:\n   12  \t\tbase.Start();\n   13  \n   14: \t\ttransform.rotation = Quaternion.AngleAxis(90.0f, Vector3.up);\n   15  \t}\n   16  \t\n\nC:\\Work\\personal\\Dark Wind\\Assets\\[game]\\Scripts\\Controller_Player.cs:\n   14  \tvoid Start()\n   15  \t{\n   16: \t\t// player.transform.rotation = Quaternion.AngleAxis(90.0f, Vector3.up);\n   17  \t}\n   18  \t\n\n4 matches across 3 files\n\n\nSearching 158 files for \"rigid\" (whole word)\n\n0 matches\n\nSearching 158 files for \"rigid\"\n\nC:\\Work\\personal\\Dark Wind\\Assets\\[game]\\Scripts\\Attacks\\Bolt.cs:\n   28  \tprivate Vector3 _dir;\n   29  \tprivate Collider _collider;\n   30: \tprivate Rigidbody _rigidbody;\n   31  \n   32  \tvoid Start()\n   ..\n   37  \n   38  \t\t_collider = GetComponent<Collider>();\n   39: \t\t_rigidbody = GetComponent<Rigidbody>();\n   40  \t}\n   41  \t\n   ..\n   48  \n   49  \t\t\t// transform.position += _dir * (speed * Time.deltaTime);\n   50: \t\t\t_rigidbody.MovePosition(transform.position + _dir * (speed * Time.deltaTime));\n   51  \t\t}\n   52  \t\telse\n   ..\n   54  \t\t{\n   55  \t\t\t// transform.position += _dir * (speed * Time.deltaTime);\n   56: \t\t\t_rigidbody.MovePosition(transform.position + _dir * (speed * Time.deltaTime));\n   57  \n   58  \t\t\tGameCell cell_min = GLOBAL.game_field.GetCellAtPosition(_collider.bounds.min);\n\nC:\\Work\\personal\\Dark Wind\\Assets\\[game]\\Scripts\\CellEntities\\Terrain\\CellDestructibleTerrain.cs:\n    8  public class CellDestructibleTerrain : CellTerrain\n    9  {\n   10: \tpublic Rigidbody top;\n   11: \tpublic Rigidbody bot;\n   12  \tpublic FractureGroup top_fractured;\n   13  \tpublic FractureGroup bot_fractured;\n\nC:\\Work\\personal\\Dark Wind\\Assets\\[game]\\Scripts\\CellEntities\\Terrain\\Debris.cs:\n    8  public class Debris : MonoBehaviour\n    9  {\n   10: \tprivate Rigidbody _rigidbody;\n   11  \tprivate Collider _collider;\n   12  \n   ..\n   19  \tvoid Start()\n   20  \t{\n   21: \t\t_rigidbody = GetComponent<Rigidbody>();\n   22  \t\t_collider = GetComponent<Collider>();\n   23  \n   ..\n   29  \n   30  \t\t_volume = _base_volume;\n   31: \t\t_rigidbody.mass = _volume;\n   32  \n   33  \t}\n   ..\n   41  \t\t\t_interp = _volume / _base_volume;\n   42  \t\t\ttransform.localScale = _base_scale * _interp;\n   43: \t\t\t_rigidbody.mass = _volume;\n   44  \t\t}\n   45  \t}\n\nC:\\Work\\personal\\Dark Wind\\Assets\\[game]\\Scripts\\CellEntities\\Terrain\\FractureGroup.cs:\n   14  \t\t_lst_debris.Clear();\n   15  \n   16: \t\t// Loop thru the children and retrieve the rigidbodies.\n   17  \t\tfor (int index_child = 0; index_child < transform.childCount; ++index_child)\n   18  \t\t{\n\n15 matches across 4 files\n\n\nSearching 158 files for \"90\"\n\nC:\\Work\\personal\\Dark Wind\\Assets\\[game]\\Scripts\\CellEntities\\Units\\CellUnit.cs:\n   75  \t{\n   76  \t\tif (type == EntityType.Friendly)\n   77: \t\t\ttransform.rotation = Quaternion.AngleAxis(90.0f, Vector3.up);\n   78  \t\telse\n   79: \t\t\ttransform.rotation = Quaternion.AngleAxis(-90.0f, Vector3.up);\n   80  \n   81  \t\t_animator = GetComponent<Animator>();\n\nC:\\Work\\personal\\Dark Wind\\Assets\\[game]\\Scripts\\CellEntities\\Units\\Player.cs:\n   12  \t\tbase.Start();\n   13  \n   14: \t\t// transform.rotation = Quaternion.AngleAxis(90.0f, Vector3.up);\n   15  \t}\n   16  \t\n\nC:\\Work\\personal\\Dark Wind\\Assets\\[game]\\Scripts\\Controller_Player.cs:\n   14  \tvoid Start()\n   15  \t{\n   16: \t\t// player.transform.rotation = Quaternion.AngleAxis(90.0f, Vector3.up);\n   17  \t}\n   18  \t\n\nC:\\Work\\personal\\Dark Wind\\Assets\\PostProcessing\\Editor\\Models\\ColorGradingModelEditor.cs:\n  432              var matrix = GUI.matrix;\n  433              var rect = new Rect(position.x - 10f, position.y, TrackballGroupDrawer.m_Size, TrackballGroupDrawer.m_Size);\n  434:             GUIUtility.RotateAroundPivot(-90f, rect.center);\n  435              GUI.Label(rect, label, FxStyles.centeredMiniLabel);\n  436              GUI.matrix = matrix;\n\nC:\\Work\\personal\\Dark Wind\\Assets\\PostProcessing\\Runtime\\Components\\ColorGradingComponent.cs:\n   46          // An analytical model of chromaticity of the standard illuminant, by Judd et al.\n   47          // http://en.wikipedia.org/wiki/Standard_illuminant#Illuminant_series_D\n   48:         // Slightly modifed to adjust it with the D65 white point (x=0.31271, y=0.32902).\n   49          float StandardIlluminantY(float x)\n   50          {\n\n6 matches across 5 files\n",
+			"settings":
+			{
+				"buffer_size": 92918,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/CellEntities/Units/Player.cs",
+			"settings":
+			{
+				"buffer_size": 1054,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Brent/Downloads/builtin_shaders-2018.1.2f1/DefaultResourcesExtra/Alpha-Bumped.shader",
+			"settings":
+			{
+				"buffer_size": 860,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Robo Clicker/Assets/[game]/Shaders/DepthSprite.shader",
+			"settings":
+			{
+				"buffer_size": 4497,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Brent/Downloads/builtin_shaders-2018.1.2f1/CGIncludes/UnityCG.cginc",
+			"settings":
+			{
+				"buffer_size": 42756,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/GLOBAL.cs",
+			"settings":
+			{
+				"buffer_size": 1521,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/Manager_BattleField.cs",
+			"settings":
+			{
+				"buffer_size": 341,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/UI_Menu.cs",
+			"settings":
+			{
+				"buffer_size": 899,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/UI_Hud.cs",
+			"settings":
+			{
+				"buffer_size": 700,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/UI_System.cs",
+			"settings":
+			{
+				"buffer_size": 355,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/Widgets/SliderVolume.cs",
+			"settings":
+			{
+				"buffer_size": 1341,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/Widgets/ToggleButton.cs",
+			"settings":
+			{
+				"buffer_size": 2115,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/Widgets/Shifter.cs",
+			"settings":
+			{
+				"buffer_size": 7665,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/Widgets/ShifterPips.cs",
+			"settings":
+			{
+				"buffer_size": 2176,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/GameField.cs",
+			"settings":
+			{
+				"buffer_size": 5933,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/CellEntities/Units/CellUnit.cs",
+			"settings":
+			{
+				"buffer_size": 10446,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "project/Assets/Scripts/UI/ui_level_over.cs",
+			"settings":
+			{
+				"buffer_size": 618,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "project/Assets/Scripts/manager_player.cs",
+			"settings":
+			{
+				"buffer_size": 6534,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/Attacks/Attack.cs",
+			"settings":
+			{
+				"buffer_size": 989,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/Projectile.cs",
+			"settings":
+			{
+				"buffer_size": 2521,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/CellEntities/Pathfinding/CellPath.cs",
+			"settings":
+			{
+				"buffer_size": 8965,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/Utils/ProfilingTimer.cs",
+			"settings":
+			{
+				"buffer_size": 666,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/Controller_Player.cs",
+			"settings":
+			{
+				"buffer_size": 1923,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Robo Clicker/Assets/[game]/Shaders/SpriteNormal.shader",
+			"settings":
+			{
+				"buffer_size": 3199,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Robo Clicker/Assets/[game]/Prototype_Sprite_Normal/SpriteNormal.cs",
+			"settings":
+			{
+				"buffer_size": 1133,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "using UnityEngine;\nusing UnityEngine.SceneManagement;\nusing UnityEngine.UI;\nusing System;\nusing System.Collections;\nusing System.Collections.Generic;\n\n[ExecuteInEditMode]\npublic class DepthSprite : MonoBehaviour\n{\n\t[Range(0.0f, 1.0f)]\n\tpublic float shift = 0.0f;\n\tpublic Sprite diffuse_light;\n\tpublic Sprite diffuse_dark;\n\tpublic Texture normal_depth;\n\n\tprivate Renderer _renderer;\n\tprivate MaterialPropertyBlock _block;\n\tprivate int _id_diffuse_light;\n\tprivate int _id_diffuse_dark;\n\tprivate int _id_normal_depth;\n\tprivate int _id_shift;\n\n\tvoid Start()\n\t{\n\t\t_renderer = GetComponent<Renderer>();\n\n\t\t_block = new MaterialPropertyBlock();\n\t\t_id_diffuse_light = Shader.PropertyToID(\"_MainTex\");\n\t\t_id_diffuse_dark = Shader.PropertyToID(\"_DarkTex\");\n\t\t_id_normal_depth = Shader.PropertyToID(\"_NormalTex\");\n\t\t_id_shift = Shader.PropertyToID(\"_Shift\");\n\t}\n\t\n\tvoid Update()\n\t{\n\t\t_block.SetTexture(_id_diffuse_light, diffuse_light.texture);\n\t\t_block.SetTexture(_id_diffuse_dark,  diffuse_dark.texture);\n\t\t_block.SetTexture(_id_normal_depth,  normal_depth);\n\t\t_block.SetFloat(_id_shift,  shift);\n\n\t\t_renderer.SetPropertyBlock(_block);\n\t}\n};",
+			"file": "/C/Work/personal/Robo Clicker/Assets/[game]/Prototype_Sprite_Normal/DepthSprite.cs",
+			"file_size": 1135,
+			"file_write_time": 131738452426842000,
+			"settings":
+			{
+				"buffer_size": 1132,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Robo Clicker/Assets/[game]/Shaders/SpriteLamp.shader",
+			"settings":
+			{
+				"buffer_size": 8394,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/UI_Options_Display.cs",
+			"settings":
+			{
+				"buffer_size": 3149,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Brent/Downloads/builtin_shaders-2018.1.2f1/DefaultResourcesExtra/Sprites-Diffuse.shader",
+			"settings":
+			{
+				"buffer_size": 1922,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Brent/Downloads/builtin_shaders-2018.1.2f1/CGIncludes/UnitySprites.cginc",
+			"settings":
+			{
+				"buffer_size": 2306,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/Assets/Editor/PlayerPrefsEditor.cs",
+			"settings":
+			{
+				"buffer_size": 2285,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/Widgets/PopButton.cs",
+			"settings":
+			{
+				"buffer_size": 5221,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 137.0,
+		"last_filter": "Package Control: insta",
+		"selected_items":
+		[
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Work/personal/Robo Clicker/Assets/[game]/Materials/Sprites/DepthSprite.cs",
+		"/C/Work/personal/Robo Clicker/Assets/Scripts/mine_screen/mine_shaft.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/UI_HUD.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/Widgets/ShifterGen_Resolutions.cs",
+		"/C/Work/personal/Robo Clicker/Assets/Scripts/UI/Widgets/btn_level.cs",
+		"/C/Work/personal/Robo Clicker/Assets/Scripts/UI/Widgets/btn_level_nav.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/Widgets/PopButton.cs",
+		"/C/Work/betty_chen/QiCheBianSe(5.2)/Assets/[app]/Scripts/ColorBar.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/Controller_AI.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/CellEntities/Units/Player.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/CellEntities/Units/CellUnit.cs",
+		"/C/Work/personal/Robo Clicker/Assets/Scripts/UI/Widgets/toggle_slider.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/CellEntities/CellEntity.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/GameCell.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/Controller_Camera.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/CellEntities/Pathfinding/CellPathNode.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/Attacks/Bolt.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/Particles/DarkSmokeLine.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Shaders/DarkTide.shader",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/ParticleLightsDimmer.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/Scriptables/CellColumn.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/Scriptables/CellStack.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/CellEntities/Terrain/CellTerrain.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/CellEntities/Terrain/CellDestructibleTerrain.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/CellEntities/Terrain/FractureGroup.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/CellEntities/Terrain/Debris.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/Widgets/UIParticleSystem.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/Widgets/GraphicTinter.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/Utils/SortingLayer.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/SortingLayer.cs",
+		"/C/Work/gvt_git/project/Assets/Scripts/UI/Widgets/tog_unit_select.cs",
+		"/C/Work/gvt_git/project/Assets/Scripts/manager_player.cs",
+		"/D/Games/Junk/Accidental_Woman_080/AW_v0-08-0_[public].html",
+		"/C/Users/Brent/AppData/Local/Temp/7zO8A6C7ECF/Institute_Bonus!.txt",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/Attacks/ActiveAttack.cs",
+		"/C/Users/Brent/Downloads/modeler.sdf",
+		"/D/Riot Games/League of Legends/Config/PersistedSettings.danny.json",
+		"/D/Riot Games/League of Legends/Config/PersistedSettings.json",
+		"/D/Riot Games/League of Legends/Config/input.ini",
+		"/D/Riot Games/League of Legends/Config/PerksPreferences.yaml",
+		"/C/Work/personal/Dark Wind/Assets/[game]/DataSets/CellStack.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/CellEntities/Units/Unit.cs",
+		"/C/Work/gvt_git/project/Assets/Scripts/game_field.cs",
+		"/C/Work/gvt_git/project/Assets/Scripts/game_cell.cs",
+		"/C/Work/gvt_git/project/Assets/Scripts/Units/unit.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/Units/Unit.cs",
+		"/C/Work/gvt_git/project/Assets/Scripts/GLOBAL.cs",
+		"/C/Work/personal/Dark Wind/Assets/[game]/Scripts/CellObject.cs",
+		"/C/Work/personal/[resources]/unity_customizing_script_templates/[how_to].txt",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/ControllerAI.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/ControllerPlayer.cs",
+		"/C/Work/personal/Robo Clicker/Assets/Scripts/data/award_details.cs",
+		"/C/Work/personal/Robo Clicker/Assets/Scripts/data/level_block.cs",
+		"/C/Work/personal/Robo Clicker/Assets/Scripts/data/part_abstract.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/input_pie.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/Attack.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/Defense.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/Projectile.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/mana_charger.cs",
+		"/C/Users/Brent/Google Drive/[share] gamedev/Life of a Spidergirl/Design - Life as a Spidergirl.txt",
+		"/C/Users/Brent/Dropbox/Docs/Game Ideas/Spellslinger Showdown.txt",
+		"/C/Work/personal/Spellslinger Showdown/TODO.txt",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/Mage.cs",
+		"/C/Users/Brent/Google Drive/[share] gamedev/Spellslinger Showdown/[creds]/creds - Eric Halin.txt",
+		"/C/Work/personal/Spellslinger Showdown/audio_needed.txt",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/Loading.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/UI_BattleStart.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/AnnouncerAnim.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/Manager_Arena.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/Manager_Overworld.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/Manager_Battle.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/input_pane.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/input_pane_multi_touch.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/input_pane_single_touch.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/LookAtCamera.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/Camera_Overworld.cs",
+		"/C/Users/Brent/AppData/Local/Temp/scp00630/var/www/vtc/site/classstats.php",
+		"/C/Work/personal/Robo Clicker/Assets/Scripts/mine_screen/camera_mine_side_scroll.cs",
+		"/C/Work/personal/Robo Clicker/Assets/Prefabs/data/awards/award_kill_10_enemies.asset",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/Clickable.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/ParticleFader.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/PostProcessing/Editor/Models/ColorGradingModelEditor.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/ParticleDimmer.cs",
+		"/C/Users/Brent/Google Drive/Role Playing/Haggle/GM Notes 2 .txt",
+		"/C/Users/Brent/Google Drive/Role Playing/Haggle/Kasai - Character Sheet.txt",
+		"/C/Users/Brent/Dropbox/Docs/notes_for_obtaining_drivers_license.txt",
+		"/C/Users/Brent/Dropbox/Docs/[Journal].txt",
+		"/C/Users/Brent/Google Drive/[share] stories/supers.txt",
+		"/C/Users/Brent/Dropbox/Docs/Finances/expenses.txt",
+		"/C/Users/Brent/Dropbox/Docs/Finances/tab.txt",
+		"/C/wamp/www/techtonic/networthoptimizer/(assets)/setup.txt",
+		"/C/Users/Brent/Dropbox/Docs/Game Ideas/Magic Academy.txt",
+		"/C/Users/Brent/Dropbox/Docs/accounts.txt",
+		"/C/Users/Brent/Dropbox/Robo Clicker/business_questions.txt",
+		"/C/Users/Brent/Dropbox/Docs/Business Ideas/joystick trackball mouse.txt",
+		"/C/Users/Brent/Dropbox/Docs/Business Ideas/batch web submitter.txt",
+		"/C/Work/james_nolen/DrN_Old/creds.txt",
+		"/C/Users/Brent/Dropbox/Writing/Wayward Witch/Wayward Witch - 01.001 - Test Time.txt",
+		"/C/Users/Brent/Dropbox/Writing/Errant Scholar/Mage Scholar Notes.txt",
+		"/C/Users/Brent/Dropbox/Docs/Recipes/pastaio pepe.txt",
+		"/C/Users/Brent/AppData/Local/Temp/scp10834/var/www/html/game/config/config_game_server.json",
+		"/C/Users/Brent/Dropbox/Docs/super encounters.txt",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/attack.cs",
+		"/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/Player.cs",
+		"/C/Work/personal/[resources]/unity_customizing_script_templates/81-C# Script-NewBehaviourScript.cs.txt",
+		"/D/Games/Junk/UWA.EXE/readme.txt",
+		"/C/Users/Brent/Dropbox/Docs/ui - batch submitter.txt",
+		"/C/Users/Brent/AppData/Local/Temp/scp02327/public_html/tropo/dispatch_backups/2017-11-19_01-11-31_sms_dispatch_list.json",
+		"/C/Users/Brent/AppData/Local/Temp/scp54728/public_html/tropo/html/test.txt",
+		"/C/Users/Brent/AppData/Local/Temp/scp58016/public_html/.htaccess",
+		"/C/Users/Brent/AppData/Local/Temp/scp52739/public_html/tropo/dispatch_backups/2017-11-18_21-11-04_sms_dispatch_list.json",
+		"/C/Work/james_nolen/web_dr_n/tropo/dispatch_backups/2017-11-18_21-11-04_sms_dispatch_list.json",
+		"/C/Users/Brent/AppData/Local/Temp/scp49818/logs/gotocvc.com-Nov-2017.gz",
+		"/C/Users/Brent/AppData/Local/Temp/scp43172/public_html/tropo/HttpRequest.php",
+		"/C/Work/james_nolen/DrN_Old/tropo/token_info_2015-11-30/cdr.txt",
+		"/G/DrN/Setup ODBC Driver.txt",
+		"/G/DrN/Install Eclipse DB.txt",
+		"/C/Users/Brent/Dropbox/Docs/Game Ideas/Dungeoneer/cell_terrain_system.txt",
+		"/C/Work/personal/Dungeoneer/Assets/Shader_Override/CGIncludes/Override_UnityStandardShadow.cginc",
+		"/C/Work/personal/Dungeoneer/Assets/Shader_Override/CGIncludes/Override_UnityStandardMeta.cginc",
+		"/C/Work/personal/Dungeoneer/Assets/Shader_Override/CGIncludes/Override_UnityStandardCoreForwardSimple.cginc",
+		"/C/Work/personal/Dungeoneer/Assets/Shader_Override/CGIncludes/Override_UnityStandardCore.cginc",
+		"/C/Work/personal/Dungeoneer/Assets/Shader_Override/CGIncludes/Override_UnityStandardCoreForward.cginc",
+		"/C/Work/personal/Dungeoneer/Assets/Shader_Override/Override_StandardSpecular.shader",
+		"/C/Work/personal/Dungeoneer/Assets/Shader_Override/Override_Standard.shader",
+		"/C/Work/personal/Dungeoneer/Assets/App/Shaders/WindWave.shader",
+		"/C/Users/Brent/Dropbox/Docs/Finances/zhenuity_overtime.txt",
+		"/C/Work/personal/Robo Clicker/TODO.txt"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"C:\\Work\\personal\\Dark Wind\\Assets,*.cs",
+			"C:\\Users\\Brent\\Downloads\\builtin_shaders-2018.1.2f1,",
+			"C:\\Work\\personal\\Dark Wind\\Assets,*.cs",
+			"C:\\Work\\gvt_git\\project\\Assets\\Scripts",
+			"C:\\Work\\personal\\Dark Wind\\Assets,*.cs",
+			"C:\\Work\\personal\\Spellslinger Showdown\\Assets,*.cs",
+			"C:\\Work\\personal\\Dungeoneer\\Assets,*.shader,*.cginc",
+			"C:\\Work\\spill\\spill_git\\unitysource\\Assets,*.cs",
+			"C:\\Work\\spill\\spill_git\\Assets,*.cs",
+			"C:\\Work\\spill\\spill_git\\vtc\\site,*.php",
+			"C:\\Work\\personal\\Dungeoneer\\Assets,*.shader,*.cginc",
+			"C:\\Work\\personal\\Prototypes\\Assets,*.shader,*.cginc",
+			"C:\\Work\\personal\\Dungeoneer\\Assets,*.shader,*.cginc",
+			"C:\\Work\\personal\\Dungeoneer\\Assets,*.shader *.cginc",
+			"C:\\Work\\personal\\Dungeoneer\\Assets,*.shader;*.cginc",
+			"C:\\Work\\personal\\Dungeoneer\\Assets",
+			"C:\\Work\\personal\\Dungeoneer\\Assets,*.shader",
+			"C:\\Work\\spill\\spill_git\\vtc\\site,*.php",
+			"C:\\Work\\personal\\Dungeoneer\\Assets,*.shader",
+			"C:\\Work\\spill\\spill_git\\spillgame.us\\game\\Lua\\npc,*.lua",
+			"C:\\Work\\spill\\spill_git\\vtc\\site,*.php",
+			"C:\\Work\\personal\\Robo Clicker\\Assets,*.cs",
+			"C:\\Work\\spill\\spill_git\\unitysource\\Assets,*.cs",
+			"C:\\Work\\spill\\spill_git\\vtc\\site,*.php",
+			"C:\\Work\\spill\\spill_git\\unitysource\\Assets,*.cs",
+			"C:\\Work\\personal\\Robo Clicker\\Assets,*.cs",
+			"C:\\Work\\gvt_git\\project\\Assets,*.cs",
+			"C:\\Work\\spill_git\\unitysource\\Assets,*.cs",
+			"C:\\Work\\personal\\Robo Clicker\\Assets,*.cs",
+			"C:\\Work\\spill_git\\unitysource\\Assets,*.cs",
+			"C:\\Work\\spill_git\\vtc\\site,*.php",
+			"C:\\Work\\spill_git\\spillgame.us\\game\\Lua\\npc,*.lua",
+			"C:\\Work\\spill_git\\unitysource\\Assets,*.cs",
+			"C:\\Work\\spill_git\\spillgame.us\\game\\Lua\\npc,*.lua",
+			"C:\\Work\\spill_git\\unitysource\\Assets,*.cs",
+			"C:\\Work\\spill_git\\vtc\\site,*.php",
+			"C:\\Work\\spill_git\\unitysource\\Assets,*.cs",
+			"C:\\Work\\spill_git\\notes\\old_lua_code\\application,*.lua",
+			"C:\\Work\\spill_git\\unitysource\\Assets,*.cs",
+			"C:\\Work\\spill_git\\notes\\old_lua_code\\application,*.lua",
+			"C:\\Work\\spill_git\\unitysource\\Assets,*.cs",
+			"C:\\Work\\spill_git\\notes\\old_lua_code\\application,*.lua",
+			"C:\\Work\\spill_git\\unitysource\\Assets,*.cs",
+			"C:\\Work\\spill_git\\notes\\old_lua_code\\application,*.lua",
+			"C:\\Work\\spill_git\\unitysource\\Assets,*.cs",
+			"C:\\Work\\spill_git\\notes\\old_lua_code\\application,*.lua",
+			"C:\\Work\\spill_git\\unitysource\\Assets,*.cs",
+			"C:\\Work\\spill_git\\notes\\old_lua_code\\application,*.lua",
+			"C:\\Work\\spill_git\\unitysource\\Assets,*.cs",
+			"C:\\Work\\spill_git\\notes\\old_lua_code\\application,*.lua",
+			"C:\\Work\\spill_git\\unitysource\\Assets,*.cs",
+			"C:\\Work\\spill_git\\notes\\old_lua_code\\application,*.lua",
+			"C:\\Work\\spill_git\\vtc\\site,*.php",
+			"C:\\Work\\spill_git\\vtc\\site;*.php",
+			"C:\\Work\\spill_git\\unitysource\\Assets,*.cs",
+			"C:\\Work\\spill_git\\spillgame.us\\game\\Lua\\npc,*.lua",
+			"C:\\Work\\spill_git\\unitysource\\Assets,*.cs",
+			"C:\\Users\\Brent\\Downloads\\SummertimeSaga-0.09c-win,-*.rpa",
+			"C:\\Users\\Brent\\Downloads\\SummertimeSaga-0.09c-win",
+			"C:\\Users\\Brent\\Downloads\\SummertimeSaga-0.09c-win,*.py",
+			"C:\\Users\\Brent\\Downloads\\SummertimeSaga-0.09c-win;*.py",
+			"C:\\Users\\Brent\\Downloads\\SummertimeSaga-0.09c-win; *.py",
+			"C:\\Users\\Brent\\Downloads\\SummertimeSaga-0.09c-win"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"90",
+			"rigid",
+			"90",
+			"player",
+			"IN.",
+			"IN",
+			"texcoord",
+			"fixed4 color",
+			"shift",
+			"_Normal",
+			"UnpackNormal",
+			"function UnpackNormal",
+			"_BumpMap",
+			"BumpMap",
+			"Normal Map",
+			"Map",
+			"uv",
+			"dot",
+			"normal",
+			"{\n",
+			"_DepthTex",
+			"PixelSnap",
+			"PIXELSNAP",
+			"PixelSnap",
+			"PIXELSNAP",
+			"PixelSnap",
+			"block",
+			"Renderer",
+			"colorID",
+			"_MainTex",
+			"_DarkTex",
+			"_MainTex",
+			"_RendererColor",
+			"PerRendererData",
+			"ui_menu",
+			"controller_player",
+			"_is_open",
+			"game_field",
+			"controller_camera",
+			"is_paused",
+			"nudge_up",
+			"pos_offscreen",
+			"index_page",
+			"lst_screen_modes",
+			"lst_res",
+			"index_res",
+			"Resolution",
+			"foreach (Shifter linked_shifter in linked_shifters)",
+			"linked_shifters",
+			"Invoke",
+			"Event",
+			"{",
+			" {",
+			"value",
+			"_shifter",
+			"RectTransform",
+			"lst_pages",
+			"_index_active",
+			"active",
+			"lst_pages",
+			"shifter",
+			"this.",
+			"pips",
+			"pip",
+			"index_pip",
+			"''",
+			"button",
+			"_click_active",
+			"public",
+			"UpdateState",
+			"active",
+			"disabled",
+			"CalcTargetHeight",
+			"color_active",
+			"_image_icon",
+			"private",
+			"text",
+			"field",
+			"16",
+			"public Color",
+			"Color ",
+			"color",
+			"Color",
+			"0",
+			"16*11",
+			"08",
+			"15",
+			";",
+			"_height_idle",
+			"_animate_click",
+			"0.0f",
+			"4.0f",
+			"7",
+			"7.0f",
+			"5.0f",
+			"height",
+			"target_height",
+			"height",
+			"public",
+			"6",
+			"_mouse",
+			"_mouse_over",
+			"is_damaged",
+			"dead",
+			"is_damaged",
+			".Process()",
+			"rotation",
+			"player",
+			"IEnum",
+			"Spawn",
+			"cell_up",
+			"_prev_dark_tide",
+			"dark_tide",
+			"PrepCalc",
+			"_idle_duration",
+			"target_wait_time",
+			"generating",
+			"player",
+			"max",
+			"min",
+			"top",
+			"ray",
+			"lst_terrain",
+			"Destroy",
+			"height_offset",
+			"offset",
+			"dead",
+			"inert"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#include \"Override_Insert_Vert_Pre.cginc\"",
+			"scrollrect.verticalNormalizedPosition = 0;",
+			"FormatNum",
+			"GLOBAL.clicking_enabled",
+			"level_enemy_defeat_count",
+			"battle",
+			"mine",
+			"mine_shaft_selected",
+			"{"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 19,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Brent/Google Drive/[share] gamedev/Dark Wind/Design - Dark Wind.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10824,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10820,
+								10820
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Design - Dark Wind",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5405.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Brent/Google Drive/[share] gamedev/Dark Wind/player_animation_times.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1578,
+								1578
+							]
+						],
+						"settings":
+						{
+							"auto_name": "- idle             - 60 frames",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 493.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Work/personal/Dark Wind/TODO.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1991,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1745,
+								1745
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 759.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Brent/Downloads/builtin_shaders-2018.1.2f1/DefaultResourcesExtra/Sprites-Default.shader",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								647,
+								647
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D Shader Highlighter and Snippets/UnityShader.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 92918,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										252,
+										255
+									],
+									[
+										781,
+										784
+									],
+									[
+										919,
+										922
+									],
+									[
+										987,
+										990
+									],
+									[
+										1066,
+										1069
+									],
+									[
+										1182,
+										1185
+									],
+									[
+										1709,
+										1712
+									],
+									[
+										1965,
+										1968
+									],
+									[
+										2417,
+										2420
+									],
+									[
+										2775,
+										2778
+									],
+									[
+										3147,
+										3150
+									],
+									[
+										3394,
+										3397
+									],
+									[
+										3720,
+										3723
+									],
+									[
+										4075,
+										4078
+									],
+									[
+										4356,
+										4359
+									],
+									[
+										4636,
+										4639
+									],
+									[
+										4901,
+										4904
+									],
+									[
+										5038,
+										5041
+									],
+									[
+										5311,
+										5314
+									],
+									[
+										5640,
+										5643
+									],
+									[
+										5825,
+										5828
+									],
+									[
+										5962,
+										5965
+									],
+									[
+										6235,
+										6238
+									],
+									[
+										6540,
+										6543
+									],
+									[
+										6677,
+										6680
+									],
+									[
+										6950,
+										6953
+									],
+									[
+										7387,
+										7390
+									],
+									[
+										7871,
+										7874
+									],
+									[
+										8299,
+										8302
+									],
+									[
+										8743,
+										8746
+									],
+									[
+										9110,
+										9113
+									],
+									[
+										9233,
+										9236
+									],
+									[
+										9664,
+										9667
+									],
+									[
+										10117,
+										10120
+									],
+									[
+										10324,
+										10327
+									],
+									[
+										10946,
+										10949
+									],
+									[
+										10960,
+										10963
+									],
+									[
+										11422,
+										11425
+									],
+									[
+										12200,
+										12203
+									],
+									[
+										12214,
+										12217
+									],
+									[
+										12320,
+										12323
+									],
+									[
+										12334,
+										12337
+									],
+									[
+										12976,
+										12979
+									],
+									[
+										12990,
+										12993
+									],
+									[
+										13527,
+										13530
+									],
+									[
+										13541,
+										13544
+									],
+									[
+										13647,
+										13650
+									],
+									[
+										13661,
+										13664
+									],
+									[
+										14303,
+										14306
+									],
+									[
+										14317,
+										14320
+									],
+									[
+										14729,
+										14739
+									],
+									[
+										15084,
+										15094
+									],
+									[
+										15365,
+										15375
+									],
+									[
+										15645,
+										15655
+									],
+									[
+										15910,
+										15920
+									],
+									[
+										16183,
+										16193
+									],
+									[
+										16489,
+										16499
+									],
+									[
+										16762,
+										16772
+									],
+									[
+										17067,
+										17077
+									],
+									[
+										17340,
+										17350
+									],
+									[
+										17915,
+										17925
+									],
+									[
+										17929,
+										17939
+									],
+									[
+										18391,
+										18401
+									],
+									[
+										19169,
+										19179
+									],
+									[
+										19183,
+										19193
+									],
+									[
+										19833,
+										19843
+									],
+									[
+										19847,
+										19857
+									],
+									[
+										20384,
+										20394
+									],
+									[
+										20398,
+										20408
+									],
+									[
+										21048,
+										21058
+									],
+									[
+										21062,
+										21072
+									],
+									[
+										21456,
+										21463
+									],
+									[
+										21760,
+										21767
+									],
+									[
+										22135,
+										22142
+									],
+									[
+										22144,
+										22151
+									],
+									[
+										22457,
+										22464
+									],
+									[
+										22758,
+										22765
+									],
+									[
+										23345,
+										23352
+									],
+									[
+										23354,
+										23361
+									],
+									[
+										23940,
+										23947
+									],
+									[
+										24241,
+										24248
+									],
+									[
+										24563,
+										24570
+									],
+									[
+										24572,
+										24579
+									],
+									[
+										25077,
+										25084
+									],
+									[
+										25234,
+										25241
+									],
+									[
+										25373,
+										25380
+									],
+									[
+										25710,
+										25717
+									],
+									[
+										25884,
+										25891
+									],
+									[
+										26150,
+										26157
+									],
+									[
+										26334,
+										26341
+									],
+									[
+										26541,
+										26548
+									],
+									[
+										26850,
+										26857
+									],
+									[
+										26964,
+										26971
+									],
+									[
+										27076,
+										27083
+									],
+									[
+										27206,
+										27213
+									],
+									[
+										27221,
+										27228
+									],
+									[
+										27495,
+										27502
+									],
+									[
+										27609,
+										27616
+									],
+									[
+										27743,
+										27750
+									],
+									[
+										27893,
+										27900
+									],
+									[
+										27908,
+										27915
+									],
+									[
+										28173,
+										28180
+									],
+									[
+										28338,
+										28345
+									],
+									[
+										28479,
+										28486
+									],
+									[
+										28633,
+										28640
+									],
+									[
+										28768,
+										28775
+									],
+									[
+										28955,
+										28962
+									],
+									[
+										28970,
+										28977
+									],
+									[
+										29244,
+										29251
+									],
+									[
+										29409,
+										29416
+									],
+									[
+										29550,
+										29557
+									],
+									[
+										29704,
+										29711
+									],
+									[
+										29839,
+										29846
+									],
+									[
+										30045,
+										30052
+									],
+									[
+										30060,
+										30067
+									],
+									[
+										30319,
+										30326
+									],
+									[
+										30479,
+										30486
+									],
+									[
+										30591,
+										30598
+									],
+									[
+										30721,
+										30728
+									],
+									[
+										30736,
+										30743
+									],
+									[
+										31014,
+										31021
+									],
+									[
+										31174,
+										31181
+									],
+									[
+										31308,
+										31315
+									],
+									[
+										31458,
+										31465
+									],
+									[
+										31473,
+										31480
+									],
+									[
+										31719,
+										31726
+									],
+									[
+										31895,
+										31902
+									],
+									[
+										32036,
+										32043
+									],
+									[
+										32151,
+										32158
+									],
+									[
+										32166,
+										32173
+									],
+									[
+										32424,
+										32431
+									],
+									[
+										32591,
+										32598
+									],
+									[
+										32732,
+										32739
+									],
+									[
+										32869,
+										32876
+									],
+									[
+										32884,
+										32891
+									],
+									[
+										33132,
+										33139
+									],
+									[
+										33349,
+										33356
+									],
+									[
+										33493,
+										33500
+									],
+									[
+										33671,
+										33678
+									],
+									[
+										33806,
+										33813
+									],
+									[
+										33955,
+										33962
+									],
+									[
+										33970,
+										33977
+									],
+									[
+										34232,
+										34239
+									],
+									[
+										34449,
+										34456
+									],
+									[
+										34593,
+										34600
+									],
+									[
+										34771,
+										34778
+									],
+									[
+										34906,
+										34913
+									],
+									[
+										35077,
+										35084
+									],
+									[
+										35092,
+										35099
+									],
+									[
+										35340,
+										35347
+									],
+									[
+										35519,
+										35526
+									],
+									[
+										35613,
+										35620
+									],
+									[
+										35797,
+										35804
+									],
+									[
+										35812,
+										35819
+									],
+									[
+										36096,
+										36103
+									],
+									[
+										36429,
+										36436
+									],
+									[
+										36543,
+										36550
+									],
+									[
+										36685,
+										36692
+									],
+									[
+										37011,
+										37018
+									],
+									[
+										37136,
+										37143
+									],
+									[
+										37290,
+										37297
+									],
+									[
+										37598,
+										37605
+									],
+									[
+										37723,
+										37730
+									],
+									[
+										37877,
+										37884
+									],
+									[
+										38161,
+										38168
+									],
+									[
+										38591,
+										38598
+									],
+									[
+										39037,
+										39044
+									],
+									[
+										39194,
+										39201
+									],
+									[
+										39365,
+										39372
+									],
+									[
+										39671,
+										39678
+									],
+									[
+										39886,
+										39893
+									],
+									[
+										40068,
+										40075
+									],
+									[
+										40329,
+										40336
+									],
+									[
+										40443,
+										40450
+									],
+									[
+										40555,
+										40562
+									],
+									[
+										40685,
+										40692
+									],
+									[
+										40700,
+										40707
+									],
+									[
+										40970,
+										40977
+									],
+									[
+										41087,
+										41094
+									],
+									[
+										41221,
+										41228
+									],
+									[
+										41371,
+										41378
+									],
+									[
+										41386,
+										41393
+									],
+									[
+										41642,
+										41649
+									],
+									[
+										41816,
+										41823
+									],
+									[
+										41957,
+										41964
+									],
+									[
+										42111,
+										42118
+									],
+									[
+										42246,
+										42253
+									],
+									[
+										42433,
+										42440
+									],
+									[
+										42448,
+										42455
+									],
+									[
+										42718,
+										42725
+									],
+									[
+										42883,
+										42890
+									],
+									[
+										43024,
+										43031
+									],
+									[
+										43178,
+										43185
+									],
+									[
+										43313,
+										43320
+									],
+									[
+										43519,
+										43526
+									],
+									[
+										43534,
+										43541
+									],
+									[
+										43748,
+										43755
+									],
+									[
+										44029,
+										44036
+									],
+									[
+										44371,
+										44378
+									],
+									[
+										44485,
+										44492
+									],
+									[
+										44607,
+										44614
+									],
+									[
+										44755,
+										44762
+									],
+									[
+										44770,
+										44777
+									],
+									[
+										45095,
+										45102
+									],
+									[
+										45210,
+										45217
+									],
+									[
+										45417,
+										45424
+									],
+									[
+										45533,
+										45540
+									],
+									[
+										45728,
+										45735
+									],
+									[
+										46037,
+										46044
+									],
+									[
+										46151,
+										46158
+									],
+									[
+										46273,
+										46280
+									],
+									[
+										46428,
+										46435
+									],
+									[
+										46443,
+										46450
+									],
+									[
+										46769,
+										46776
+									],
+									[
+										47065,
+										47072
+									],
+									[
+										47230,
+										47237
+									],
+									[
+										47375,
+										47382
+									],
+									[
+										47554,
+										47561
+									],
+									[
+										47689,
+										47696
+									],
+									[
+										47857,
+										47864
+									],
+									[
+										47872,
+										47879
+									],
+									[
+										48199,
+										48206
+									],
+									[
+										48365,
+										48372
+									],
+									[
+										48510,
+										48517
+									],
+									[
+										48689,
+										48696
+									],
+									[
+										48824,
+										48831
+									],
+									[
+										48999,
+										49006
+									],
+									[
+										49014,
+										49021
+									],
+									[
+										49265,
+										49272
+									],
+									[
+										49554,
+										49561
+									],
+									[
+										49842,
+										49849
+									],
+									[
+										50182,
+										50189
+									],
+									[
+										50486,
+										50493
+									],
+									[
+										50511,
+										50518
+									],
+									[
+										50861,
+										50868
+									],
+									[
+										50870,
+										50877
+									],
+									[
+										51201,
+										51208
+									],
+									[
+										51613,
+										51620
+									],
+									[
+										52021,
+										52028
+									],
+									[
+										52322,
+										52329
+									],
+									[
+										52347,
+										52354
+									],
+									[
+										52909,
+										52916
+									],
+									[
+										52918,
+										52925
+									],
+									[
+										53598,
+										53605
+									],
+									[
+										54069,
+										54076
+									],
+									[
+										54370,
+										54377
+									],
+									[
+										54395,
+										54402
+									],
+									[
+										54692,
+										54699
+									],
+									[
+										54701,
+										54708
+									],
+									[
+										55279,
+										55286
+									],
+									[
+										55748,
+										55756
+									],
+									[
+										55905,
+										55913
+									],
+									[
+										56044,
+										56052
+									],
+									[
+										56381,
+										56389
+									],
+									[
+										56555,
+										56563
+									],
+									[
+										56821,
+										56829
+									],
+									[
+										57005,
+										57013
+									],
+									[
+										57212,
+										57220
+									],
+									[
+										57521,
+										57529
+									],
+									[
+										57635,
+										57643
+									],
+									[
+										57777,
+										57785
+									],
+									[
+										58066,
+										58074
+									],
+									[
+										58180,
+										58188
+									],
+									[
+										58358,
+										58366
+									],
+									[
+										58638,
+										58646
+									],
+									[
+										58803,
+										58811
+									],
+									[
+										58968,
+										58976
+									],
+									[
+										59257,
+										59265
+									],
+									[
+										59422,
+										59430
+									],
+									[
+										59607,
+										59615
+									],
+									[
+										59881,
+										59889
+									],
+									[
+										60041,
+										60049
+									],
+									[
+										60183,
+										60191
+									],
+									[
+										60476,
+										60484
+									],
+									[
+										60636,
+										60644
+									],
+									[
+										60814,
+										60822
+									],
+									[
+										61075,
+										61083
+									],
+									[
+										61251,
+										61259
+									],
+									[
+										61395,
+										61403
+									],
+									[
+										61668,
+										61676
+									],
+									[
+										61835,
+										61843
+									],
+									[
+										62001,
+										62009
+									],
+									[
+										62264,
+										62272
+									],
+									[
+										62481,
+										62489
+									],
+									[
+										62634,
+										62642
+									],
+									[
+										62911,
+										62919
+									],
+									[
+										63128,
+										63136
+									],
+									[
+										63303,
+										63311
+									],
+									[
+										63566,
+										63574
+									],
+									[
+										63731,
+										63739
+									],
+									[
+										63915,
+										63923
+									],
+									[
+										64214,
+										64222
+									],
+									[
+										64547,
+										64555
+									],
+									[
+										64661,
+										64669
+									],
+									[
+										64803,
+										64811
+									],
+									[
+										65129,
+										65137
+									],
+									[
+										65254,
+										65262
+									],
+									[
+										65408,
+										65416
+									],
+									[
+										65716,
+										65724
+									],
+									[
+										65841,
+										65849
+									],
+									[
+										65995,
+										66003
+									],
+									[
+										66279,
+										66287
+									],
+									[
+										66709,
+										66717
+									],
+									[
+										67155,
+										67163
+									],
+									[
+										67312,
+										67320
+									],
+									[
+										67483,
+										67491
+									],
+									[
+										67789,
+										67797
+									],
+									[
+										68004,
+										68012
+									],
+									[
+										68186,
+										68194
+									],
+									[
+										68447,
+										68455
+									],
+									[
+										68561,
+										68569
+									],
+									[
+										68703,
+										68711
+									],
+									[
+										68988,
+										68996
+									],
+									[
+										69105,
+										69113
+									],
+									[
+										69283,
+										69291
+									],
+									[
+										69554,
+										69562
+									],
+									[
+										69728,
+										69736
+									],
+									[
+										69893,
+										69901
+									],
+									[
+										70178,
+										70186
+									],
+									[
+										70343,
+										70351
+									],
+									[
+										70528,
+										70536
+									],
+									[
+										70757,
+										70765
+									],
+									[
+										71038,
+										71046
+									],
+									[
+										71380,
+										71388
+									],
+									[
+										71494,
+										71502
+									],
+									[
+										71622,
+										71630
+									],
+									[
+										71962,
+										71970
+									],
+									[
+										72173,
+										72181
+									],
+									[
+										72289,
+										72297
+									],
+									[
+										72484,
+										72492
+									],
+									[
+										72793,
+										72801
+									],
+									[
+										72907,
+										72915
+									],
+									[
+										73042,
+										73050
+									],
+									[
+										73383,
+										73391
+									],
+									[
+										73679,
+										73687
+									],
+									[
+										73844,
+										73852
+									],
+									[
+										73995,
+										74003
+									],
+									[
+										74337,
+										74345
+									],
+									[
+										74503,
+										74511
+									],
+									[
+										74661,
+										74669
+									],
+									[
+										74927,
+										74935
+									],
+									[
+										75216,
+										75224
+									],
+									[
+										75504,
+										75512
+									],
+									[
+										75896,
+										75904
+									],
+									[
+										76321,
+										76329
+									],
+									[
+										76733,
+										76741
+									],
+									[
+										77200,
+										77208
+									],
+									[
+										77665,
+										77673
+									],
+									[
+										78195,
+										78203
+									],
+									[
+										78660,
+										78668
+									],
+									[
+										79221,
+										79233
+									],
+									[
+										79360,
+										79372
+									],
+									[
+										79823,
+										79835
+									],
+									[
+										80004,
+										80016
+									],
+									[
+										80256,
+										80268
+									],
+									[
+										80519,
+										80531
+									],
+									[
+										80762,
+										80774
+									],
+									[
+										81029,
+										81041
+									],
+									[
+										81274,
+										81286
+									],
+									[
+										81541,
+										81553
+									],
+									[
+										81769,
+										81781
+									],
+									[
+										82021,
+										82033
+									],
+									[
+										82251,
+										82263
+									],
+									[
+										82507,
+										82519
+									],
+									[
+										82773,
+										82785
+									],
+									[
+										83022,
+										83034
+									],
+									[
+										83300,
+										83312
+									],
+									[
+										83561,
+										83573
+									],
+									[
+										83832,
+										83844
+									],
+									[
+										84104,
+										84116
+									],
+									[
+										84346,
+										84358
+									],
+									[
+										84610,
+										84622
+									],
+									[
+										84854,
+										84866
+									],
+									[
+										85122,
+										85134
+									],
+									[
+										85347,
+										85359
+									],
+									[
+										85663,
+										85675
+									],
+									[
+										85924,
+										85936
+									],
+									[
+										86205,
+										86217
+									],
+									[
+										86497,
+										86509
+									],
+									[
+										86879,
+										86891
+									],
+									[
+										87267,
+										87279
+									],
+									[
+										87661,
+										87673
+									],
+									[
+										88016,
+										88028
+									],
+									[
+										88104,
+										88116
+									],
+									[
+										88489,
+										88491
+									],
+									[
+										88576,
+										88578
+									],
+									[
+										88813,
+										88815
+									],
+									[
+										89016,
+										89018
+									],
+									[
+										89321,
+										89326
+									],
+									[
+										89332,
+										89337
+									],
+									[
+										89443,
+										89448
+									],
+									[
+										89468,
+										89473
+									],
+									[
+										89594,
+										89599
+									],
+									[
+										89793,
+										89798
+									],
+									[
+										90149,
+										90154
+									],
+									[
+										90179,
+										90184
+									],
+									[
+										90432,
+										90437
+									],
+									[
+										90443,
+										90448
+									],
+									[
+										90545,
+										90550
+									],
+									[
+										90570,
+										90575
+									],
+									[
+										90696,
+										90701
+									],
+									[
+										90857,
+										90862
+									],
+									[
+										91083,
+										91088
+									],
+									[
+										91437,
+										91439
+									],
+									[
+										91524,
+										91526
+									],
+									[
+										91764,
+										91766
+									],
+									[
+										91967,
+										91969
+									],
+									[
+										92319,
+										92321
+									],
+									[
+										92819,
+										92821
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								91438,
+								91438
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 11,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 53935.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/CellEntities/Units/Player.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								303,
+								303
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Brent/Downloads/builtin_shaders-2018.1.2f1/DefaultResourcesExtra/Alpha-Bumped.shader",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 860,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								755,
+								800
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D Shader Highlighter and Snippets/UnityShader.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 86.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Work/personal/Robo Clicker/Assets/[game]/Shaders/DepthSprite.shader",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3989,
+								3989
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D Shader Highlighter and Snippets/UnityShader.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1380.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/Brent/Downloads/builtin_shaders-2018.1.2f1/CGIncludes/UnityCG.cginc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 42756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22439,
+								22439
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D Shader Highlighter and Snippets/UnityComputeShader.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 15031.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/GLOBAL.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								477,
+								483
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 414.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/Manager_BattleField.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								240,
+								240
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/UI_Menu.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								419,
+								419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/UI_Hud.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								188
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/UI_System.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								149,
+								149
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/Widgets/SliderVolume.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								808,
+								808
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 207.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/Widgets/ToggleButton.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1432,
+								1432
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 793.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/Widgets/Shifter.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7665,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5820,
+								5820
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4152.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/Widgets/ShifterPips.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1550,
+								1550
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 16.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/GameField.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2203,
+								2209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1338.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/CellEntities/Units/CellUnit.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1414,
+								1414
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 581,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1116.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "project/Assets/Scripts/UI/ui_level_over.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 618,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 34,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "project/Assets/Scripts/manager_player.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								407,
+								376
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 32,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/Attacks/Attack.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 989,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								698,
+								698
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 31,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "/C/Work/personal/Spellslinger Showdown/Assets/[Game]/Scripts/Projectile.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								368,
+								368
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 35,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/CellEntities/Pathfinding/CellPath.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1455,
+								1455
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 773.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 30,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/Utils/ProfilingTimer.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 666,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								145
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 33,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/Controller_Player.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1923,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1522,
+								1522
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 27,
+					"file": "/C/Work/personal/Robo Clicker/Assets/[game]/Shaders/SpriteNormal.shader",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1962,
+								1962
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D Shader Highlighter and Snippets/UnityShader.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1242.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "/C/Work/personal/Robo Clicker/Assets/[game]/Prototype_Sprite_Normal/SpriteNormal.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								235,
+								235
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "/C/Work/personal/Robo Clicker/Assets/[game]/Prototype_Sprite_Normal/DepthSprite.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								871,
+								871
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 189.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "/C/Work/personal/Robo Clicker/Assets/[game]/Shaders/SpriteLamp.shader",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8394,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3404,
+								3430
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D Shader Highlighter and Snippets/UnityShader.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2025.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/UI_Options_Display.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								162,
+								162
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 32,
+					"file": "/C/Users/Brent/Downloads/builtin_shaders-2018.1.2f1/DefaultResourcesExtra/Sprites-Diffuse.shader",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1922,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1922
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D Shader Highlighter and Snippets/UnityShader.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 33,
+					"file": "/C/Users/Brent/Downloads/builtin_shaders-2018.1.2f1/CGIncludes/UnitySprites.cginc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								190,
+								165
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D Shader Highlighter and Snippets/UnityComputeShader.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 34,
+					"file": "/C/Work/personal/Dark Wind/Assets/Editor/PlayerPrefsEditor.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								557,
+								557
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 29,
+					"type": "text"
+				},
+				{
+					"buffer": 35,
+					"file": "/C/Work/personal/Dark Wind/Assets/[game]/Scripts/UI/Widgets/PopButton.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5244.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 28,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.516796875,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "gvt.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\wamp64\\www\\designwerks\\sharemygear.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

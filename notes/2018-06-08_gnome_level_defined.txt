@@ -1,0 +1,62 @@
+# Pound Sign denotes comment
+# : Denotes "command"-
+
+# Brent, can you consider conversion to whatever is easier, XML or JSON?
+# I'm envisoning a Unique file for each level
+
+# PROPOSED LEVEL SCRIPT FORMAT:   
+
+# Level Definition
+
+:LEVEL A-1:
+
+:LANES:
+5
+
+#UP TO 10? defenses available to player.
+:DEFENSES:
+UFF
+CROSSBOW
+BLOCKER
+CATAPULT
+:DONE
+
+:STARTCASH
+100
+
+#We can keep adding more level descriptors as necessary
+
+
+:STARTDIALOG
+It's the end of the Pleistocene Epoch, a great ice age will be coming soon.  
+Today, however, immediate survial is dependant on thwarting the attack of the Trolls.
+Defend the Gnomes!
+
+:DONE
+
+
+#I'm not sure how to easily do a trinary in JSON, ?????
+#This section of data is gonna get big, and destined to be hand-typed, so a simple clear system would be nice.
+
+:Seconds:  Lane:   Type:
+010:      1     , ICE TROLL
+020:      2       ICE TROLL
+030:      1       WOODTROLL
+040:      1       TWOHEAD
+
+066:      ENDSTAGE
+:done
+
+:epilogue
+The great gnome Gnarlish thanks you for great strategy in defending the Gnomeland!
+:done
+
+
+
+#notes - 
+
+#Lane 1-9 = Actual Lane.   (we currently support 1-5)
+#Lane 0 = random from available
+#Lane 15 =  50/50  Lane 1, or Lane 5
+#Lane 23 =  50/50  Lane 2 or Lane 3
+#  etc.

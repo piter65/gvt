@@ -57,7 +57,7 @@ public class ui_game_hud : MonoBehaviour
 
 			tog_unit_select tog_unit_select = Instantiate(prefab_tog_unit_select);
 			tog_unit_select.SetPrefabUnit(prefab_unit);
-			tog_unit_select.transform.SetParent(grp_gnomes.transform);
+			tog_unit_select.transform.SetParent(grp_gnomes.transform, false);
 
 			Toggle tog = tog_unit_select.GetComponent<Toggle>();
 			grp_gnomes.RegisterToggle(tog);
@@ -69,7 +69,7 @@ public class ui_game_hud : MonoBehaviour
 
 			tog_unit_select tog_unit_select = Instantiate(prefab_tog_unit_select);
 			tog_unit_select.SetPrefabUnit(prefab_unit);
-			tog_unit_select.transform.SetParent(grp_trolls.transform);
+			tog_unit_select.transform.SetParent(grp_trolls.transform, false);
 
 			Toggle tog = tog_unit_select.GetComponent<Toggle>();
 			grp_trolls.RegisterToggle(tog);

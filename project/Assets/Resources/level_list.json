@@ -1,0 +1,35 @@
+{
+	"level_list":
+	[
+		{
+			"name": "A - 1",
+			"req": [],
+			"data": "level_data/level_a_1",
+			"test_medal": "gold"
+		},
+		{
+			"name": "A - 2",
+			"req": [],
+			"data": "level_data/level_a_1",
+			"test_medal": "silver"
+		},
+		{
+			"name": "A - 3",
+			"req": [],
+			"data": "level_data/level_a_1",
+			"test_medal": "bronze"
+		},
+		{
+			"name": "B - 1",
+			"req": [],
+			"data": "level_data/level_a_1",
+			"test_medal": "none"
+		},
+		{
+			"name": "B - 2",
+			"req": [],
+			"data": "level_data/level_a_1",
+			"test_medal": "none"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+
+1) Set up scenes so flow follows flow document.
+2) Expand JSON level file to support features noted.
+3) Complain when you disagree.
+
+
+
+
+- Gnome view:
+	- For fun.
+	- Each gnome has a camera by their head.
+		- Tracking camera to minimize jerkiness
+			- Follows active projectile? or target?
+				- Animate camera for each gnome? probably better
+					- Maybe animate interp between target and projectile.
+	- When gnome selected, POV button appears in corner.
+		- Click button toggles view to camera of selected gnome.
+		- Click again returns to overhead camera.
+
+
+
+
+
+
+
+- Fixed unit spawn buttons not resizing properly.
+- Added and began fleshing out 'ui_title_screen' scene.
+- Added and began fleshing out 'ui_level_select' scene.

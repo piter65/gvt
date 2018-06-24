@@ -1,0 +1,20 @@
+{
+	"spawnings":
+	[
+		{
+			"time": 1.0,
+			"row": 0,
+			"unit": "troll_normal"
+		},
+		{
+			"time": 3.0,
+			"row": 4,
+			"unit": "troll_fast"
+		},
+		{
+			"time": 5.0,
+			"row": 2,
+			"unit": "troll_fat"
+		}
+	]
+}

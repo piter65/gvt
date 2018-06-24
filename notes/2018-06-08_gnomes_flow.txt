@@ -1,0 +1,71 @@
+FLOW:
+
+TITLE/LOADING/SPLASH SCREEN
+
+ (NO login - I think - Do we just have game data tied to device ID?)
+
+ OPTIONS:
+   
+   Continue
+   Replay
+
+LEVEL SELECT SCREEN
+(The idea is to add "replayability" by ranking the performance, Gold = perfect, Silver=great, Bronze=pass, FAIL, Locked)
+ levels
+   A-1       GOLD
+   A-2       SILVER
+   A-3       GOLD
+   A-4 	     BRONZE
+   A-5       Open
+
+   B-1       Locked
+   (etc) 
+  At bottom should be something like "NEXT LEVEL"
+
+
+(I'd like to do something more creative that "A"/"B"- but it's fine for now)
+
+
+LEVEL PRE-VIEW
+ (This is equivalent of the Crazy Dave and the motor home thing- Not sure we want to add too much content.)
+
+ "GET READY for B-5"
+
+ Maybe a title,
+ "Battle of the Barium"
+
+ Subtext 
+  "The Trolls kick things up with Chemical Knowlege"
+
+---   This is basically a loading screen.   For now, let's put a "Let's Play" in lower right corner
+
+
+
+(possibly we show defensive weapons available on display)
+
+-------------------------------------------------
+============================================================================================================
+
+Game STARTS (Same as now)
+ Ready, Set, GO!
+
+
+ Game plays- 2 Basic Endings:
+
+YOU FAILED!  
+  The trolls over-ran you!
+     Try Again?
+     Other Level?
+
+
+YOU SUCCEED!
+   That was a SILVER Medal performance!
+
+     Next Level
+     Try Again?
+     Other Level
+
+(Other level goes to "level screen", Others go to "level pre-view")
+
+----------------------------------------------------------------------------------------------------------------
+           
