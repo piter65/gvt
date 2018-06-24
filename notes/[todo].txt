@@ -24,5 +24,6 @@
 
 
 - Fixed unit spawn buttons not resizing properly.
-- Added and began fleshing out 'ui_title_screen' scene.
-- Added and began fleshing out 'ui_level_select' scene.
+- Began setting up menus following flow document:
+	- Added and began fleshing out 'ui_title_screen' scene.
+	- Added and began fleshing out 'ui_level_select' scene.

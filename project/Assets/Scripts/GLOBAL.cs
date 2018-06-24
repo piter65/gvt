@@ -18,6 +18,8 @@ public static class GLOBAL
 	//public static ui_menu menu_options = null;
 	//public static ui_menu menu_pause = null;
 
+	public static ui_level_select level_select = null;
+
 	public static game_field game_field = null;
 	public static manager_player manager_player = null;
 
