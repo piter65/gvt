@@ -91,9 +91,9 @@ namespace UnityEngine.UI.Extensions
 						return;
 					}
 
-					Debug.Log("rect_selection: "+rect_selection);
-					Debug.Log("rect_viewport: "+rect_viewport);
-					Debug.Log("rect_layout: "+rect_layout);
+					// Debug.Log("rect_selection: "+rect_selection);
+					// Debug.Log("rect_viewport: "+rect_viewport);
+					// Debug.Log("rect_layout: "+rect_layout);
 
 					Vector2 pos_local_selection = rect_selection.center - rect_layout.min;
 					Vector2 pos_local_viewport  = rect_viewport.center - rect_layout.min;
@@ -119,7 +119,7 @@ namespace UnityEngine.UI.Extensions
 
 					_target_scroll_pos = offset_normalized;
 
-					Debug.Log("_target_scroll_pos: "+_target_scroll_pos);
+					// Debug.Log("_target_scroll_pos: "+_target_scroll_pos);
 
 					// _scroll_Rect.horizontalNormalizedPosition = offset_normalized.x;
 					// _scroll_Rect.verticalNormalizedPosition   = offset_normalized.y;

@@ -65,6 +65,6 @@ public static class GLOBAL
 
 	public static void ExitLevel()
 	{
-		SceneManager.LoadScene("game", LoadSceneMode.Single);
+		SceneManager.LoadScene("ui_level_select", LoadSceneMode.Single);
 	}
 }

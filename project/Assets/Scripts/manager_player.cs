@@ -13,7 +13,7 @@ public struct Spawning
 
 public class manager_player : MonoBehaviour
 {
-	public static string path_level = "levels/level_01_01";
+	public static string path_level = "level_data/level_test";
 
 	public LayerMask layer_collectibles;
 	public LayerMask layer_cells;

@@ -95,6 +95,12 @@ public class ui_level_select : MonoBehaviour
 
 	public void LoadLevel(level_tile level)
 	{
-		Debug.Log("DING!");
+		Debug.Log("DING! - "+level.data.path_data);
+
+		// Set the level to load.
+		manager_player.path_level = level.data.path_data;
+
+		// Begin the level.
+		SceneManager.LoadScene("battle_grid", LoadSceneMode.Single);
 	}
 };

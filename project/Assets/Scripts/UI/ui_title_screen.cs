@@ -14,11 +14,11 @@ public class ui_title_screen : MonoBehaviour
 
 	public void btn_continue_Click()
 	{
-
+		SceneManager.LoadScene("ui_level_select", LoadSceneMode.Single);
 	}
 
 	public void btn_replay_Click()
 	{
-		
+		SceneManager.LoadScene("ui_level_select", LoadSceneMode.Single);
 	}
 };

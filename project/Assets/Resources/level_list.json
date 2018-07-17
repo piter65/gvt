@@ -10,25 +10,25 @@
 		{
 			"name": "A - 2",
 			"req": [],
-			"data": "level_data/level_a_1",
+			"data": "level_data/level_a_2",
 			"test_medal": "silver"
 		},
 		{
 			"name": "A - 3",
 			"req": [],
-			"data": "level_data/level_a_1",
+			"data": "level_data/level_a_3",
 			"test_medal": "bronze"
 		},
 		{
 			"name": "B - 1",
 			"req": [],
-			"data": "level_data/level_a_1",
+			"data": "level_data/level_b_1",
 			"test_medal": "none"
 		},
 		{
 			"name": "B - 2",
 			"req": [],
-			"data": "level_data/level_a_1",
+			"data": "level_data/level_b_2",
 			"test_medal": "none"
 		}
 	]

@@ -25,8 +25,18 @@ public class ui_level_over : MonoBehaviour
 		txt_failure.gameObject.SetActive(!_success);
 	}
 	
-	public void overlay_Clicked()
+	public void overlay_Click()
 	{
-		GLOBAL.ExitLevel();
+		// GLOBAL.ExitLevel();
+	}
+
+	public void btn_level_select_Click()
+	{
+		SceneManager.LoadScene("ui_level_select", LoadSceneMode.Single);
+	}
+
+	public void btn_retry_Click()
+	{
+		SceneManager.LoadScene("battle_grid", LoadSceneMode.Single);
 	}
 }
