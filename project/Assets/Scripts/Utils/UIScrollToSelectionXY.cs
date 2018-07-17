@@ -1,9 +1,4 @@
-﻿/// Credit zero3growlithe
-/// sourced from: http://forum.unity3d.com/threads/scripts-useful-4-6-scripts-collection.264161/page-2#post-2011648
-/// Update by xesenix - based on UIScrollToSelection centers on selected element in scrollrect which can move in XY 
-///		you can restrict movement by locking axis on ScrollRect component
-
-/*USAGE:
+﻿/*USAGE:
 Simply place the script on the ScrollRect that contains the selectable children we'll be scroling to
 and drag'n'drop the RectTransform of the options "container" that we'll be scrolling.*/
 
@@ -11,118 +6,176 @@ using UnityEngine.EventSystems;
 
 namespace UnityEngine.UI.Extensions
 {
-    [AddComponentMenu("UI/Extensions/UI ScrollTo Selection XY")]
-    [RequireComponent(typeof(ScrollRect))]
-    public class UIScrollToSelectionXY : MonoBehaviour
-    {
+	[AddComponentMenu("UI/Extensions/UI ScrollTo Selection XY")]
+	[RequireComponent(typeof(ScrollRect))]
+	public class UIScrollToSelectionXY : MonoBehaviour
+	{
+		public float scrollSpeed = 10f;
 
-        #region Variables
+		public Vector2 scroll_pos;
 
-        // settings
-        public float scrollSpeed = 10f;
+		[SerializeField]
+		private RectTransform layout_list_group = null;
 
-        [SerializeField]
-        private RectTransform layoutListGroup = null;
+		private RectTransform _scroll_viewport;
+		private ScrollRect _scroll_Rect;
 
-        // temporary variables
-        private RectTransform targetScrollObject;
-        private bool scrollToSelection = true;
+		private RectTransform _selection = null;
 
-        // references
-        private RectTransform scrollWindow;
-        private RectTransform currentCanvas;
-        private ScrollRect targetScrollRect;
-        #endregion
+		private bool _scroll_to_selection = true;
+		private Vector2 _target_scroll_pos = new Vector2(0.0f, 1.0f);
 
-        // Use this for initialization
-        private void Start()
-        {
-            targetScrollRect = GetComponent<ScrollRect>();
-            scrollWindow = targetScrollRect.GetComponent<RectTransform>();
-        }
+		private bool _mouse_down = false;
+		private Vector3 _mouse_pos_prev = Vector3.zero;
 
-        // Update is called once per frame
-        private void Update()
-        {
-            ScrollRectToLevelSelection();
-        }
+		private void Start()
+		{
+			_scroll_Rect = GetComponent<ScrollRect>();
+			_scroll_viewport = _scroll_Rect.viewport.GetComponent<RectTransform>();
+		}
 
-        private void ScrollRectToLevelSelection()
-        {
+		private void Update()
+		{
+			if (_mouse_down)
+			{
+				if (_mouse_pos_prev != Input.mousePosition)
+					_scroll_to_selection = false;
+
+				if (Input.GetMouseButtonUp(0))
+					_mouse_down = false;
+				else
+					return;
+			}
+			else
+			if (Input.GetMouseButtonDown(0))
+			{
+				_mouse_down = true;
+				_scroll_to_selection = true;
+				_mouse_pos_prev = Input.mousePosition;
+				return;
+			}
+
 			// FIX: if you dont do that here events can have null value
 			var events = EventSystem.current;
 
-            // check main references
-            bool referencesAreIncorrect =
-                (targetScrollRect == null || layoutListGroup == null || scrollWindow == null);
-            if (referencesAreIncorrect == true)
-            {
-                return;
-            }
+			if (events.currentSelectedGameObject == null)
+				return;
 
-            // get calculation references
-            RectTransform selection = events.currentSelectedGameObject != null ?
-                events.currentSelectedGameObject.GetComponent<RectTransform>() :
-                null;
+			// get calculation references
+			RectTransform selection_new = events.currentSelectedGameObject.GetComponent<RectTransform>();
 
-            if (selection != targetScrollObject)
-			{
-				scrollToSelection = true;
-			}
-
-            // check if scrolling is possible
-            bool isScrollDirectionUnknown = (selection == null || scrollToSelection == false);
-
-            if (isScrollDirectionUnknown == true || selection.transform.parent != layoutListGroup.transform)
+			if (   selection_new == null
+				|| !IsDescendantOf(selection_new.transform, _scroll_Rect.transform))
 			{
 				return;
 			}
 
-			bool finishedX = false, finishedY = false;
-            
-			if (targetScrollRect.vertical)
+			if (selection_new != _selection)
 			{
-				// move the current scroll rect to correct position
-				float selectionPos = -selection.anchoredPosition.y;
+				_selection = selection_new;
 
-				//float elementHeight = layoutListGroup.sizeDelta.y / layoutListGroup.transform.childCount;
-				//float maskHeight = currentCanvas.sizeDelta.y + scrollWindow.sizeDelta.y;
-				float listPixelAnchor = layoutListGroup.anchoredPosition.y;
+				if (   !_mouse_down
+					&& _scroll_to_selection)
+				{
+					Rect rect_selection = GetScreenCoordinates(_selection);
+					Rect rect_viewport  = GetScreenCoordinates(_scroll_viewport);
+					Rect rect_layout    = GetScreenCoordinates(layout_list_group);
 
-				// get the element offset value depending on the cursor move direction
-				float offlimitsValue = 0;
+					// If the containers have zero size, we're not ready to scroll to the selection.
+					if (   rect_viewport.size.x <= 0.0f
+						|| rect_viewport.size.y <= 0.0f
+						|| rect_layout.size.x   <= 0.0f
+						|| rect_layout.size.y   <= 0.0f)
+					{
+						_selection = null;
+						return;
+					}
 
-				offlimitsValue = listPixelAnchor - selectionPos;
-				// move the target scroll rect
-				targetScrollRect.verticalNormalizedPosition += (offlimitsValue / layoutListGroup.sizeDelta.y) * Time.deltaTime * scrollSpeed;
+					Debug.Log("rect_selection: "+rect_selection);
+					Debug.Log("rect_viewport: "+rect_viewport);
+					Debug.Log("rect_layout: "+rect_layout);
 
-				finishedY = Mathf.Abs(offlimitsValue) < 2f;
+					Vector2 pos_local_selection = rect_selection.center - rect_layout.min;
+					Vector2 pos_local_viewport  = rect_viewport.center - rect_layout.min;
+
+					Vector2 offset_selection = rect_selection.center - (rect_layout.min + rect_selection.size * 0.5f);
+
+					float nav_width_layout  = rect_layout.width  - rect_selection.width;
+					float nav_height_layout = rect_layout.height - rect_selection.height;
+
+					Vector2 offset_normalized = Vector2.zero;
+					if (nav_width_layout > 0.0f)
+					{
+						offset_normalized.x = offset_selection.x / nav_width_layout;
+						float normal_bleed = rect_viewport.width * 0.5f / nav_width_layout;
+						offset_normalized.x = Mathf.Lerp(-normal_bleed, 1.0f + normal_bleed, offset_normalized.x);
+					}
+					if (nav_height_layout > 0.0f)
+					{
+						offset_normalized.y = offset_selection.y / nav_height_layout;
+						float normal_bleed = rect_viewport.height * 0.5f / nav_height_layout;
+						offset_normalized.y = Mathf.Lerp(-normal_bleed, 1.0f + normal_bleed, offset_normalized.y);
+					}
+
+					_target_scroll_pos = offset_normalized;
+
+					Debug.Log("_target_scroll_pos: "+_target_scroll_pos);
+
+					// _scroll_Rect.horizontalNormalizedPosition = offset_normalized.x;
+					// _scroll_Rect.verticalNormalizedPosition   = offset_normalized.y;
+				}
 			}
 
-			if (targetScrollRect.horizontal)
+			if (   !_mouse_down
+				&& _scroll_to_selection)
 			{
-				// move the current scroll rect to correct position
-				float selectionPos = -selection.anchoredPosition.x;
+				Vector2 scroll_pos = new Vector2
+				(
+					_scroll_Rect.horizontalNormalizedPosition,
+					_scroll_Rect.verticalNormalizedPosition
+				);
 
-				//float elementWidth = layoutListGroup.sizeDelta.x / layoutListGroup.transform.childCount;
-				//float maskWidth = currentCanvas.sizeDelta.y + scrollWindow.sizeDelta.y;
-				float listPixelAnchor = layoutListGroup.anchoredPosition.x;
-				
-				// get the element offset value depending on the cursor move direction
-				float offlimitsValue = 0;
-				
-				offlimitsValue = listPixelAnchor - selectionPos;
-				// move the target scroll rect
-				targetScrollRect.horizontalNormalizedPosition += (offlimitsValue / layoutListGroup.sizeDelta.x) * Time.deltaTime * scrollSpeed;
+				scroll_pos = Vector2.MoveTowards
+				(
+					scroll_pos,
+					_target_scroll_pos,
+					scrollSpeed * Time.deltaTime
+				);
 
-				finishedX = Mathf.Abs(offlimitsValue) < 2f;
+				// Debug.Log("scroll_pos: "+scroll_pos);
+
+				_scroll_Rect.horizontalNormalizedPosition = scroll_pos.x;
+				_scroll_Rect.verticalNormalizedPosition   = scroll_pos.y;
 			}
-			// check if we reached our destination
-			if (finishedX && finishedY) {
-				scrollToSelection = false;
+		}
+
+		private bool IsDescendantOf(Transform descendant, Transform ancestor)
+		{
+			Transform parent = descendant.parent;
+			while (parent != null)
+			{
+				if (parent == ancestor)
+					return true;
+
+				descendant = parent;
+				parent = descendant.parent;
 			}
-            // save last object we were "heading to" to prevent blocking
-            targetScrollObject = selection;
-        }
-    }
+
+			return false;
+		}
+
+		private Rect GetScreenCoordinates(RectTransform rect_transform)
+		{
+			var world_corners = new Vector3[4];
+			rect_transform.GetWorldCorners(world_corners);
+			var result = new Rect
+			(
+				world_corners[0].x,
+				world_corners[0].y,
+				world_corners[2].x - world_corners[0].x,
+				world_corners[2].y - world_corners[0].y
+			);
+			return result;
+		}
+	}
 }

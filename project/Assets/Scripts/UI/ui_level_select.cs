@@ -38,13 +38,13 @@ public class ui_level_select : MonoBehaviour
 
 		string path_level_list = "level_list";
 
-		Debug.Log(string.Format("Loading: '{0}'...", path_level_list));
+		// Debug.Log(string.Format("Loading: '{0}'...", path_level_list));
 
 		TextAsset txt = Resources.Load<TextAsset>(path_level_list);
 
 		string json_text = txt.text;
 
-		Debug.Log(json_text);
+		// Debug.Log(json_text);
 
 		JSONObject jobj = new JSONObject(json_text);
 
@@ -72,7 +72,7 @@ public class ui_level_select : MonoBehaviour
 			}
 		}
 
-		Debug.Log(string.Format("Load Finished."));
+		// Debug.Log(string.Format("Load Finished."));
 
 		// Setup the back button navigation.
 		if (_lst_level_tiles.Count > 0)

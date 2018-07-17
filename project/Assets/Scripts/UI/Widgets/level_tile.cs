@@ -12,11 +12,18 @@ public class level_tile : Selectable, ISubmitHandler
 {
 	public struct level_data
 	{
+		public static readonly level_data init = new level_data()
+		{
+			name = "",
+			path_data = "",
+			medal = ""
+		};
+
 		public string name;
 		public string path_data;
 		public string medal;
 	}
-	public level_data data;
+	public level_data data = level_data.init;
 
 	public TMP_Text txt_name;
 	public GameObject medal_none;
@@ -38,8 +45,9 @@ public class level_tile : Selectable, ISubmitHandler
 
 	void Start()
 	{
+		bool blah = data.medal.Equals("none");
 		txt_name.text = data.name;
-		medal_none.SetActive(data.medal.Equals("none"));
+		medal_none.SetActive(blah);
 		medal_gold.SetActive(data.medal.Equals("gold"));
 		medal_silver.SetActive(data.medal.Equals("silver"));
 		medal_bronze.SetActive(data.medal.Equals("bronze"));

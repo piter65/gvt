@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"wid",
+				"width_layout_effective"
+			],
+			[
+				"wd",
+				"width_layout_effective"
+			],
+			[
+				"rec",
+				"rect_viewport"
+			],
+			[
+				"spe",
+				"scrollSpeed"
+			],
+			[
+				"of",
+				"offset_selection"
+			],
+			[
+				"rect_",
+				"rect_viewport"
+			],
+			[
+				"leve",
+				"level_data"
+			],
+			[
+				"level",
+				"level_select_tile"
+			],
+			[
+				"jobj",
+				"jobj_level"
+			],
+			[
+				"ind",
+				"index_level"
+			],
+			[
+				"_",
+				"_submitting"
+			],
+			[
 				"vert",
 				"vertex"
 			],
@@ -40,20 +84,12 @@
 				"_current_screen_mode"
 			],
 			[
-				"_",
-				"_animator"
-			],
-			[
 				"inde",
 				"index_page"
 			],
 			[
 				"index_",
 				"index_res"
-			],
-			[
-				"ind",
-				"index_page"
 			],
 			[
 				"res",
@@ -332,10 +368,6 @@
 				"cell_move_target"
 			],
 			[
-				"of",
-				"offset"
-			],
-			[
 				"enti",
 				"entity_sub"
 			],
@@ -482,38 +514,6 @@
 			[
 				"v",
 				"velocity_z"
-			],
-			[
-				"_pr",
-				"_prev_mouse_y"
-			],
-			[
-				"im",
-				"impact_duration"
-			],
-			[
-				"Ti",
-				"Time"
-			],
-			[
-				"impa",
-				"impact_interp"
-			],
-			[
-				"ty",
-				"type_new"
-			],
-			[
-				"PO",
-				"ProjectileCourse"
-			],
-			[
-				"hit",
-				"hit_duration_max"
-			],
-			[
-				"inte",
-				"intensity"
 			]
 		]
 	},
@@ -554,10 +554,19 @@
 			}
 		},
 		{
-			"contents": "Searching 158 files for \"level_01_01\"\n\n0 matches\n\nSearching 70 files for \"level_01_01\"\n\nC:\\Work\\gvt_git\\project\\Assets\\Scripts\\manager_player.cs:\n   14  public class manager_player : MonoBehaviour\n   15  {\n   16: \tpublic static string path_level = \"levels/level_01_01\";\n   17  \n   18  \tpublic LayerMask layer_collectibles;\n\n1 match in 1 file\n",
+			"file": "project/Assets/Scripts/GLOBAL.cs",
 			"settings":
 			{
-				"buffer_size": 342,
+				"buffer_size": 1737,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 158 files for \"level_01_01\"\n\n0 matches\n\nSearching 70 files for \"level_01_01\"\n\nC:\\Work\\gvt_git\\project\\Assets\\Scripts\\manager_player.cs:\n   14  public class manager_player : MonoBehaviour\n   15  {\n   16: \tpublic static string path_level = \"levels/level_01_01\";\n   17  \n   18  \tpublic LayerMask layer_collectibles;\n\n1 match in 1 file\n\n\nSearching 72 files for \"LoadScene\"\n\nC:\\Work\\gvt_git\\project\\Assets\\Scripts\\GLOBAL.cs:\n   39  \t{\n   40  \t\t//if (menu_title == null)\n   41: \t\t//\tSceneManager.LoadSceneAsync(\"ui_menu_title\", LoadSceneMode.Additive);\n   42  \t\t//if (menu_options == null)\n   43: \t\t//\tSceneManager.LoadSceneAsync(\"ui_menu_options\", LoadSceneMode.Additive);\n   44  \t\t//if (menu_pause == null)\n   45: \t\t//\tSceneManager.LoadSceneAsync(\"ui_menu_pause\", LoadSceneMode.Additive);\n   46  \t}\n   47  \n   ..\n   64  \tpublic static void ExitLevel()\n   65  \t{\n   66: \t\tSceneManager.LoadScene(\"game\", LoadSceneMode.Single);\n   67  \t}\n   68  }\n\nC:\\Work\\gvt_git\\project\\Assets\\Scripts\\manager_player.cs:\n   41  \n   42  \t\tif (GLOBAL.game_hud == null)\n   43: \t\t\tSceneManager.LoadSceneAsync(\"ui_game_hud\", LoadSceneMode.Additive);\n   44  \n   45  \t\tLoadLevel();\n\nC:\\Work\\gvt_git\\project\\Assets\\Scripts\\UI\\ui_level_over.cs:\n   17  \t{\n   18  \t\t_success = success;\n   19: \t\tSceneManager.LoadScene(\"ui_level_over\", LoadSceneMode.Additive);\n   20  \t}\n   21  \n\nC:\\Work\\gvt_git\\project\\Assets\\Scripts\\UI\\ui_level_select.cs:\n   15  \tpublic void btn_back_Click()\n   16  \t{\n   17: \t\tSceneManager.LoadScene(\"ui_title_screen\", );\n   18  \t}\n   19  \n\n13 matches across 4 files\n\n\nSearching 72 files for \"json\"\n\nC:\\Work\\gvt_git\\project\\Assets\\JSON\\Editor\\JSONChecker.cs:\n    4  using UnityEditor;\n    5  \n    6: public class JSONChecker : EditorWindow {\n    7: \tstring JSON = @\"{\n    8  \t\"\"TestObject\"\": {\n    9  \t\t\"\"SomeText\"\": \"\"Blah\"\",\n   ..\n   21  }\";\t  //dat string literal...\n   22  \tstring URL = \"\";\n   23: \tJSONObject j;\n   24: \t[MenuItem(\"Window/JSONChecker\")]\n   25  \tstatic void Init() {\n   26: \t\tGetWindow(typeof(JSONChecker));\n   27  \t}\n   28  \tvoid OnGUI() {\n   29: \t\tJSON = EditorGUILayout.TextArea(JSON);\n   30: \t\tGUI.enabled = !string.IsNullOrEmpty(JSON);\n   31: \t\tif(GUILayout.Button(\"Check JSON\")) {\n   32  #if PERFTEST\n   33:             Profiler.BeginSample(\"JSONParse\");\n   34: \t\t\tj = JSONObject.Create(JSON);\n   35              Profiler.EndSample();\n   36:             Profiler.BeginSample(\"JSONStringify\");\n   37              j.ToString(true);\n   38              Profiler.EndSample();\n   39  #else\n   40: \t\t\tj = JSONObject.Create(JSON);\n   41  #endif\n   42  \t\t\tDebug.Log(j.ToString(true));\n   ..\n   44  \t\tEditorGUILayout.Separator();\n   45  \t\tURL = EditorGUILayout.TextField(\"URL\", URL);\n   46: \t\tif (GUILayout.Button(\"Get JSON\")) {\n   47  \t\t\tDebug.Log(URL);\n   48  \t\t\tWWW test = new WWW(URL);\n   ..\n   52  \t\t\t} else {\n   53  \t\t\t\tDebug.Log(test.text);\n   54: \t\t\t\tj = new JSONObject(test.text);\n   55  \t\t\t\tDebug.Log(j.ToString(true));\n   56  \t\t\t}\n   ..\n   58  \t\tif(j) {\n   59  \t\t\t//Debug.Log(System.GC.GetTotalMemory(false) + \"\");\n   60: \t\t\tif(j.type == JSONObject.Type.NULL)\n   61: \t\t\t\tGUILayout.Label(\"JSON fail:\\n\" + j.ToString(true));\n   62  \t\t\telse\n   63: \t\t\t\tGUILayout.Label(\"JSON success:\\n\" + j.ToString(true));\n   64  \n   65  \t\t}\n\nC:\\Work\\gvt_git\\project\\Assets\\JSON\\JSONObject.cs:\n    1: #define PRETTY\t\t//Comment out when you no longer need to read JSON to disable pretty Print system-wide\n    2  //Using doubles will cause errors in VectorTemplates.cs; Unity speaks floats\n    3  #define USEFLOAT\t//Use floats for numbers instead of doubles\t(enable if you're getting too many significant digits in string output)\n    .\n   14  /*\n   15   * http://www.opensource.org/licenses/lgpl-2.1.php\n   16:  * JSONObject class v.1.4.1\n   17   * for use with Unity\n   18   * Copyright Matt Schoen 2010 - 2013\n   19   */\n   20  \n   21: public class JSONObject {\n   22  #if POOLING\n   23  \tconst int MAX_POOL_SIZE = 10000;\n   24: \tpublic static Queue<JSONObject> releaseQueue = new Queue<JSONObject>();\n   25  #endif\n   26  \n   ..\n   41  \t\t}\n   42  \t}\n   43: \tpublic List<JSONObject> list;\n   44  \tpublic List<string> keys;\n   45  \tpublic string str;\n   ..\n   62  \tpublic long i;\n   63  \tpublic bool b;\n   64: \tpublic delegate void AddJSONContents(JSONObject self);\n   65  \n   66: \tpublic static JSONObject nullJO { get { return Create(Type.NULL); } }\t//an empty, null object\n   67: \tpublic static JSONObject obj { get { return Create(Type.OBJECT); } }\t\t//an empty object\n   68: \tpublic static JSONObject arr { get { return Create(Type.ARRAY); } }\t\t//an empty array\n   69  \n   70: \tpublic JSONObject(Type t) {\n   71  \t\ttype = t;\n   72  \t\tswitch(t) {\n   73  \t\t\tcase Type.ARRAY:\n   74: \t\t\t\tlist = new List<JSONObject>();\n   75  \t\t\t\tbreak;\n   76  \t\t\tcase Type.OBJECT:\n   77: \t\t\t\tlist = new List<JSONObject>();\n   78  \t\t\t\tkeys = new List<string>();\n   79  \t\t\t\tbreak;\n   80  \t\t}\n   81  \t}\n   82: \tpublic JSONObject(bool b) {\n   83  \t\ttype = Type.BOOL;\n   84  \t\tthis.b = b;\n   85  \t}\n   86  #if USEFLOAT\n   87: \tpublic JSONObject(float f) {\n   88  \t\ttype = Type.NUMBER;\n   89  \t\tn = f;\n   90  \t}\n   91  #else\n   92: \tpublic JSONObject(double d) {\n   93  \t\ttype = Type.NUMBER;\n   94  \t\tn = d;\n   95  \t}\n   96  #endif\n   97: \tpublic JSONObject(int i) {\n   98  \t\ttype = Type.NUMBER;\n   99  \t\tthis.i = i;\n  ...\n  101  \t\tn = i;\n  102  \t}\n  103: \tpublic JSONObject(long l) {\n  104  \t\ttype = Type.NUMBER;\n  105  \t\ti = l;\n  ...\n  107  \t\tn = l;\n  108  \t}\n  109: \tpublic JSONObject(Dictionary<string, string> dic) {\n  110  \t\ttype = Type.OBJECT;\n  111  \t\tkeys = new List<string>();\n  112: \t\tlist = new List<JSONObject>();\n  113  \t\t//Not sure if it's worth removing the foreach here\n  114  \t\tforeach(KeyValuePair<string, string> kvp in dic) {\n  ...\n  117  \t\t}\n  118  \t}\n  119: \tpublic JSONObject(Dictionary<string, JSONObject> dic) {\n  120  \t\ttype = Type.OBJECT;\n  121  \t\tkeys = new List<string>();\n  122: \t\tlist = new List<JSONObject>();\n  123  \t\t//Not sure if it's worth removing the foreach here\n  124: \t\tforeach(KeyValuePair<string, JSONObject> kvp in dic) {\n  125  \t\t\tkeys.Add(kvp.Key);\n  126  \t\t\tlist.Add(kvp.Value);\n  127  \t\t}\n  128  \t}\n  129: \tpublic JSONObject(AddJSONContents content) {\n  130  \t\tcontent.Invoke(this);\n  131  \t}\n  132: \tpublic JSONObject(JSONObject[] objs) {\n  133  \t\ttype = Type.ARRAY;\n  134: \t\tlist = new List<JSONObject>(objs);\n  135  \t}\n  136: \t//Convenience function for creating a JSONObject containing a string.  This is not part of the constructor so that malformed JSON data doesn't just turn into a string object\n  137: \tpublic static JSONObject StringObject(string val) { return CreateStringObject(val); }\n  138: \tpublic void Absorb(JSONObject obj) {\n  139  \t\tlist.AddRange(obj.list);\n  140  \t\tkeys.AddRange(obj.keys);\n  ...\n  146  \t\ttype = obj.type;\n  147  \t}\n  148: \tpublic static JSONObject Create() {\n  149  #if POOLING\n  150: \t\tJSONObject result = null;\n  151  \t\twhile(result == null && releaseQueue.Count > 0) {\n  152  \t\t\tresult = releaseQueue.Dequeue();\n  ...\n  162  \t\t\treturn result;\n  163  #endif\n  164: \t\treturn new JSONObject();\n  165  \t}\n  166: \tpublic static JSONObject Create(Type t) {\n  167: \t\tJSONObject obj = Create();\n  168  \t\tobj.type = t;\n  169  \t\tswitch(t) {\n  170  \t\t\tcase Type.ARRAY:\n  171: \t\t\t\tobj.list = new List<JSONObject>();\n  172  \t\t\t\tbreak;\n  173  \t\t\tcase Type.OBJECT:\n  174: \t\t\t\tobj.list = new List<JSONObject>();\n  175  \t\t\t\tobj.keys = new List<string>();\n  176  \t\t\t\tbreak;\n  ...\n  178  \t\treturn obj;\n  179  \t}\n  180: \tpublic static JSONObject Create(bool val) {\n  181: \t\tJSONObject obj = Create();\n  182  \t\tobj.type = Type.BOOL;\n  183  \t\tobj.b = val;\n  184  \t\treturn obj;\n  185  \t}\n  186: \tpublic static JSONObject Create(float val) {\n  187: \t\tJSONObject obj = Create();\n  188  \t\tobj.type = Type.NUMBER;\n  189  \t\tobj.n = val;\n  190  \t\treturn obj;\n  191  \t}\n  192: \tpublic static JSONObject Create(int val) {\n  193: \t\tJSONObject obj = Create();\n  194  \t\tobj.type = Type.NUMBER;\n  195  \t\tobj.n = val;\n  ...\n  198  \t\treturn obj;\n  199  \t}\n  200: \tpublic static JSONObject Create(long val) {\n  201: \t\tJSONObject obj = Create();\n  202  \t\tobj.type = Type.NUMBER;\n  203  \t\tobj.n = val;\n  ...\n  206  \t\treturn obj;\n  207  \t}\n  208: \tpublic static JSONObject CreateStringObject(string val) {\n  209: \t\tJSONObject obj = Create();\n  210  \t\tobj.type = Type.STRING;\n  211  \t\tobj.str = val;\n  212  \t\treturn obj;\n  213  \t}\n  214: \tpublic static JSONObject CreateBakedObject(string val) {\n  215: \t\tJSONObject bakedObject = Create();\n  216  \t\tbakedObject.type = Type.BAKED;\n  217  \t\tbakedObject.str = val;\n  ...\n  219  \t}\n  220  \t/// <summary>\n  221: \t/// Create a JSONObject by parsing string data\n  222  \t/// </summary>\n  223  \t/// <param name=\"val\">The string to be parsed</param>\n  224  \t/// <param name=\"maxDepth\">The maximum depth for the parser to search.  Set this to to 1 for the first level, \n  225  \t/// 2 for the first 2 levels, etc.  It defaults to -2 because -1 is the depth value that is parsed (see below)</param>\n  226: \t/// <param name=\"storeExcessLevels\">Whether to store levels beyond maxDepth in baked JSONObjects</param>\n  227  \t/// <param name=\"strict\">Whether to be strict in the parsing. For example, non-strict parsing will successfully \n  228  \t/// parse \"a string\" into a string-type </param>\n  229  \t/// <returns></returns>\n  230: \tpublic static JSONObject Create(string val, int maxDepth = -2, bool storeExcessLevels = false, bool strict = false) {\n  231: \t\tJSONObject obj = Create();\n  232  \t\tobj.Parse(val, maxDepth, storeExcessLevels, strict);\n  233  \t\treturn obj;\n  234  \t}\n  235: \tpublic static JSONObject Create(AddJSONContents content) {\n  236: \t\tJSONObject obj = Create();\n  237  \t\tcontent.Invoke(obj);\n  238  \t\treturn obj;\n  239  \t}\n  240: \tpublic static JSONObject Create(Dictionary<string, string> dic) {\n  241: \t\tJSONObject obj = Create();\n  242  \t\tobj.type = Type.OBJECT;\n  243  \t\tobj.keys = new List<string>();\n  244: \t\tobj.list = new List<JSONObject>();\n  245  \t\t//Not sure if it's worth removing the foreach here\n  246  \t\tforeach(KeyValuePair<string, string> kvp in dic) {\n  ...\n  250  \t\treturn obj;\n  251  \t}\n  252: \tpublic JSONObject() { }\n  253  \t#region PARSE\n  254: \tpublic JSONObject(string str, int maxDepth = -2, bool storeExcessLevels = false, bool strict = false) {\t//create a new JSONObject from a string (this will also create any children, and parse the whole string)\n  255  \t\tParse(str, maxDepth, storeExcessLevels, strict);\n  256  \t}\n  ...\n  266  \t\t\t\t\tDebug.WriteLine\n  267  #endif\n  268: \t\t\t\t\t\t(\"Improper (strict) JSON formatting.  First character must be [ or {\");\n  269  \t\t\t\t\treturn;\n  270  \t\t\t\t}\n  ...\n  317  \t\t\t\t\tint tokenTmp = 1;\n  318  \t\t\t\t\t/*\n  319: \t\t\t\t\t * Checking for the following formatting (www.json.org)\n  320  \t\t\t\t\t * object - {\"field1\":value,\"field2\":value}\n  321  \t\t\t\t\t * array - [value,value,value]\n  ...\n  330  \t\t\t\t\t\t\ttype = Type.OBJECT;\n  331  \t\t\t\t\t\t\tkeys = new List<string>();\n  332: \t\t\t\t\t\t\tlist = new List<JSONObject>();\n  333  \t\t\t\t\t\t\tbreak;\n  334  \t\t\t\t\t\tcase '[':\n  335  \t\t\t\t\t\t\ttype = Type.ARRAY;\n  336: \t\t\t\t\t\t\tlist = new List<JSONObject>();\n  337  \t\t\t\t\t\t\tbreak;\n  338  \t\t\t\t\t\tdefault:\n  ...\n  355  \t\t\t\t\t\t\t\tDebug.WriteLine\n  356  #endif\n  357: \t\t\t\t\t\t\t\t(\"improper JSON formatting:\" + str);\n  358  \t\t\t\t\t\t\t}\n  359  \t\t\t\t\t\t\treturn;\n  ...\n  435  \t\tAdd(CreateStringObject(str));\n  436  \t}\n  437: \tpublic void Add(AddJSONContents content) {\n  438  \t\tAdd(Create(content));\n  439  \t}\n  440: \tpublic void Add(JSONObject obj) {\n  441  \t\tif(obj) {\t\t//Don't do anything if the object is null\n  442  \t\t\tif(type != Type.ARRAY) {\n  443  \t\t\t\ttype = Type.ARRAY;\t\t//Congratulations, son, you're an ARRAY now\n  444  \t\t\t\tif(list == null)\n  445: \t\t\t\t\tlist = new List<JSONObject>();\n  446  \t\t\t}\n  447  \t\t\tlist.Add(obj);\n  ...\n  460  \t\tAddField(name, Create(val));\n  461  \t}\n  462: \tpublic void AddField(string name, AddJSONContents content) {\n  463  \t\tAddField(name, Create(content));\n  464  \t}\n  ...\n  466  \t\tAddField(name, CreateStringObject(val));\n  467  \t}\n  468: \tpublic void AddField(string name, JSONObject obj) {\n  469  \t\tif(obj) {\t\t//Don't do anything if the object is null\n  470  \t\t\tif(type != Type.OBJECT) {\n  ...\n  476  \t\t\t\t} else\n  477  \t\t\t\t\tif(list == null)\n  478: \t\t\t\t\t\tlist = new List<JSONObject>();\n  479  \t\t\t\ttype = Type.OBJECT;\t\t//Congratulations, son, you're an OBJECT now\n  480  \t\t\t}\n  ...\n  487  \tpublic void SetField(string name, float val) { SetField(name, Create(val)); }\n  488  \tpublic void SetField(string name, int val) { SetField(name, Create(val)); }\n  489: \tpublic void SetField(string name, JSONObject obj) {\n  490  \t\tif(HasField(name)) {\n  491  \t\t\tlist.Remove(this[name]);\n  ...\n  501  \t}\n  502  \tpublic delegate void FieldNotFound(string name);\n  503: \tpublic delegate void GetFieldResponse(JSONObject obj);\n  504  \tpublic bool GetField(out bool field, string name, bool fallback) {\n  505  \t\tfield = fallback;\n  ...\n  610  \t\tif(fail != null) fail.Invoke(name);\n  611  \t}\n  612: \tpublic JSONObject GetField(string name) {\n  613  \t\tif(IsObject)\n  614  \t\t\tfor(int i = 0; i < keys.Count; i++)\n  ...\n  644  \t}\n  645  \t/// <summary>\n  646: \t/// Copy a JSONObject. This could probably work better\n  647  \t/// </summary>\n  648  \t/// <returns></returns>\n  649: \tpublic JSONObject Copy() {\n  650  \t\treturn Create(Print());\n  651  \t}\n  ...\n  653  \t * The Merge function is experimental. Use at your own risk.\n  654  \t */\n  655: \tpublic void Merge(JSONObject obj) {\n  656  \t\tMergeRecur(this, obj);\n  657  \t}\n  ...\n  661  \t/// <param name=\"left\">The left (base) object</param>\n  662  \t/// <param name=\"right\">The right (new) object</param>\n  663: \tstatic void MergeRecur(JSONObject left, JSONObject right) {\n  664  \t\tif(left.type == Type.NULL)\n  665  \t\t\tleft.Absorb(right);\n  ...\n  737  \tconst float maxFrameTime = 0.008f;\n  738  \tstatic readonly Stopwatch printWatch = new Stopwatch();\n  739: \tIEnumerable StringifyAsync(int depth, StringBuilder builder, bool pretty = false) {\t//Convert the JSONObject into a string\n  740: \t\t//Profiler.BeginSample(\"JSONprint\");\n  741  \t\tif(depth++ > MAX_DEPTH) {\n  742  #if UNITY_2 || UNITY_3 || UNITY_4 || UNITY_5\n  ...\n  792  \t\t\t\t\tfor(int i = 0; i < list.Count; i++) {\n  793  \t\t\t\t\t\tstring key = keys[i];\n  794: \t\t\t\t\t\tJSONObject obj = list[i];\n  795  \t\t\t\t\t\tif(obj) {\n  796  #if(PRETTY)\n  ...\n  883  \t * I would still like a more elegant way to optionaly yield\n  884  \t */\n  885: \tvoid Stringify(int depth, StringBuilder builder, bool pretty = false) {\t//Convert the JSONObject into a string\n  886: \t\t//Profiler.BeginSample(\"JSONprint\");\n  887  \t\tif(depth++ > MAX_DEPTH) {\n  888  #if UNITY_2 || UNITY_3 || UNITY_4 || UNITY_5\n  ...\n  933  \t\t\t\t\tfor(int i = 0; i < list.Count; i++) {\n  934  \t\t\t\t\t\tstring key = keys[i];\n  935: \t\t\t\t\t\tJSONObject obj = list[i];\n  936  \t\t\t\t\t\tif(obj) {\n  937  #if(PRETTY)\n  ...\n 1017  \t#endregion\n 1018  #if UNITY_2 || UNITY_3 || UNITY_4 || UNITY_5\n 1019: \tpublic static implicit operator WWWForm(JSONObject obj) {\n 1020  \t\tWWWForm form = new WWWForm();\n 1021  \t\tfor(int i = 0; i < obj.list.Count; i++) {\n ....\n 1031  \t}\n 1032  #endif\n 1033: \tpublic JSONObject this[int index] {\n 1034  \t\tget {\n 1035  \t\t\tif(list.Count > index) return list[index];\n ....\n 1041  \t\t}\n 1042  \t}\n 1043: \tpublic JSONObject this[string index] {\n 1044  \t\tget {\n 1045  \t\t\treturn GetField(index);\n ....\n 1059  \t\t\tDictionary<string, string> result = new Dictionary<string, string>();\n 1060  \t\t\tfor(int i = 0; i < list.Count; i++) {\n 1061: \t\t\t\tJSONObject val = list[i];\n 1062  \t\t\t\tswitch(val.type) {\n 1063  \t\t\t\t\tcase Type.STRING: result.Add(keys[i], val.str); break;\n ....\n 1081  \t\tDebug.WriteLine\n 1082  #endif\n 1083: \t\t(\"Tried to turn non-Object JSONObject into a dictionary\");\n 1084  \t\treturn null;\n 1085  \t}\n 1086: \tpublic static implicit operator bool(JSONObject o) {\n 1087  \t\treturn o != null;\n 1088  \t}\n ....\n 1095  \t}\n 1096  \n 1097: \t~JSONObject() {\n 1098  \t\tif(pool && releaseQueue.Count < MAX_POOL_SIZE) {\n 1099  \t\t\ttype = Type.NULL;\n\nC:\\Work\\gvt_git\\project\\Assets\\JSON\\JSONTemplates.cs:\n    5  /*\n    6   * http://www.opensource.org/licenses/lgpl-2.1.php\n    7:  * JSONTemplates class\n    8   * for use with Unity\n    9   * Copyright Matt Schoen 2010\n   10   */\n   11  \n   12: public static partial class JSONTemplates {\n   13  \tstatic readonly HashSet<object> touched = new HashSet<object>();\n   14  \n   15: \tpublic static JSONObject TOJSON(object obj) {\t\t//For a generic guess\n   16  \t\tif(touched.Add(obj)) {\n   17: \t\t\tJSONObject result = JSONObject.obj;\n   18  \t\t\t//Fields\n   19  \t\t\tFieldInfo[] fieldinfo = obj.GetType().GetFields();\n   20  \t\t\tforeach(FieldInfo fi in fieldinfo) {\n   21: \t\t\t\tJSONObject val = JSONObject.nullJO;\n   22  \t\t\t\tif(!fi.GetValue(obj).Equals(null)) {\n   23: \t\t\t\t\tMethodInfo info = typeof(JSONTemplates).GetMethod(\"From\" + fi.FieldType.Name);\n   24  \t\t\t\t\tif(info != null) {\n   25  \t\t\t\t\t\tobject[] parms = new object[1];\n   26  \t\t\t\t\t\tparms[0] = fi.GetValue(obj);\n   27: \t\t\t\t\t\tval = (JSONObject)info.Invoke(null, parms);\n   28  \t\t\t\t\t} else if(fi.FieldType == typeof(string))\n   29: \t\t\t\t\t\tval = JSONObject.CreateStringObject(fi.GetValue(obj).ToString());\n   30  \t\t\t\t\telse\n   31: \t\t\t\t\t\tval = JSONObject.Create(fi.GetValue(obj).ToString());\n   32  \t\t\t\t}\n   33  \t\t\t\tif(val) {\n   34: \t\t\t\t\tif(val.type != JSONObject.Type.NULL)\n   35  \t\t\t\t\t\tresult.AddField(fi.Name, val);\n   36  \t\t\t\t\telse Debug.LogWarning(\"Null for this non-null object, property \" + fi.Name + \" of class \" + obj.GetType().Name + \". Object type is \" + fi.FieldType.Name);\n   ..\n   41  \t\t\tforeach(PropertyInfo pi in propertyInfo) {\n   42  \t\t\t\t//This section should mirror part of AssetFactory.AddScripts()\n   43: \t\t\t\tJSONObject val = JSONObject.nullJO;\n   44  \t\t\t\tif(!pi.GetValue(obj, null).Equals(null)) {\n   45: \t\t\t\t\tMethodInfo info = typeof(JSONTemplates).GetMethod(\"From\" + pi.PropertyType.Name);\n   46  \t\t\t\t\tif(info != null) {\n   47  \t\t\t\t\t\tobject[] parms = new object[1];\n   48  \t\t\t\t\t\tparms[0] = pi.GetValue(obj, null);\n   49: \t\t\t\t\t\tval = (JSONObject)info.Invoke(null, parms);\n   50  \t\t\t\t\t} else if(pi.PropertyType == typeof(string))\n   51: \t\t\t\t\t\tval = JSONObject.CreateStringObject(pi.GetValue(obj, null).ToString());\n   52  \t\t\t\t\telse\n   53: \t\t\t\t\t\tval = JSONObject.Create(pi.GetValue(obj, null).ToString());\n   54  \t\t\t\t}\n   55  \t\t\t\tif(val) {\n   56: \t\t\t\t\tif(val.type != JSONObject.Type.NULL)\n   57  \t\t\t\t\t\tresult.AddField(pi.Name, val);\n   58  \t\t\t\t\telse Debug.LogWarning(\"Null for this non-null object, property \" + pi.Name + \" of class \" + obj.GetType().Name + \". Object type is \" + pi.PropertyType.Name);\n   ..\n   62  \t\t} \n   63  \t\tDebug.LogWarning(\"trying to save the same data twice\");\n   64: \t\treturn JSONObject.nullJO;\n   65  \t}\n   66  }\n   67  \n   68  /*\n   69:  * Some helpful code templates for the JSON class\n   70   * \n   71   * LOOP THROUGH OBJECT\n   ..\n   74  \t\tswitch((string)obj.keys[i]){\n   75  \t\t\tcase \"key1\":\n   76: \t\t\t\tdo stuff with (JSONObject)obj.list[i];\n   77  \t\t\t\tbreak;\n   78  \t\t\tcase \"key2\":\n   79: \t\t\t\tdo stuff with (JSONObject)obj.list[i];\n   80  \t\t\t\tbreak;\t\t\n   81  \t\t}\n   ..\n   84   *\n   85   * LOOP THROUGH ARRAY\n   86: foreach(JSONObject ob in obj.list)\n   87  \tdo stuff with ob;\n   88   */\n\nC:\\Work\\gvt_git\\project\\Assets\\JSON\\VectorTemplates.cs:\n    1  using UnityEngine;\n    2  \n    3: public static partial class JSONTemplates {\n    4  \n    5  \t/*\n    6  \t * Vector2\n    7  \t */\n    8: \tpublic static Vector2 ToVector2(JSONObject obj) {\n    9  \t\tfloat x = obj[\"x\"] ? obj[\"x\"].f : 0;\n   10  \t\tfloat y = obj[\"y\"] ? obj[\"y\"].f : 0;\n   11  \t\treturn new Vector2(x, y);\n   12  \t}\n   13: \tpublic static JSONObject FromVector2(Vector2 v) {\n   14: \t\tJSONObject vdata = JSONObject.obj;\n   15  \t\tif(v.x != 0)\tvdata.AddField(\"x\", v.x);\n   16  \t\tif(v.y != 0)\tvdata.AddField(\"y\", v.y);\n   ..\n   20  \t * Vector3\n   21  \t */\n   22: \tpublic static JSONObject FromVector3(Vector3 v) {\n   23: \t\tJSONObject vdata = JSONObject.obj;\n   24  \t\tif(v.x != 0)\tvdata.AddField(\"x\", v.x);\n   25  \t\tif(v.y != 0)\tvdata.AddField(\"y\", v.y);\n   ..\n   27  \t\treturn vdata;\n   28  \t}\n   29: \tpublic static Vector3 ToVector3(JSONObject obj) {\n   30  \t\tfloat x = obj[\"x\"] ? obj[\"x\"].f : 0;\n   31  \t\tfloat y = obj[\"y\"] ? obj[\"y\"].f : 0;\n   ..\n   36  \t * Vector4\n   37  \t */\n   38: \tpublic static JSONObject FromVector4(Vector4 v) {\n   39: \t\tJSONObject vdata = JSONObject.obj;\n   40  \t\tif(v.x != 0)\tvdata.AddField(\"x\", v.x);\n   41  \t\tif(v.y != 0)\tvdata.AddField(\"y\", v.y);\n   ..\n   44  \t\treturn vdata;\n   45  \t}\n   46: \tpublic static Vector4 ToVector4(JSONObject obj) {\n   47  \t\tfloat x = obj[\"x\"] ? obj[\"x\"].f : 0;\n   48  \t\tfloat y = obj[\"y\"] ? obj[\"y\"].f : 0;\n   ..\n   54  \t * Matrix4x4\n   55  \t */\n   56: \tpublic static JSONObject FromMatrix4x4(Matrix4x4 m) {\n   57: \t\tJSONObject mdata = JSONObject.obj;\n   58  \t\tif(m.m00 != 0) mdata.AddField(\"m00\", m.m00);\n   59  \t\tif(m.m01 != 0) mdata.AddField(\"m01\", m.m01);\n   ..\n   74  \t\treturn mdata;\n   75  \t}\n   76: \tpublic static Matrix4x4 ToMatrix4x4(JSONObject obj) {\n   77  \t\tMatrix4x4 result = new Matrix4x4();\n   78  \t\tif(obj[\"m00\"]) result.m00 = obj[\"m00\"].f;\n   ..\n   97  \t * Quaternion\n   98  \t */\n   99: \tpublic static JSONObject FromQuaternion(Quaternion q) {\n  100: \t\tJSONObject qdata = JSONObject.obj;\n  101  \t\tif(q.w != 0)\tqdata.AddField(\"w\", q.w);\n  102  \t\tif(q.x != 0)\tqdata.AddField(\"x\", q.x);\n  ...\n  105  \t\treturn qdata;\n  106  \t}\n  107: \tpublic static Quaternion ToQuaternion(JSONObject obj) {\n  108  \t\tfloat x = obj[\"x\"] ? obj[\"x\"].f : 0;\n  109  \t\tfloat y = obj[\"y\"] ? obj[\"y\"].f : 0;\n  ...\n  115  \t * Color\n  116  \t */\n  117: \tpublic static JSONObject FromColor(Color c) {\n  118: \t\tJSONObject cdata = JSONObject.obj;\n  119  \t\tif(c.r != 0)\tcdata.AddField(\"r\", c.r);\n  120  \t\tif(c.g != 0)\tcdata.AddField(\"g\", c.g);\n  ...\n  123  \t\treturn cdata;\n  124  \t}\n  125: \tpublic static Color ToColor(JSONObject obj) {\n  126  \t\tColor c = new Color();\n  127  \t\tfor(int i = 0; i < obj.Count; i++) {\n  ...\n  138  \t * Layer Mask\n  139  \t */\n  140: \tpublic static JSONObject FromLayerMask(LayerMask l) {\n  141: \t\tJSONObject result = JSONObject.obj;\n  142  \t\tresult.AddField(\"value\", l.value);\n  143  \t\treturn result;\n  144  \t}\n  145: \tpublic static LayerMask ToLayerMask(JSONObject obj) {\n  146  \t\tLayerMask l = new LayerMask {value = (int)obj[\"value\"].n};\n  147  \t\treturn l;\n  148  \t}\n  149: \tpublic static JSONObject FromRect(Rect r) {\n  150: \t\tJSONObject result = JSONObject.obj;\n  151  \t\tif(r.x != 0)\t\tresult.AddField(\"x\", r.x);\n  152  \t\tif(r.y != 0)\t\tresult.AddField(\"y\", r.y);\n  ...\n  155  \t\treturn result;\n  156  \t}\n  157: \tpublic static Rect ToRect(JSONObject obj) {\n  158  \t\tRect r = new Rect();\n  159  \t\tfor(int i = 0; i < obj.Count; i++) {\n  ...\n  167  \t\treturn r;\n  168  \t}\n  169: \tpublic static JSONObject FromRectOffset(RectOffset r) {\n  170: \t\tJSONObject result = JSONObject.obj;\n  171  \t\tif(r.bottom != 0)\t\tresult.AddField(\"bottom\", r.bottom);\n  172  \t\tif(r.left != 0)\t\t\tresult.AddField(\"left\", r.left);\n  ...\n  175  \t\treturn result;\n  176  \t}\n  177: \tpublic static RectOffset ToRectOffset(JSONObject obj) {\n  178  \t\tRectOffset r = new RectOffset();\n  179  \t\tfor(int i = 0; i < obj.Count; i++) {\n  ...\n  188  \t}\n  189  \t\n  190: \tpublic static AnimationCurve ToAnimationCurve(JSONObject obj){\n  191  \t\tAnimationCurve a = new AnimationCurve();\n  192  \t\tif(obj.HasField(\"keys\")){\n  193: \t\t\tJSONObject keys = obj.GetField(\"keys\");\n  194  \t\t\tfor(int i =0; i < keys.list.Count;i++){\n  195  \t\t\t\ta.AddKey(ToKeyframe(keys[i]));\n  ...\n  203  \t}\n  204  \t\n  205: \tpublic static JSONObject FromAnimationCurve(AnimationCurve a){\n  206: \t\tJSONObject result = JSONObject.obj;\n  207  \t\tresult.AddField(\"preWrapMode\", a.preWrapMode.ToString()); \n  208  \t\tresult.AddField(\"postWrapMode\", a.postWrapMode.ToString()); \n  209  \t\tif(a.keys.Length > 0){\n  210: \t\t\tJSONObject keysJSON = JSONObject.Create();\n  211  \t\t\tfor(int i =0; i < a.keys.Length;i++){\n  212: \t\t\t\tkeysJSON.Add(FromKeyframe(a.keys[i]));\n  213  \t\t\t}\n  214: \t\t\tresult.AddField(\"keys\", keysJSON);\n  215  \t\t}\n  216  \t\treturn result;\n  217  \t}\n  218  \t\n  219: \tpublic static Keyframe ToKeyframe(JSONObject obj){\n  220  \t\tKeyframe k = new Keyframe(obj.HasField(\"time\")? obj.GetField(\"time\").n : 0, obj.HasField(\"value\")? obj.GetField(\"value\").n : 0);\n  221  \t\tif(obj.HasField(\"inTangent\")) k.inTangent = obj.GetField(\"inTangent\").n;\n  ...\n  225  \t\treturn k;\n  226  \t}\n  227: \tpublic static JSONObject FromKeyframe(Keyframe k){\n  228: \t\tJSONObject result = JSONObject.obj;\n  229  \t\tif(k.inTangent != 0)\tresult.AddField(\"inTangent\", k.inTangent);\n  230  \t\tif(k.outTangent != 0)\tresult.AddField(\"outTangent\", k.outTangent);\n\nC:\\Work\\gvt_git\\project\\Assets\\Scripts\\manager_player.cs:\n  224  \t\tTextAsset txt = Resources.Load<TextAsset>(path_level);\n  225  \n  226: \t\tstring json_text = txt.text;\n  227  \n  228: \t\tDebug.Log(json_text);\n  229  \n  230: \t\tJSONObject json_obj = new JSONObject(json_text);\n  231  \n  232: \t\tif (json_obj[\"spawnings\"] != null)\n  233  \t\t{\n  234: \t\t\tList<JSONObject> lst_json_obj_spawnings = json_obj[\"spawnings\"].list;\n  235  \n  236: \t\t\tfor (int index_json = 0; index_json < lst_json_obj_spawnings.Count; ++index_json)\n  237  \t\t\t{\n  238: \t\t\t\tJSONObject json_obj_spawn = lst_json_obj_spawnings[index_json];\n  239  \n  240: \t\t\t\tDebug.Log(string.Format(\"spawn[{0}].time: {1}\", index_json, json_obj_spawn[\"time\"].f));\n  241: \t\t\t\tDebug.Log(string.Format(\"spawn[{0}].row: {1}\", index_json, json_obj_spawn[\"row\"].i));\n  242: \t\t\t\tDebug.Log(string.Format(\"spawn[{0}].unit: {1}\", index_json, json_obj_spawn[\"unit\"].str));\n  243  \n  244  \t\t\t\tSpawning spawning = new Spawning();\n  245  \n  246: \t\t\t\tspawning.time = json_obj_spawn[\"time\"].f;\n  247: \t\t\t\tspawning.row = (int)json_obj_spawn[\"row\"].i;\n  248: \t\t\t\tspawning.prefab_unit = StringToPrefabUnit(json_obj_spawn[\"unit\"].str);\n  249  \n  250  \t\t\t\t// Figure out what index to insert the spawning at so that spawn times are in order.\n\n221 matches across 5 files\n",
+			"settings":
+			{
+				"buffer_size": 25761,
 				"line_ending": "Windows",
 				"name": "Find Results",
 				"scratch": true
@@ -568,6 +577,15 @@
 			"settings":
 			{
 				"buffer_size": 6534,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "project/Assets/Scripts/UI/Widgets/level_tile.cs",
+			"settings":
+			{
+				"buffer_size": 2430,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Unix"
 			}
@@ -586,6 +604,33 @@
 			"settings":
 			{
 				"buffer_size": 307,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "project/Assets/Scripts/UI/ui_level_select.cs",
+			"settings":
+			{
+				"buffer_size": 2526,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "project/Assets/Scripts/Utils/UIScrollToSelectionXY.cs",
+			"settings":
+			{
+				"buffer_size": 5937,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "project/Assets/Scripts/Utils/UIScrollToSelectionY.cs",
+			"settings":
+			{
+				"buffer_size": 4094,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Unix"
 			}
@@ -632,6 +677,7 @@
 	},
 	"file_history":
 	[
+		"/C/Work/gvt_git/project/Assets/Scripts/UI/Widgets/level_select_tile.cs",
 		"/C/Work/personal/Robo Clicker/Assets/[game]/Shaders/SpriteNormal.shader",
 		"/C/Work/personal/Robo Clicker/Assets/[game]/Prototype_Sprite_Normal/SpriteNormal.cs",
 		"/C/Work/personal/Robo Clicker/Assets/[game]/Prototype_Sprite_Normal/DepthSprite.cs",
@@ -758,8 +804,7 @@
 		"/C/Users/Brent/Dropbox/Robo Clicker/business_questions.txt",
 		"/C/Users/Brent/Dropbox/Docs/Business Ideas/joystick trackball mouse.txt",
 		"/C/Users/Brent/Dropbox/Docs/Business Ideas/batch web submitter.txt",
-		"/C/Work/james_nolen/DrN_Old/creds.txt",
-		"/C/Users/Brent/Dropbox/Writing/Wayward Witch/Wayward Witch - 01.001 - Test Time.txt"
+		"/C/Work/james_nolen/DrN_Old/creds.txt"
 	],
 	"find":
 	{
@@ -841,6 +886,49 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"min_selection",
+			"min",
+			"min_layout",
+			"min_selection",
+			"min_viewport",
+			"NaN",
+			"width_layout_effective",
+			"center_selection",
+			"width",
+			"rect_layout.min",
+			"selection",
+			"selection ",
+			"_scrollViewport",
+			"layoutListGroup",
+			"min_viewport",
+			"min_selection",
+			"RectTransformToScreenSpace",
+			"width",
+			"Transform",
+			"targetScrollObject",
+			"scrollWindow",
+			"_currentCanvas",
+			"currentCanvas",
+			"scrollRect",
+			"ScrollRect",
+			"scrollRect",
+			"ScrollRect",
+			"scrollRect",
+			"targetScrollRect",
+			"finishedX",
+			"customNav",
+			"none",
+			"level_tile",
+			"level_select_tile",
+			"level_list",
+			"_lst_level_list",
+			"jobj_spawn",
+			"json_obj",
+			"lst_json_obj_level_list",
+			"spawnings",
+			"path_level",
+			"json",
+			"LoadScene",
 			"path_level",
 			"level_01_01",
 			"prefab_tog_unit_select",
@@ -925,50 +1013,7 @@
 			"16",
 			"public Color",
 			"Color ",
-			"color",
-			"Color",
-			"0",
-			"16*11",
-			"08",
-			"15",
-			";",
-			"_height_idle",
-			"_animate_click",
-			"0.0f",
-			"4.0f",
-			"7",
-			"7.0f",
-			"5.0f",
-			"height",
-			"target_height",
-			"height",
-			"public",
-			"6",
-			"_mouse",
-			"_mouse_over",
-			"is_damaged",
-			"dead",
-			"is_damaged",
-			".Process()",
-			"rotation",
-			"player",
-			"IEnum",
-			"Spawn",
-			"cell_up",
-			"_prev_dark_tide",
-			"dark_tide",
-			"PrepCalc",
-			"_idle_duration",
-			"target_wait_time",
-			"generating",
-			"player",
-			"max",
-			"min",
-			"top",
-			"ray",
-			"lst_terrain",
-			"Destroy",
-			"height_offset"
+			"color"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -995,7 +1040,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -1017,22 +1062,14 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 264,
-								"count": 110,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
@@ -1054,15 +1091,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 190,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -1071,7 +1099,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -1087,20 +1115,12 @@
 						"selection":
 						[
 							[
-								431,
-								431
+								4,
+								14
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "json"
-							},
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
@@ -1108,7 +1128,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -1130,14 +1150,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "json"
-							},
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
@@ -1145,15 +1157,44 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
+					"file": "project/Assets/Scripts/GLOBAL.cs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 342,
+						"buffer_size": 1737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								655,
+								667
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 690.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25761,
 						"regions":
 						{
 							"match":
@@ -1164,6 +1205,942 @@
 									[
 										256,
 										267
+									],
+									[
+										500,
+										509
+									],
+									[
+										532,
+										541
+									],
+									[
+										619,
+										628
+									],
+									[
+										653,
+										662
+									],
+									[
+										738,
+										747
+									],
+									[
+										770,
+										779
+									],
+									[
+										890,
+										899
+									],
+									[
+										908,
+										917
+									],
+									[
+										1078,
+										1087
+									],
+									[
+										1108,
+										1117
+									],
+									[
+										1285,
+										1294
+									],
+									[
+										1312,
+										1321
+									],
+									[
+										1487,
+										1496
+									],
+									[
+										1710,
+										1714
+									],
+									[
+										1754,
+										1758
+									],
+									[
+										1900,
+										1904
+									],
+									[
+										1940,
+										1944
+									],
+									[
+										2010,
+										2014
+									],
+									[
+										2067,
+										2071
+									],
+									[
+										2099,
+										2103
+									],
+									[
+										2151,
+										2155
+									],
+									[
+										2194,
+										2198
+									],
+									[
+										2265,
+										2269
+									],
+									[
+										2292,
+										2296
+									],
+									[
+										2310,
+										2314
+									],
+									[
+										2399,
+										2403
+									],
+									[
+										2521,
+										2525
+									],
+									[
+										2539,
+										2543
+									],
+									[
+										2732,
+										2736
+									],
+									[
+										2880,
+										2884
+									],
+									[
+										3062,
+										3066
+									],
+									[
+										3112,
+										3116
+									],
+									[
+										3190,
+										3194
+									],
+									[
+										3368,
+										3372
+									],
+									[
+										3717,
+										3721
+									],
+									[
+										3854,
+										3858
+									],
+									[
+										3955,
+										3959
+									],
+									[
+										3992,
+										3996
+									],
+									[
+										4076,
+										4080
+									],
+									[
+										4239,
+										4243
+									],
+									[
+										4252,
+										4256
+									],
+									[
+										4300,
+										4304
+									],
+									[
+										4402,
+										4406
+									],
+									[
+										4498,
+										4502
+									],
+									[
+										4593,
+										4597
+									],
+									[
+										4708,
+										4712
+									],
+									[
+										4796,
+										4800
+									],
+									[
+										4903,
+										4907
+									],
+									[
+										5017,
+										5021
+									],
+									[
+										5122,
+										5126
+									],
+									[
+										5229,
+										5233
+									],
+									[
+										5346,
+										5350
+									],
+									[
+										5459,
+										5463
+									],
+									[
+										5594,
+										5598
+									],
+									[
+										5771,
+										5775
+									],
+									[
+										5801,
+										5805
+									],
+									[
+										5910,
+										5914
+									],
+									[
+										6023,
+										6027
+									],
+									[
+										6145,
+										6149
+									],
+									[
+										6159,
+										6163
+									],
+									[
+										6239,
+										6243
+									],
+									[
+										6250,
+										6254
+									],
+									[
+										6324,
+										6328
+									],
+									[
+										6399,
+										6403
+									],
+									[
+										6486,
+										6490
+									],
+									[
+										6557,
+										6561
+									],
+									[
+										6656,
+										6660
+									],
+									[
+										6806,
+										6810
+									],
+									[
+										6856,
+										6860
+									],
+									[
+										7049,
+										7053
+									],
+									[
+										7095,
+										7099
+									],
+									[
+										7132,
+										7136
+									],
+									[
+										7261,
+										7265
+									],
+									[
+										7353,
+										7357
+									],
+									[
+										7487,
+										7491
+									],
+									[
+										7526,
+										7530
+									],
+									[
+										7659,
+										7663
+									],
+									[
+										7699,
+										7703
+									],
+									[
+										7834,
+										7838
+									],
+									[
+										7872,
+										7876
+									],
+									[
+										8013,
+										8017
+									],
+									[
+										8052,
+										8056
+									],
+									[
+										8193,
+										8197
+									],
+									[
+										8246,
+										8250
+									],
+									[
+										8383,
+										8387
+									],
+									[
+										8435,
+										8439
+									],
+									[
+										8601,
+										8605
+									],
+									[
+										9059,
+										9063
+									],
+									[
+										9311,
+										9315
+									],
+									[
+										9424,
+										9428
+									],
+									[
+										9566,
+										9570
+									],
+									[
+										9587,
+										9591
+									],
+									[
+										9620,
+										9624
+									],
+									[
+										9730,
+										9734
+									],
+									[
+										9791,
+										9795
+									],
+									[
+										9920,
+										9924
+									],
+									[
+										10107,
+										10111
+									],
+									[
+										10161,
+										10165
+									],
+									[
+										10273,
+										10277
+									],
+									[
+										10512,
+										10516
+									],
+									[
+										10706,
+										10710
+									],
+									[
+										10926,
+										10930
+									],
+									[
+										11048,
+										11052
+									],
+									[
+										11183,
+										11187
+									],
+									[
+										11329,
+										11333
+									],
+									[
+										11418,
+										11422
+									],
+									[
+										11664,
+										11668
+									],
+									[
+										11815,
+										11819
+									],
+									[
+										11999,
+										12003
+									],
+									[
+										12197,
+										12201
+									],
+									[
+										12519,
+										12523
+									],
+									[
+										12721,
+										12725
+									],
+									[
+										12916,
+										12920
+									],
+									[
+										13076,
+										13080
+									],
+									[
+										13190,
+										13194
+									],
+									[
+										13366,
+										13370
+									],
+									[
+										13588,
+										13592
+									],
+									[
+										13605,
+										13609
+									],
+									[
+										13910,
+										13914
+									],
+									[
+										13968,
+										13972
+									],
+									[
+										14172,
+										14176
+									],
+									[
+										14420,
+										14424
+									],
+									[
+										14478,
+										14482
+									],
+									[
+										14682,
+										14686
+									],
+									[
+										14875,
+										14879
+									],
+									[
+										15028,
+										15032
+									],
+									[
+										15167,
+										15171
+									],
+									[
+										15393,
+										15397
+									],
+									[
+										15597,
+										15601
+									],
+									[
+										15706,
+										15710
+									],
+									[
+										15792,
+										15796
+									],
+									[
+										16026,
+										16030
+									],
+									[
+										16166,
+										16170
+									],
+									[
+										16285,
+										16289
+									],
+									[
+										16298,
+										16302
+									],
+									[
+										16382,
+										16386
+									],
+									[
+										16402,
+										16406
+									],
+									[
+										16556,
+										16560
+									],
+									[
+										16573,
+										16577
+									],
+									[
+										16677,
+										16681
+									],
+									[
+										16869,
+										16873
+									],
+									[
+										16979,
+										16983
+									],
+									[
+										17075,
+										17079
+									],
+									[
+										17184,
+										17188
+									],
+									[
+										17561,
+										17565
+									],
+									[
+										17578,
+										17582
+									],
+									[
+										17688,
+										17692
+									],
+									[
+										17889,
+										17893
+									],
+									[
+										18002,
+										18006
+									],
+									[
+										18104,
+										18108
+									],
+									[
+										18219,
+										18223
+									],
+									[
+										18554,
+										18558
+									],
+									[
+										18656,
+										18660
+									],
+									[
+										18801,
+										18805
+									],
+									[
+										18892,
+										18896
+									],
+									[
+										19007,
+										19011
+									],
+									[
+										19197,
+										19201
+									],
+									[
+										19303,
+										19307
+									],
+									[
+										19480,
+										19484
+									],
+									[
+										19525,
+										19529
+									],
+									[
+										19544,
+										19548
+									],
+									[
+										19715,
+										19719
+									],
+									[
+										19760,
+										19764
+									],
+									[
+										19779,
+										19783
+									],
+									[
+										19970,
+										19974
+									],
+									[
+										20139,
+										20143
+									],
+									[
+										20184,
+										20188
+									],
+									[
+										20203,
+										20207
+									],
+									[
+										20394,
+										20398
+									],
+									[
+										20565,
+										20569
+									],
+									[
+										20614,
+										20618
+									],
+									[
+										20633,
+										20637
+									],
+									[
+										20840,
+										20844
+									],
+									[
+										21016,
+										21020
+									],
+									[
+										21067,
+										21071
+									],
+									[
+										21086,
+										21090
+									],
+									[
+										21283,
+										21287
+									],
+									[
+										21450,
+										21454
+									],
+									[
+										21491,
+										21495
+									],
+									[
+										21510,
+										21514
+									],
+									[
+										21697,
+										21701
+									],
+									[
+										21855,
+										21859
+									],
+									[
+										21904,
+										21908
+									],
+									[
+										21924,
+										21928
+									],
+									[
+										22062,
+										22066
+									],
+									[
+										22199,
+										22203
+									],
+									[
+										22238,
+										22242
+									],
+									[
+										22258,
+										22262
+									],
+									[
+										22448,
+										22452
+									],
+									[
+										22599,
+										22603
+									],
+									[
+										22650,
+										22654
+									],
+									[
+										22670,
+										22674
+									],
+									[
+										22897,
+										22901
+									],
+									[
+										23082,
+										23086
+									],
+									[
+										23194,
+										23198
+									],
+									[
+										23373,
+										23377
+									],
+									[
+										23431,
+										23435
+									],
+									[
+										23451,
+										23455
+									],
+									[
+										23647,
+										23651
+									],
+									[
+										23662,
+										23666
+									],
+									[
+										23669,
+										23673
+									],
+									[
+										23753,
+										23757
+									],
+									[
+										23838,
+										23842
+									],
+									[
+										23941,
+										23945
+									],
+									[
+										24235,
+										24239
+									],
+									[
+										24281,
+										24285
+									],
+									[
+										24301,
+										24305
+									],
+									[
+										24613,
+										24617
+									],
+									[
+										24662,
+										24666
+									],
+									[
+										24691,
+										24695
+									],
+									[
+										24702,
+										24706
+									],
+									[
+										24717,
+										24721
+									],
+									[
+										24728,
+										24732
+									],
+									[
+										24761,
+										24765
+									],
+									[
+										24818,
+										24822
+									],
+									[
+										24834,
+										24838
+									],
+									[
+										24855,
+										24859
+									],
+									[
+										24916,
+										24920
+									],
+									[
+										24932,
+										24936
+									],
+									[
+										24943,
+										24947
+									],
+									[
+										24977,
+										24981
+									],
+									[
+										25006,
+										25010
+									],
+									[
+										25017,
+										25021
+									],
+									[
+										25038,
+										25042
+									],
+									[
+										25063,
+										25067
+									],
+									[
+										25143,
+										25147
+									],
+									[
+										25149,
+										25153
+									],
+									[
+										25241,
+										25245
+									],
+									[
+										25247,
+										25251
+									],
+									[
+										25339,
+										25343
+									],
+									[
+										25345,
+										25349
+									],
+									[
+										25465,
+										25469
+									],
+									[
+										25522,
+										25526
+									],
+									[
+										25600,
+										25604
 									]
 								],
 								"scope": ""
@@ -1172,24 +2149,15 @@
 						"selection":
 						[
 							[
-								264,
-								264
+								24704,
+								24704
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 6,
-								"count": 24,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"detect_indentation": false,
 							"line_numbers": false,
-							"output_tag": 2,
+							"output_tag": 4,
 							"result_base_dir": "",
 							"result_file_regex": "^([^ \t].*):$",
 							"result_line_regex": "^ +([0-9]+):",
@@ -1197,14 +2165,14 @@
 							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 69.0,
+						"translation.y": 16316.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "project/Assets/Scripts/manager_player.cs",
 					"semi_transient": false,
 					"settings":
@@ -1222,19 +2190,14 @@
 							[
 								4807,
 								4817
+							],
+							[
+								4866,
+								4876
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 291,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -1244,15 +2207,44 @@
 					},
 					"stack_index": 4,
 					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "project/Assets/Scripts/UI/Widgets/level_tile.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								536,
+								536
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "project/Assets/Scripts/UI/ui_game_hud.cs",
 					"semi_transient": false,
 					"settings":
@@ -1270,15 +2262,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 46,
-								"count": 120,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
 							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -1286,11 +2269,11 @@
 						"translation.y": 334.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "project/Assets/Scripts/UI/ui_title_screen.cs",
 					"semi_transient": false,
 					"settings":
@@ -1308,22 +2291,112 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": 55,
-								"count": 20,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "project/Assets/Scripts/UI/ui_level_select.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "project/Assets/Scripts/Utils/UIScrollToSelectionXY.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5937,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1843,
+								1843
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 287,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 828.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "project/Assets/Scripts/Utils/UIScrollToSelectionY.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1151,
+								1151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 552.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1357,7 +2430,7 @@
 		"cols":
 		[
 			0.0,
-			0.516796875,
+			0.300390625,
 			1.0
 		],
 		"rows":
@@ -1395,7 +2468,7 @@
 		[
 			[
 				"",
-				"C:\\wamp64\\www\\designwerks\\sharemygear.sublime-project"
+				"C:\\Work\\personal\\Dark Wind\\dark_wind.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -1409,7 +2482,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
